@@ -1,0 +1,291 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Features &mdash; ngx-charts docs v2019.12.28 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="Installing" href="installing.html" />
+    <link rel="prev" title="Motivation" href="motivation.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ngx-charts docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="README.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="motivation.html">Motivation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Features</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#chart-types">Chart Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#customization">Customization</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#alternatives">Alternatives</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installing.html">Installing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="custom-charts.html">Custom Charts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/index.html">examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing/index.html">contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo.html">demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Table of contents</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ngx-charts docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Features</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/features.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="features">
+<h1>Features<a class="headerlink" href="#features" title="永久链接至标题">¶</a></h1>
+<p>Out of the box, we wanted to create a low level robust framework on
+which to build charts. Outside of the following chart types:</p>
+<div class="section" id="chart-types">
+<h2>Chart Types<a class="headerlink" href="#chart-types" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Horizontal &amp; Vertical Bar Charts (Standard, Grouped, Stacked,
+Normalized)</p></li>
+<li><p>Line</p></li>
+<li><p>Area (Standard, Stacked, Normalized)</p></li>
+<li><p>Pie (Explodable, Grid, Custom legends)</p></li>
+<li><p>Donut</p></li>
+<li><p>Gauge</p></li>
+<li><p>Linear Gauge</p></li>
+<li><p>Force Directed Graph (deprecated - please use
+<a class="reference external" href="https://github.com/swimlane/ngx-graph">ngx-graph</a> instead)</p></li>
+<li><p>Heatmap</p></li>
+<li><p>Treemap</p></li>
+<li><p>Number Cards</p></li>
+<li><p>Bubble/Scatter</p></li>
+</ul>
+</div>
+<div class="section" id="customization">
+<h2>Customization<a class="headerlink" href="#customization" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Autoscaling</p></li>
+<li><p>Timeline Filtering</p></li>
+<li><p>Line Interpolation</p></li>
+<li><p>Configurable Axis Labels</p></li>
+<li><p>Legends (Labels &amp; Gradient)</p></li>
+<li><p>Advanced Label Positioning</p></li>
+<li><p>Real-time data support</p></li>
+<li><p>Advanced Tooltips</p></li>
+<li><p>Responsive Layout</p></li>
+<li><p>Data point Event Handlers</p></li>
+<li><p>Works with ngUpgrade</p></li>
+<li><p>Enabling/Disabling animations</p></li>
+</ul>
+<p>If you have an idea for a new feature, create a Github issue or even
+better a PR ;). Make sure to include the use case, an example image of
+the chart (if applicable) and data formats.</p>
+<div class="section" id="alternatives">
+<h3>Alternatives<a class="headerlink" href="#alternatives" title="永久链接至标题">¶</a></h3>
+<p>Chart frameworks are a dime a dozen nowadays. Not many of them existed a
+few years ago when we started this project internally and many of them
+still don’t really work well with Angular. Here’s a recent list we
+compiled during our effort to open-source this:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/krispo/ng2-nvd3">ng2-nvd3</a> - Open-source
+wrapper for nvd3 using Angular2 Components</p></li>
+<li><p><a class="reference external" href="http://valor-software.com/ng2-charts/">ng2-charts</a> - Open-source
+Angular2 wrapper directives for Chart.js</p></li>
+<li><p><a class="reference external" href="https://www.npmjs.com/package/angular2-highcharts">angular2-highcharts</a>
+- Open-source Angular2 wrapper for HighCharts</p></li>
+<li><p><a class="reference external" href="http://recharts.org/">recharts</a> - Open-source composable charting
+library built on React components</p></li>
+<li><p><a class="reference external" href="http://vega.github.io/">Vega</a> - Open-source Canvas/SVG viz
+framework</p></li>
+<li><p><a class="reference external" href="http://c3js.org/">C3</a> - Open-source D3-based reusable chart
+library</p></li>
+<li><p><a class="reference external" href="https://plot.ly/">Plotly</a> - Commercial business intelligence and
+data science.</p></li>
+<li><p><a class="reference external" href="http://www.highcharts.com/">Highcharts</a> - Commercial chart
+framework</p></li>
+<li><p><a class="reference external" href="http://echarts.baidu.com/demo.htm">eCharts</a> - Open-source
+JavaScript chart framework</p></li>
+<li><p><a class="reference external" href="http://dc-js.github.io/dc.js">dc.js</a> - Open-source JavaScript
+charting library</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="installing.html" class="btn btn-neutral float-right" title="Installing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="motivation.html" class="btn btn-neutral float-left" title="Motivation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Band Camp
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

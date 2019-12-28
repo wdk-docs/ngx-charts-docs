@@ -1,0 +1,1157 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Changelog &mdash; ngx-charts docs v2019.12.28 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="License" href="license.html" />
+    <link rel="prev" title="Credits" href="contributing/credits.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ngx-charts docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="README.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="motivation.html">Motivation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="features.html">Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installing.html">Installing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="custom-charts.html">Custom Charts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/index.html">examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing/index.html">contributing</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">13.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-1">12.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-2">12.0.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-3">12.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-4">11.2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-5">11.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-6">11.0.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-7">11.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-8">10.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-9">10.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-10">9.1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-11">9.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-12">9.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-13">8.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-14">8.0.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-15">8.0.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-16">8.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-17">7.4.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-18">7.3.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-19">7.2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-20">7.1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-21">7.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-22">7.0.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-23">7.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-24">6.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-25">6.0.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-26">6.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-27">5.3.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-28">5.3.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-29">5.2.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-30">5.2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-31">5.1.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-32">5.1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-33">5.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-34">5.0.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-35">5.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-36">4.4.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-37">4.3.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-38">4.2.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-39">4.2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-40">4.1.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-41">4.1.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-42">4.1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-43">4.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-44">4.0.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-45">4.0.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-46">4.0.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-47">4.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-48">3.1.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-49">3.1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-50">3.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-51">3.0.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-52">3.0.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-53">3.0.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-54">3.0.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-55">3.0.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-56">3.0.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-57">3.0.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-58">3.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-59">2.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-60">1.9.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-61">1.8.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-62">1.8.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-63">1.8.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-64">1.7.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-65">1.7.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-66">1.7.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-67">1.7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-68">1.6.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-69">1.6.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-70">1.6.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-71">1.6.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-72">1.5.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-73">1.5.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-74">1.5.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-75">1.4.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-76">1.3.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-77">1.2.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-78">1.2.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-79">1.2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-80">1.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-81">1.0.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#section-82">1.0.0</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo.html">demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Table of contents</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ngx-charts docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Changelog</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/changelog.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="changelog">
+<h1>Changelog<a class="headerlink" href="#changelog" title="永久链接至标题">¶</a></h1>
+<div class="section" id="id1">
+<h2>13.0.0<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Breaking: Upgrade to Angular 9. Add compatibility with Ivy</p></li>
+<li><p>Breaking: Remove deprecated force-directed graph chart</p></li>
+<li><p>Breaking: Remove release folder</p></li>
+<li><p>Bug: Sanitize tooltip labels (#1241)</p></li>
+<li><p>Bug: Fix line chart scaling on charts with large domain (#1204)</p></li>
+<li><p>Chore: Remove d3 dependency</p></li>
+<li><p>Chore: Update all d3 packages to latest versions</p></li>
+</ul>
+</div>
+<div class="section" id="section-1">
+<span id="id2"></span><h2>12.1.0<a class="headerlink" href="#section-1" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Enhancement: Sanitize tooltip labels (#1241)</p></li>
+<li><p>Bug: fix line chart scaling on charts with large domain (#1204)</p></li>
+<li><p>Bug: add check for undefined xScale in groupTransform (#1273)</p></li>
+</ul>
+</div>
+<div class="section" id="section-2">
+<span id="id3"></span><h2>12.0.1<a class="headerlink" href="#section-2" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Pass the correct number of parameters to fix production build
+(#1203)</p></li>
+</ul>
+</div>
+<div class="section" id="section-3">
+<span id="id4"></span><h2>12.0.0<a class="headerlink" href="#section-3" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Breaking: Upgrade to angular 8.0.0 (#1201)</p></li>
+<li><p>Breaking: Rework mouse events to make the format more consistent
+(#1185)</p></li>
+<li><p>Feature: Allow passing extra data to the data items and include it in
+click and activate events (#1185)</p></li>
+</ul>
+</div>
+<div class="section" id="section-4">
+<span id="id5"></span><h2>11.2.0<a class="headerlink" href="#section-4" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Made margins for pie chart component optional (#759)</p></li>
+<li><p>Feature: Added option to gauge to show or hide inner text (#1175)</p></li>
+<li><p>Feature: Added <code class="docutils literal notranslate"><span class="pre">noBarWhenZero</span></code> input to all bar related (#1086)</p></li>
+<li><p>Bug: Updated Color.Helper.ts to handle null values (#1167)</p></li>
+<li><p>Bug: Added missing export (#1193)</p></li>
+<li><p>Bug: Fixed chart height with large number of yAxisTicks (#1105)</p></li>
+<li><p>Chore: Bumped extract-text-plugin to version 3.0.2 (#861)</p></li>
+<li><p>Chore: Updated zone.js version to 0.9.1 (#1187)</p></li>
+<li><p>Docs: Deprecated force-directed graph chart (#1159)</p></li>
+<li><p>Docs: Fixed link typo in motication.md (#1172)</p></li>
+<li><p>Docs: Added interactive bubble chart to demo (#1174)</p></li>
+</ul>
+</div>
+<div class="section" id="section-5">
+<span id="id6"></span><h2>11.1.0<a class="headerlink" href="#section-5" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: added option to disable x axis tick rotation (#1139)</p></li>
+<li><p>Bug: Update peer dependency requirements</p></li>
+</ul>
+</div>
+<div class="section" id="section-6">
+<span id="id7"></span><h2>11.0.1<a class="headerlink" href="#section-6" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fixes displaying of tooltip on IE 11 (#1157)</p></li>
+</ul>
+</div>
+<div class="section" id="section-7">
+<span id="id8"></span><h2>11.0.0<a class="headerlink" href="#section-7" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Breaking: Remove Angular location strategy from ChartCommonModule
+(#915)</p>
+<ul>
+<li><p>Any Angular applications, that rely on the pre-configured location
+strategy provided by ngx-charts, will need to set it separately</p></li>
+</ul>
+</li>
+<li><p>Feature: Allow access to custom properties in tooltip templates
+(#555)</p></li>
+<li><p>Bug: Update tooltip positioning to correctly flip sides when there is
+not enough available space (#1136)</p></li>
+<li><p>Bug: Fixed combo Line and Bar chart not aligning (#1154)</p></li>
+<li><p>Chore: Removed unnecessary peer dependencies (#1140)</p></li>
+<li><p>Chore: Replaced bitwise operators with math.floor (#1151)</p></li>
+<li><p>Chore: Changed tree-map label class to avoid conflict (#1117)</p></li>
+<li><p>Chore: Remove unused property binding (#1120)</p></li>
+<li><p>Docs: motivation.md Typo fix (#1123)</p></li>
+</ul>
+</div>
+<div class="section" id="section-8">
+<span id="id9"></span><h2>10.1.0<a class="headerlink" href="#section-8" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Allow configuration of tick trimming on charts with X and Y
+axis (#870)</p></li>
+<li><p>Bug: Updated packages to remove event-stream vulnerability</p></li>
+<li><p>Bug: Fixed issue where advanced pie legend click emits the truncated
+(#1106)</p></li>
+<li><p>Bug: Fixed rotation to respect tick trimming</p></li>
+<li><p>Bug: Fixed Pie Chart flicker on Safari (#1068)</p></li>
+<li><p>Bug: Fixed issue where vertical bar chart is not showing X axis when
+all data values are negative (#1044)</p></li>
+<li><p>Chore: Removed unused param in GridPanelSeriesComponent (#1025)</p></li>
+<li><p>Chore: Added type check instead of truthy value for determining
+min/max in getRangeGenerator (#1042)</p></li>
+<li><p>Docs: Fixed typo (#1056)</p></li>
+<li><p>Docs: Fixed link in readme (#1053)</p></li>
+<li><p>Docs: Fixed documentation link (#1029)</p></li>
+</ul>
+</div>
+<div class="section" id="section-9">
+<span id="id10"></span><h2>10.0.0<a class="headerlink" href="#section-9" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Breaking: Upgraded to angular 7</p></li>
+<li><p>Feature: Implemented legened positioning</p></li>
+<li><p>Feature: Added accessibility attributes to bar charts (#977)</p></li>
+<li><p>Chore: Migrated to Renderer2 (#1021)</p></li>
+<li><p>Chore: getScaleType performance improvements (#995)</p></li>
+<li><p>Docs: Fixed value typo (#974)</p></li>
+</ul>
+</div>
+<div class="section" id="section-10">
+<span id="id11"></span><h2>9.1.1<a class="headerlink" href="#section-10" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Chore: Move d3 libraries back to dependencies (#1008)</p></li>
+</ul>
+</div>
+<div class="section" id="section-11">
+<span id="id12"></span><h2>9.1.0<a class="headerlink" href="#section-11" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Added ES Module Support (#1004)</p></li>
+</ul>
+</div>
+<div class="section" id="section-12">
+<span id="id13"></span><h2>9.0.0<a class="headerlink" href="#section-12" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Breaking: Changed the input of valueFormatting for the tree map chart
+from an object to number</p></li>
+<li><p>Feature: Added support for server side rendering (#919, #920, #921 )</p></li>
+<li><p>Bug: Fixed advanced-legend colors in print (#907)</p></li>
+<li><p>Bug: Fix value formatting for advanced legend (#906)</p></li>
+<li><p>Enhancement: Added option to set globalRootViewContainer in the
+InjectionService (#914)</p></li>
+<li><p>Chore: Added export for domain.helper (#894)</p></li>
+<li><p>Docs: Fixed Custom Charts Page link in README.md (#886)</p></li>
+</ul>
+</div>
+<div class="section" id="section-13">
+<span id="id14"></span><h2>8.1.0<a class="headerlink" href="#section-13" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Added configuration for label trimming on polar chart (#858)</p></li>
+<li><p>Feature: Added ability to set Min and Max values for heatmaps closes
+(#875)</p></li>
+<li><p>Fix: Export axes module (#872)</p></li>
+<li><p>Fix: Use animations for line-highlight depending on line-series
+animations (#856)</p></li>
+</ul>
+</div>
+<div class="section" id="section-14">
+<span id="id15"></span><h2>8.0.2<a class="headerlink" href="#section-14" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fix pie chart label collision detection</p></li>
+</ul>
+</div>
+<div class="section" id="section-15">
+<span id="id16"></span><h2>8.0.1<a class="headerlink" href="#section-15" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Add dblclick to pie chart</p></li>
+</ul>
+</div>
+<div class="section" id="section-16">
+<span id="id17"></span><h2>8.0.0<a class="headerlink" href="#section-16" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Breaking: Upgrade to Angular 6</p></li>
+</ul>
+</div>
+<div class="section" id="section-17">
+<span id="id18"></span><h2>7.4.0<a class="headerlink" href="#section-17" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Data labels for bar charts (#752)</p></li>
+<li><p>Bug: Fix computation of X axis ticks angle (#820)</p></li>
+</ul>
+</div>
+<div class="section" id="section-18">
+<span id="id19"></span><h2>7.3.0<a class="headerlink" href="#section-18" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Added support for overriding x and y axis ticks (#723)</p></li>
+<li><p>Feature: Added support for area chart floor value (#684)</p></li>
+<li><p>Feature: Implemented min value scales for vertical and horizontal bar
+charts</p></li>
+<li><p>Enhancement: Performance improvements across multiple charts (#765,
+#758)</p></li>
+<li><p>Enhancement: Added support for overriding the min width of pie grid
+items (#762)</p></li>
+<li><p>Bug: Fixed error being thrown when results is undefined (#217)</p></li>
+<li><p>Bug: Fixed label input in pie-grid (#773)</p></li>
+</ul>
+</div>
+<div class="section" id="section-19">
+<span id="id20"></span><h2>7.2.0<a class="headerlink" href="#section-19" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Added bar-vertical yScaleMin (#732)</p></li>
+<li><p>Feature: Added support for label input in pie grid chart (#731)</p></li>
+<li><p>Bug: Avoid invalid paths when rect shape has 0 width or height (#742)</p></li>
+<li><p>Bug: Fix stacked bar chart negative values issue (#605)</p></li>
+<li><p>Chore: Added basic test of area-chart (#737)</p></li>
+</ul>
+</div>
+<div class="section" id="section-20">
+<span id="id21"></span><h2>7.1.1<a class="headerlink" href="#section-20" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fixed template compile errors with fullTemplateTypeCheck (#730)</p></li>
+</ul>
+</div>
+<div class="section" id="section-21">
+<span id="id22"></span><h2>7.1.0<a class="headerlink" href="#section-21" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Added support for passing a function to the <code class="docutils literal notranslate"><span class="pre">customColors</span></code>
+input to all charts. (#676, #713)</p></li>
+<li><p>Feature: Added <code class="docutils literal notranslate"><span class="pre">trimLabels</span></code> and <code class="docutils literal notranslate"><span class="pre">maxLabelLength</span></code> inputs to pie
+chart (#716)</p></li>
+<li><p>Feature: Added inputs for formatting the name, value, and percentage
+in advanced pie chart (#719)</p></li>
+<li><p>Enhancement: Switched to using lettable rxjs operators (#683)</p></li>
+<li><p>Enhancement: Allow using the timeline for linear x scales (#624)</p></li>
+<li><p>Bug: Fixed line/area tooltip positioning in firefox (#671)</p></li>
+<li><p>Bug: Removed duplicate input declaration (#708)</p></li>
+<li><p>Bug: Fixed duplicate % sign in pie grid charts when animations are
+disabled (#685)</p></li>
+</ul>
+</div>
+<div class="section" id="section-22">
+<span id="id23"></span><h2>7.0.1<a class="headerlink" href="#section-22" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Fix: Export polyfills to fix AoT build issue with Angular 5 (#644)</p></li>
+</ul>
+</div>
+<div class="section" id="section-23">
+<span id="id24"></span><h2>7.0.0<a class="headerlink" href="#section-23" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Breaking: Added support for angular 5 (#633)</p></li>
+<li><p>Bug: Fixed ‘ReferenceError: SVGElement is not defined’ exception when
+using with angular universal (#587)</p></li>
+<li><p>Bug: Fixed NaN issue on Advanced Pie Chart (#597)</p></li>
+<li><p>Bug: Changed onDeactivate in the gauge component to emit the correct
+value instead of the event value from the global scope (#613)</p></li>
+</ul>
+</div>
+<div class="section" id="section-24">
+<span id="id25"></span><h2>6.1.0<a class="headerlink" href="#section-24" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Added inputs to control minimum and maximum values on the
+axes (#582, #359)</p></li>
+<li><p>Feature: Added input to enable/disable animations (#565)</p></li>
+<li><p>Feature: Added designatedTotal Input for Pie Grid (#554)</p></li>
+<li><p>Enhancement: Don’t transform text to uppercase in legends and labels
+(#578)</p></li>
+<li><p>Enhancement: Changed legends and label colors (#578)</p></li>
+<li><p>Enhancement: Increased font size in advanced legend and number cards
+subtext (#578)</p></li>
+<li><p>Enhancement: Hide legend title when title is missing (#578)</p></li>
+<li><p>Enhancement: Added x-axis value to the context of a bubble chart
+tooltip (#530)</p></li>
+<li><p>Bug: Removed path from SVG refs to fix gradients not working when URL
+has queryString (#584)</p></li>
+<li><p>Bug: Fixed bug where value arc animation on gauge chart would start
+from 0 on update (#563)</p></li>
+<li><p>Bug: Removed date conversion for name-value at series-tooltip (#544)</p></li>
+<li><p>Bug: Added null check for rootComponents in injection service (#574)</p></li>
+<li><p>Bug: Fixed issue where the tooltip would not appear for certain
+points (#501)</p></li>
+<li><p>Bug: Fixed issue where pie chart colors would not update on color
+changes (#551)</p></li>
+<li><p>Bug: Added polyfill for SVGElement.prototype.contains (#386)</p></li>
+<li><p>Bug: Renamed ngOutletContext (deprecated) to ngTemplateOutletContext
+(#535)</p></li>
+<li><p>Docs: Added custom chart page</p></li>
+</ul>
+</div>
+<div class="section" id="section-25">
+<span id="id26"></span><h2>6.0.1<a class="headerlink" href="#section-25" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fixed line chart stroke color</p></li>
+<li><p>Bug: Fixed timeline width and alignment</p></li>
+<li><p>Bug: Fixed truncation of legend text (#487)</p></li>
+<li><p>Chore: Removed patch numbers from peerDependencies (#478)</p></li>
+</ul>
+</div>
+<div class="section" id="section-26">
+<span id="id27"></span><h2>6.0.0<a class="headerlink" href="#section-26" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Breaking: Removed <code class="docutils literal notranslate"><span class="pre">showSeriesOnHover</span></code> option of line-chart</p></li>
+<li><p>Refactor: Improved performance of line and area chart tooltips (#463)</p></li>
+<li><p>Enhancement: Added <code class="docutils literal notranslate"><span class="pre">roundEdges</span></code> input property to bar charts (#408)</p></li>
+<li><p>Enhancement: Tooltip elements are not created if tooltips are
+disabled (#415)</p></li>
+<li><p>Enhancement: Added the option to define reference lines in line
+charts (#422)</p></li>
+<li><p>Enhancement: Improved animations</p></li>
+<li><p>Bug: Fixed timeline select issue (#425)</p></li>
+<li><p>Chore: Upgraded angular to 4.2.5</p></li>
+<li><p>Demo: Added timeline filter bar chart demo</p></li>
+<li><p>Demo: Added Combo chart (bar and line) demo (#432)</p></li>
+</ul>
+</div>
+<div class="section" id="section-27">
+<span id="id28"></span><h2>5.3.1<a class="headerlink" href="#section-27" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fix bug where the axis component would not emit a
+dimensionsChanged event in some cases</p></li>
+</ul>
+</div>
+<div class="section" id="section-28">
+<span id="id29"></span><h2>5.3.0<a class="headerlink" href="#section-28" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Added option to pass custom ng-templates for tooltips to all
+charts</p></li>
+<li><p>Enhancement: Added ‘label’ input to advanced pie chart component</p></li>
+<li><p>Enhancement: Exposed xOrient and yOrient properties on axis
+components</p></li>
+<li><p>Enhancement: Set default dimensions if width or height are undefined
+or 0</p></li>
+<li><p>Enhancement: Set a default color scheme</p></li>
+<li><p>Bug: Fixed bubble chart overriding the view input</p></li>
+<li><p>Bug: Fixed linear color scheme when there are less than 3 colors</p></li>
+<li><p>Bug: Fixed gradient not applying to straight lines</p></li>
+<li><p>Demo: Added sparkline custom demo chart</p></li>
+<li><p>Demo: Added interactive treemap demo chart</p></li>
+</ul>
+</div>
+<div class="section" id="section-29">
+<span id="id30"></span><h2>5.2.1<a class="headerlink" href="#section-29" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Remove RGBColor type from color-util file (#394)</p></li>
+</ul>
+</div>
+<div class="section" id="section-30">
+<span id="id31"></span><h2>5.2.0<a class="headerlink" href="#section-30" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Added Polar/Radar chart type (#380)</p></li>
+<li><p>Enhancement: Disable pointer if no click events are attached to
+number cards (#378)</p></li>
+<li><p>Enhancement: Added gradient to tree map chart (#382)</p></li>
+<li><p>Enhancement: Added support for inverted colors from rgba values in
+number cards (#366)</p></li>
+<li><p>Enhancement: Added value and label formatting to tree map (#383)</p></li>
+<li><p>Refactor: loremess restrictive angular dependency versioning (#358)</p></li>
+<li><p>Bug: Fixed types in gauge chart (#364)</p></li>
+<li><p>Bug: Fixed axis and tooltips on bubble chart (#352)</p></li>
+<li><p>Bug: Added styleUrls and changeDetection to bubble chart</p></li>
+<li><p>Bug: Truncate dimension values</p></li>
+<li><p>Bug: Fixed number card count animation (#387)</p></li>
+<li><p>Bug: Added type to gauge chart valueFormatting parameter (#388)</p></li>
+</ul>
+</div>
+<div class="section" id="section-31">
+<span id="id32"></span><h2>5.1.2<a class="headerlink" href="#section-31" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fix number card scaling in hybrid apps using ngUpgrade (#338)</p></li>
+<li><p>Bug: Fix label trimming and clipped SVGs (#340)</p></li>
+</ul>
+</div>
+<div class="section" id="section-32">
+<span id="id33"></span><h2>5.1.1<a class="headerlink" href="#section-32" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Add default value for label format (#334)</p></li>
+</ul>
+</div>
+<div class="section" id="section-33">
+<span id="id34"></span><h2>5.1.0<a class="headerlink" href="#section-33" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Enhancement: Added valueFormatting input to number card chart (#325)</p></li>
+<li><p>Enhancement: Added label formatting input to number card chart (#332)</p></li>
+<li><p>Enhancement: Added tooltipText to pie charts (#331)</p></li>
+<li><p>Enhancement: Added option in line-chart for disabling series on hover
+(#323)</p></li>
+<li><p>Enhancement: Added an input for custom legend title (#317)</p></li>
+<li><p>Bug: Fixed number card text scaling when values change (#330)</p></li>
+<li><p>Bug: Inverted y-axis on horizontal bar charts (#328)</p></li>
+<li><p>Bug: Fix division by zero in pie label component</p></li>
+</ul>
+</div>
+<div class="section" id="section-34">
+<span id="id35"></span><h2>5.0.1<a class="headerlink" href="#section-34" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Enhancement: <code class="docutils literal notranslate"><span class="pre">valueFormatting</span></code> applies to Gauge Arc Labels too</p></li>
+</ul>
+</div>
+<div class="section" id="section-35">
+<span id="id36"></span><h2>5.0.0<a class="headerlink" href="#section-35" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Breaking: Upgrade to angular 4</p></li>
+</ul>
+</div>
+<div class="section" id="section-36">
+<span id="id37"></span><h2>4.4.0<a class="headerlink" href="#section-36" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Added ability to set card text color in number card (#284)</p></li>
+<li><p>Enhancement: Added more heatmap options and support for various
+inputs for innerPadding (#297, #301)</p></li>
+<li><p>Enhancement: Added valueFormatting input to linear gauge chart</p></li>
+<li><p>Enhancement: Added valueFormatting input to gauge chart</p></li>
+<li><p>Enhancement: Added labelFormatting input to pie chart</p></li>
+<li><p>Enhancement: Updated pie chart label animations (#291)</p></li>
+<li><p>Bug: Fixed pie chart positioning</p></li>
+<li><p>Bug: Fixed ticks calculation on resize (#295)</p></li>
+<li><p>Bug: Fixed percentage value in pie grid when the total is 0 (#288)</p></li>
+<li><p>Bug: Fixed date formatting in bubble chart tooltips (#285)</p></li>
+<li><p>Bug: Fixed Scale.round error in line chart (#287)</p></li>
+<li><p>Chore: AOT error fixes</p></li>
+</ul>
+</div>
+<div class="section" id="section-37">
+<span id="id38"></span><h2>4.3.0<a class="headerlink" href="#section-37" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Enhancement: Improved pie chart label positioning (#273)</p></li>
+<li><p>Enhancement: Improved number card design and scaling (#272)</p></li>
+<li><p>Chore: Refactored charts to use d3 modules directly in library
+components (#270)</p></li>
+</ul>
+</div>
+<div class="section" id="section-38">
+<span id="id39"></span><h2>4.2.1<a class="headerlink" href="#section-38" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fixed customColors mapping</p></li>
+<li><p>Chore: Various AoT compilation and build improvements (#255, #257,
+#258, #259, #256, #263, #260, #266)</p></li>
+</ul>
+</div>
+<div class="section" id="section-39">
+<span id="id40"></span><h2>4.2.0<a class="headerlink" href="#section-39" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Chore: AoT compilation compatibility improvements (#253, #252, #251)</p></li>
+<li><p>Enhancement: Added option to disable tooltips (#223)</p></li>
+</ul>
+</div>
+<div class="section" id="section-40">
+<span id="id41"></span><h2>4.1.3<a class="headerlink" href="#section-40" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Enhancement: Added option to override the value in gauge chart</p></li>
+<li><p>Bug: Fixed padding on bubble charts</p></li>
+<li><p>Chore: Compile SCSS into CSS before building</p></li>
+<li><p>Chore: Expor ChartComponent through the main module</p></li>
+</ul>
+</div>
+<div class="section" id="section-41">
+<span id="id42"></span><h2>4.1.2<a class="headerlink" href="#section-41" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fix tooltip when axis labels are not shown in bubble chart</p></li>
+<li><p>Bug: Do not round scales when they are not linear</p></li>
+<li><p>Enhancement: Show Axis labels in bubble chart tooltip (#210)</p></li>
+</ul>
+</div>
+<div class="section" id="section-42">
+<span id="id43"></span><h2>4.1.1<a class="headerlink" href="#section-42" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fix items not always deactivating on bubble chart</p></li>
+<li><p>Bug: Fix bubbles not showing for when y value is 0</p></li>
+<li><p>Bug: Fix realtime data generator on demo page for line and area
+charts</p></li>
+</ul>
+</div>
+<div class="section" id="section-43">
+<span id="id44"></span><h2>4.1.0<a class="headerlink" href="#section-43" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Feature: Added scatter/bubble chart (#197)</p></li>
+<li><p>Bug: Made line-area-tooltip anchor visible on light theme</p></li>
+<li><p>Bug: Fixed precision on pie grid percentage values (#202)</p></li>
+</ul>
+</div>
+<div class="section" id="section-44">
+<span id="id45"></span><h2>4.0.3<a class="headerlink" href="#section-44" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Update zone.js version</p></li>
+</ul>
+</div>
+<div class="section" id="section-45">
+<span id="id46"></span><h2>4.0.2<a class="headerlink" href="#section-45" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fixed css scope</p></li>
+<li><p>Bug: Fixed vertical alignment issue of advanced pie legend</p></li>
+<li><p>Bug: Fixed AOT issue where scss files were missing in the release
+folder</p></li>
+<li><p>Chore: Made tooltip injector use Renderer</p></li>
+<li><p>Chore: Updated Angular to 2.4.5</p></li>
+</ul>
+</div>
+<div class="section" id="section-46">
+<span id="id47"></span><h2>4.0.1<a class="headerlink" href="#section-46" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fixed regressions from CSS refactor</p></li>
+</ul>
+</div>
+<div class="section" id="section-47">
+<span id="id48"></span><h2>4.0.0<a class="headerlink" href="#section-47" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Enhancement: Added <code class="docutils literal notranslate"><span class="pre">barPadding</span></code> and <code class="docutils literal notranslate"><span class="pre">groupPadding</span></code> properties to
+bar-charts (#185)</p></li>
+<li><p>Enhancement: Added <code class="docutils literal notranslate"><span class="pre">innerPadding</span></code> property for heatmap, to control
+padding between cells (#165)</p></li>
+<li><p>Enhancement: Added <code class="docutils literal notranslate"><span class="pre">axisTickformatting</span></code> property to bar, area,
+line, gauge and heatmap charts, for custom axis tick formatting
+(#167)</p></li>
+<li><p>Enhancement: Added <code class="docutils literal notranslate"><span class="pre">innerRadius</span></code> property to pie charts, Fixes #104
+(#162)</p></li>
+<li><p>Enhancement: Added <code class="docutils literal notranslate"><span class="pre">roundDomain</span></code> property to all charts with axis,
+allowing it to round the domains to nice values (#183)</p></li>
+<li><p>Enhancement: Added animation to areaTooltip anchors (#183)</p></li>
+<li><p>Bug: Charts not rendering if container is hidden by default (#170)</p></li>
+<li><p>Bug: Use old parent dimensions if new dimensions are undefined or 0</p></li>
+<li><p>Bug: Fixed axis number formatting (#171)</p></li>
+<li><p>Chore: Updated dependencies</p></li>
+<li><p>Chore: Replaced moment with d3 timeFormat. Moment.js is no longer a
+dependency (#173)</p></li>
+<li><p>Chore: Only include used Rxjs operators to decrease file size (#169)</p></li>
+<li><p>Chore: Refactored CSS and embedded it into the chart components. No
+need to import the css file separately any longer. [Breaking change]</p></li>
+</ul>
+</div>
+<div class="section" id="section-48">
+<span id="id49"></span><h2>3.1.2<a class="headerlink" href="#section-48" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Enhancement: Add <code class="docutils literal notranslate"><span class="pre">ngx-charts-outer</span></code> class to <code class="docutils literal notranslate"><span class="pre">ngx-charts</span></code> inner
+element</p></li>
+<li><p>Chore: Update dependencies</p></li>
+</ul>
+</div>
+<div class="section" id="section-49">
+<span id="id50"></span><h2>3.1.1<a class="headerlink" href="#section-49" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed bug where activated lines and areas would not deactivate when
+mouse leaves the circle</p></li>
+<li><p>Added fade in animation to active circle line</p></li>
+</ul>
+</div>
+<div class="section" id="section-50">
+<span id="id51"></span><h2>3.1.0<a class="headerlink" href="#section-50" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Added min and max ranges option to line charts (#160)</p></li>
+<li><p>Added margin support for Gauge charts (#159)</p></li>
+<li><p>Added animation to pie chart label</p></li>
+<li><p>Replaced window.location with angular’s Location provider</p></li>
+<li><p>Fixed axis tick overlap in gauge chart when the angle span is 360</p></li>
+<li><p>Replaced .children with .getElementsByTagName in area tooltip to fix
+error in IE11 (#157)</p></li>
+</ul>
+</div>
+<div class="section" id="section-51">
+<span id="id52"></span><h2>3.0.7<a class="headerlink" href="#section-51" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Changed arc colors on gauge charts to be based on name, not value</p></li>
+</ul>
+</div>
+<div class="section" id="section-52">
+<span id="id53"></span><h2>3.0.6<a class="headerlink" href="#section-52" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed typo in circle series (#149)</p></li>
+<li><p>Fixed gradient bug in heatmap</p></li>
+<li><p>Updated Axis components to allow tick count to be an input</p></li>
+<li><p>Changed scaleText methods on gauge charts to not be recoursive</p></li>
+</ul>
+</div>
+<div class="section" id="section-53">
+<span id="id54"></span><h2>3.0.5<a class="headerlink" href="#section-53" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Added the group name in grouped bar tooltips</p></li>
+<li><p>Added legend to gauge chart</p></li>
+<li><p>Added tooltips to gauge chart</p></li>
+</ul>
+</div>
+<div class="section" id="section-54">
+<span id="id55"></span><h2>3.0.4<a class="headerlink" href="#section-54" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed broken count animation in number card</p></li>
+<li><p>Fixed tooltip for hybrid apps</p></li>
+<li><p>Cody lint updates</p></li>
+</ul>
+</div>
+<div class="section" id="section-55">
+<span id="id56"></span><h2>3.0.3<a class="headerlink" href="#section-55" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Namespaced the project to swimlane organization</p></li>
+</ul>
+</div>
+<div class="section" id="section-56">
+<span id="id57"></span><h2>3.0.2<a class="headerlink" href="#section-56" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Exported ColorHelper class</p></li>
+</ul>
+</div>
+<div class="section" id="section-57">
+<span id="id58"></span><h2>3.0.1<a class="headerlink" href="#section-57" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Updated tooltips to latest version from ngx-ui</p></li>
+</ul>
+</div>
+<div class="section" id="section-58">
+<span id="id59"></span><h2>3.0.0<a class="headerlink" href="#section-58" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Renamed project to ngx-charts</p></li>
+<li><p>Prefixed component selectors with ngx-charts-</p></li>
+<li><p>Upgraded angular to 2.4.1</p></li>
+<li><p>Implemented BaseChartComponent as an angular component and set up
+proper component inheritance</p></li>
+<li><p>Converted color helper to a class</p></li>
+<li><p>Implemented linear color schemes for bar, line and area charts and
+added schemeType input</p></li>
+<li><p>Added support for multiple values in gague chart</p></li>
+<li><p>Implemented linear gauge chart</p></li>
+<li><p>Implemented triggering legend item activation when chart items are
+being hovered</p></li>
+</ul>
+</div>
+<div class="section" id="section-59">
+<span id="id60"></span><h2>2.0.0<a class="headerlink" href="#section-59" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>BREAKING: Renamed <code class="docutils literal notranslate"><span class="pre">clickHandler</span></code> to <code class="docutils literal notranslate"><span class="pre">select</span></code> (#120)</p></li>
+<li><p>Bug: Tooltips show up in top left corner sometimes</p></li>
+<li><p>Polish: Tooltips have animation entry now</p></li>
+<li><p>Polish: Add highlight gradient and column when hovering a circle</p></li>
+<li><p>Polish: Remove outline on focus (#106)</p></li>
+<li><p>Polish: Make pie grid less ugly (#90)</p></li>
+<li><p>Polish: Highlighting a line/area chart in legend, defocuses others</p></li>
+<li><p>Polish: Radial gradients on pie charts vs linear</p></li>
+<li><p>Polish: Better sizing for heatmap legends</p></li>
+<li><p>Chore: Refactor Advanced Legend (#125)</p></li>
+<li><p>Chore: Webpack html templates for Google Analytics</p></li>
+</ul>
+</div>
+<div class="section" id="section-60">
+<span id="id61"></span><h2>1.9.0<a class="headerlink" href="#section-60" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Enhancement: Hover of legend doesn’t highlight bar (#73)</p></li>
+<li><p>API: Added <code class="docutils literal notranslate"><span class="pre">activate</span></code> and <code class="docutils literal notranslate"><span class="pre">deactivate</span></code> events to chart for hovers</p></li>
+<li><p>Bug: Fix number card positioning due to count up</p></li>
+<li><p>Bug: Fix decimal places on advanced pie legend</p></li>
+<li><p>Chore: Fix rx mapping (#123)</p></li>
+<li><p>Polish: Tweak label color bg</p></li>
+<li><p>Polish: Tweak circle / heat map tooltip titles</p></li>
+<li><p>Perf: Improve perf of circles using ngIf</p></li>
+</ul>
+</div>
+<div class="section" id="section-61">
+<span id="id62"></span><h2>1.8.2<a class="headerlink" href="#section-61" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fix for number cards not updating to last value</p></li>
+<li><p>Bug: Revert RxJS Import Optimized (#62) due to (#119)</p></li>
+<li><p>Polish: Added animation on treemap</p></li>
+<li><p>Polish: Better formatting for treemap values</p></li>
+<li><p>Polish: Added animation on advanced pie</p></li>
+<li><p>Polish: Added animation on pie grid</p></li>
+</ul>
+</div>
+<div class="section" id="section-62">
+<span id="id63"></span><h2>1.8.1<a class="headerlink" href="#section-62" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Polish: Treemap/Number card label color improvements</p></li>
+<li><p>Polish: Tooltip formatting improvements</p></li>
+<li><p>Backlog: RxJS Import Optimized (#62)</p></li>
+<li><p>Backlog: AoT fixes</p></li>
+</ul>
+</div>
+<div class="section" id="section-63">
+<span id="id64"></span><h2>1.8.0<a class="headerlink" href="#section-63" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Renamed CommonModule to ChartCommonModule to fix name conflicts with
+other frameworks #109</p></li>
+<li><p>Converted date objects to formatted strings in some charts</p></li>
+<li><p>Removed rounded corners on thin bars</p></li>
+<li><p>Improved on destroy hooks in tooltips</p></li>
+<li><p>Merged <code class="docutils literal notranslate"><span class="pre">legendLabelClick</span></code> output into <code class="docutils literal notranslate"><span class="pre">select</span></code> output</p></li>
+<li><p>Fixed legend click data format</p></li>
+</ul>
+</div>
+<div class="section" id="section-64">
+<span id="id65"></span><h2>1.7.3<a class="headerlink" href="#section-64" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed pie chart labels going out of bounds</p></li>
+<li><p>Updated area tooltip formatting and legend colors for dates</p></li>
+<li><p>Updated numbercard height scale max size</p></li>
+</ul>
+</div>
+<div class="section" id="section-65">
+<span id="id66"></span><h2>1.7.2<a class="headerlink" href="#section-65" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Fix number card text scaling</p></li>
+<li><p>Added custom timeline background element</p></li>
+<li><p>Wrapped timeline updates in zone.run</p></li>
+<li><p>Style updates</p></li>
+</ul>
+</div>
+<div class="section" id="section-66">
+<span id="id67"></span><h2>1.7.1<a class="headerlink" href="#section-66" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Advanced Pie Legend not clickable</p></li>
+<li><p>Bug: Date equality not scaling properly</p></li>
+</ul>
+</div>
+<div class="section" id="section-67">
+<span id="id68"></span><h2>1.7.0<a class="headerlink" href="#section-67" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Enhancement: Added <code class="docutils literal notranslate"><span class="pre">legendLabelClick</span></code> event</p></li>
+<li><p>Enhancement: Properly format labels and numbers in axis, tooltips,
+and legends</p></li>
+<li><p>Bug: Fix typo in legend eye class</p></li>
+<li><p>Style: Hover styling for legend entries</p></li>
+<li><p>Chore: Upgrade to Angular 2.2.2</p></li>
+<li><p>Chore: Better Webpack Config</p></li>
+<li><p>Chore: Normalized exports</p></li>
+</ul>
+</div>
+<div class="section" id="section-68">
+<span id="id69"></span><h2>1.6.3<a class="headerlink" href="#section-68" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Wrap all updates in zone.run to fix issue in hybrid apps</p></li>
+<li><p>Perf: Add starting value to reduce calls</p></li>
+<li><p>Bug: Fix sorting in line and area charts</p></li>
+<li><p>Bug: Fix change detection in hybrid Angular applications</p></li>
+<li><p>Style: Better tooltip styling</p></li>
+</ul>
+</div>
+<div class="section" id="section-69">
+<span id="id70"></span><h2>1.6.2<a class="headerlink" href="#section-69" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Chore: Export BaseCharts</p></li>
+<li><p>Perf: Switch change detection strategy to OnPush</p></li>
+</ul>
+</div>
+<div class="section" id="section-70">
+<span id="id71"></span><h2>1.6.1<a class="headerlink" href="#section-70" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Bug: Don’t do rounded edges on bars smaller than their radius</p></li>
+<li><p>Bug: Scale number cards by height</p></li>
+<li><p>Bug: Set text inside number cards to prevent overflow (#89)</p></li>
+<li><p>Bug: Format numbers and dates according to locale</p></li>
+<li><p>Bug: Fix timeline width when no legend is present</p></li>
+<li><p>Bug: Embed charts into timeline; Restyle timeline</p></li>
+<li><p>Bug: Show percentages in tooltips for normalized bar charts (#79)</p></li>
+<li><p>Chore: Change legend class name to prevent style conflicts (#98)</p></li>
+<li><p>Chore: Upgrade to Angular 2.2.1</p></li>
+<li><p>Chore: Fix tooltips in hybrid apps</p></li>
+</ul>
+</div>
+<div class="section" id="section-71">
+<span id="id72"></span><h2>1.6.0<a class="headerlink" href="#section-71" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Added gauge chart</p></li>
+<li><p>Fixed source map file name</p></li>
+<li><p>Fixed bug where grid panels in grouped bar chart would have the wrong
+size and position</p></li>
+</ul>
+</div>
+<div class="section" id="section-72">
+<span id="id73"></span><h2>1.5.2<a class="headerlink" href="#section-72" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Added fade in animation to charts</p></li>
+<li><p>Excluded d3 from the release bundle</p></li>
+<li><p>Decreased the pie grid doughnut width</p></li>
+</ul>
+</div>
+<div class="section" id="section-73">
+<span id="id74"></span><h2>1.5.1<a class="headerlink" href="#section-73" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed bug where view dimension feedback would enter into a loop due
+to float decimals</p></li>
+<li><p>Fixed bug where tree map would not call update on the base chart</p></li>
+<li><p>Switched legend label truncation to css ellipsis</p></li>
+<li><p>Added maximum height to legend, and scrollbars on overflow</p></li>
+<li><p>Added a count up animation to number cards</p></li>
+<li><p>Fixed advanced pie layout</p></li>
+<li><p>Updated pie grid layout and padding</p></li>
+<li><p>Refactored pie grid to use the pie arc component</p></li>
+<li><p>Updated testing framework</p></li>
+</ul>
+</div>
+<div class="section" id="section-74">
+<span id="id75"></span><h2>1.5.0<a class="headerlink" href="#section-74" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Added force directed graph chart (#64)</p></li>
+<li><p>Fixed bug where tooltip would not work when library is used in an
+angular 1 application using ngUpgrade</p></li>
+<li><p>Fixed tooltip positioning</p></li>
+<li><p>Added line interpolation option for line and area charts (#52)</p></li>
+<li><p>Updated view dimension calculation to properly take into account the
+width and height of the axis tick labels.</p></li>
+<li><p>Various bug fixes and code style fixes</p></li>
+</ul>
+</div>
+<div class="section" id="section-75">
+<span id="id76"></span><h2>1.4.0<a class="headerlink" href="#section-75" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Chore: Upgrade Webpack 2.25</p></li>
+<li><p>Chore: Remove rollup in favor of webpack builds</p></li>
+</ul>
+</div>
+<div class="section" id="section-76">
+<span id="id77"></span><h2>1.3.0<a class="headerlink" href="#section-76" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Added option to resize charts to fit containers if <code class="docutils literal notranslate"><span class="pre">view</span></code> property
+is not set (#44)</p></li>
+<li><p>Fixed legend size and positioning (#47)</p></li>
+<li><p>Added scale legend to heat map chart</p></li>
+<li><p>Added option to show/hide the grid lines on the chart (#53)</p></li>
+<li><p>Added support for negative values in bar charts (#17)</p></li>
+<li><p>Fixed bug with reduce call (#56)</p></li>
+<li><p>Changed the tooltip to be hidden initially in order to avoid overflow
+and scrollbars. (#57)</p></li>
+<li><p>Fixed AOT bugs (#46)</p></li>
+</ul>
+</div>
+<div class="section" id="section-77">
+<span id="id78"></span><h2>1.2.2<a class="headerlink" href="#section-77" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Added AOT compilation support</p></li>
+<li><p>Fixed bug where BrowserModule was imported multiple times</p></li>
+</ul>
+</div>
+<div class="section" id="section-78">
+<span id="id79"></span><h2>1.2.1<a class="headerlink" href="#section-78" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Added transition animation to TreeMap chart</p></li>
+<li><p>Added tooltips to TreeMap, Line, Area, and Pie Grid charts</p></li>
+<li><p>Fixed TreeMap click event</p></li>
+<li><p>Updated TreeMap label positioning and style</p></li>
+<li><p>Changed the starting opacity of bars in bar chart</p></li>
+<li><p>Updated the circles behavior on Line and Area charts</p></li>
+</ul>
+</div>
+<div class="section" id="section-79">
+<span id="id80"></span><h2>1.2.0<a class="headerlink" href="#section-79" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Added Tooltips to charts</p></li>
+<li><p>Added TreeMap chart</p></li>
+</ul>
+</div>
+<div class="section" id="section-80">
+<span id="id81"></span><h2>1.1.0<a class="headerlink" href="#section-80" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Upgraded to Angular 2.0.0</p></li>
+<li><p>Upgraded to TypeScript 2.0.2</p></li>
+<li><p>Added timeline line and area charts</p></li>
+<li><p>Removed margin from inputs</p></li>
+<li><p>Prevented charts from double rendering on init</p></li>
+<li><p>Added transition animations to pie, line and area charts, and updated
+transitions on bar charts</p></li>
+</ul>
+</div>
+<div class="section" id="section-81">
+<span id="id82"></span><h2>1.0.1<a class="headerlink" href="#section-81" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Implemented smart axis labels (#32)</p></li>
+<li><p>Upgraded D3 to 4.0 (#6)</p></li>
+</ul>
+</div>
+<div class="section" id="section-82">
+<span id="id83"></span><h2>1.0.0<a class="headerlink" href="#section-82" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Initial release</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="license.html" class="btn btn-neutral float-right" title="License" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="contributing/credits.html" class="btn btn-neutral float-left" title="Credits" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Band Camp
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

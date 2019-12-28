@@ -1,0 +1,659 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Bubble Chart &mdash; ngx-charts docs v2019.12.28 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="contributing" href="../contributing/index.html" />
+    <link rel="prev" title="Tree Map Chart" href="tree-map-chart.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ngx-charts docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../README.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../motivation.html">Motivation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features.html">Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installing.html">Installing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../custom-charts.html">Custom Charts</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">examples</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="line-area-charts/index.html">line-area-charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bar-charts/index.html">bar-charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="heat-map-chart.html">Heat Map Chart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pie-charts/index.html">pie-charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gauge-chart.html">Gauge Chart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="polar-radar-chart.html">Polar/radar Chart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linear-gauge-chart.html">Linear Gauge Chart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="number-card-chart.html">Number Card Chart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tree-map-chart.html">Tree Map Chart</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Bubble Chart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#inputs">Inputs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#outputs">Outputs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data-format">Data Format</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#regular-bubble-charts">Regular bubble charts</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing/index.html">contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../demo.html">demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../summary.html">Table of contents</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ngx-charts docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">examples</a> &raquo;</li>
+        
+      <li>Bubble Chart</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/examples/bubble-chart.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="bubble-chart">
+<h1>Bubble Chart<a class="headerlink" href="#bubble-chart" title="永久链接至标题">¶</a></h1>
+<p>{% embed
+data=“{“url”:”<a class="reference external" href="https://stackblitz.com/edit/swimlane-bubble-chart?embed=1&amp;file=app/app.component.ts">https://stackblitz.com/edit/swimlane-bubble-chart?embed=1&amp;file=app/app.component.ts</a>”,”type”:”link”,”title”:”bubble-chart
+- StackBlitz”,”description”:”Bubble Chart demo for
+ngx-charts”,”icon”:{“type”:”icon”,”url”:”<a class="reference external" href="https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png">https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png</a>”,”aspectRatio”:0},”thumbnail”:{“type”:”thumbnail”,”url”:”<a class="reference external" href="https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png">https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png</a>”,”aspectRatio”:0}}”
+%}</p>
+</div>
+<div class="section" id="inputs">
+<h1>Inputs<a class="headerlink" href="#inputs" title="永久链接至标题">¶</a></h1>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 6%" />
+<col style="width: 73%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Prope
+rty</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>De
+fa
+ul
+t
+Va
+lu
+e</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>view</p></td>
+<td><p>numbe
+r[]</p></td>
+<td></td>
+<td><p>the dimensions of the chart [width, height].
+If left undefined, the chart will fit to the
+parent container size</p></td>
+</tr>
+<tr class="row-odd"><td><p>resul
+ts</p></td>
+<td><p>objec
+t[]</p></td>
+<td></td>
+<td><p>the chart data</p></td>
+</tr>
+<tr class="row-even"><td><p>schem
+e</p></td>
+<td><p>objec
+t</p></td>
+<td></td>
+<td><p>the color scheme of the chart</p></td>
+</tr>
+<tr class="row-odd"><td><p>schem
+eType</p></td>
+<td><p>strin
+g</p></td>
+<td><p>‘o
+rd
+in
+al
+’</p></td>
+<td><p>the color scale type. Can be either ‘ordinal’
+or ‘linear’</p></td>
+</tr>
+<tr class="row-even"><td><p>custo
+mColo
+rs</p></td>
+<td><p>funct
+ion
+or
+objec
+t</p></td>
+<td></td>
+<td><p>custom colors for the chart. Used to override
+a color for a specific value</p></td>
+</tr>
+<tr class="row-odd"><td><p>anima
+tions</p></td>
+<td><p>boole
+an</p></td>
+<td><p>tr
+ue</p></td>
+<td><p>enable animations</p></td>
+</tr>
+<tr class="row-even"><td><p>legen
+d</p></td>
+<td><p>boole
+an</p></td>
+<td><p>fa
+ls
+e</p></td>
+<td><p>show or hide the legend</p></td>
+</tr>
+<tr class="row-odd"><td><p>legen
+dTitl
+e</p></td>
+<td><p>strin
+g</p></td>
+<td><p>‘L
+eg
+en
+d’</p></td>
+<td><p>the legend title</p></td>
+</tr>
+<tr class="row-even"><td><p>legen
+dPosi
+tion</p></td>
+<td><p>strin
+g</p></td>
+<td><p>‘r
+ig
+ht
+’</p></td>
+<td><p>the legend position [‘right’, ‘below’]</p></td>
+</tr>
+<tr class="row-odd"><td><p>xAxis</p></td>
+<td><p>boole
+an</p></td>
+<td><p>fa
+ls
+e</p></td>
+<td><p>show or hide the x axis</p></td>
+</tr>
+<tr class="row-even"><td><p>yAxis</p></td>
+<td><p>boole
+an</p></td>
+<td><p>fa
+ls
+e</p></td>
+<td><p>show or hide the y axis</p></td>
+</tr>
+<tr class="row-odd"><td><p>showG
+ridLi
+nes</p></td>
+<td><p>boole
+an</p></td>
+<td><p>tr
+ue</p></td>
+<td><p>show or hide the grid lines</p></td>
+</tr>
+<tr class="row-even"><td><p>round
+Domai
+ns</p></td>
+<td><p>boole
+an</p></td>
+<td><p>fa
+ls
+e</p></td>
+<td><p>round domains for aligned gridlines</p></td>
+</tr>
+<tr class="row-odd"><td><p>showX
+AxisL
+abel</p></td>
+<td><p>boole
+an</p></td>
+<td><p>fa
+ls
+e</p></td>
+<td><p>show or hide the x axis label</p></td>
+</tr>
+<tr class="row-even"><td><p>showY
+AxisL
+abel</p></td>
+<td><p>boole
+an</p></td>
+<td><p>fa
+ls
+e</p></td>
+<td><p>show or hide the y axis label</p></td>
+</tr>
+<tr class="row-odd"><td><p>xAxis
+Label</p></td>
+<td><p>strin
+g</p></td>
+<td></td>
+<td><p>the x axis label text</p></td>
+</tr>
+<tr class="row-even"><td><p>yAxis
+Label</p></td>
+<td><p>strin
+g</p></td>
+<td></td>
+<td><p>the y axis label text</p></td>
+</tr>
+<tr class="row-odd"><td><p>rotat
+eXAxi
+sTick
+s</p></td>
+<td><p>boole
+an</p></td>
+<td><p>tr
+ue</p></td>
+<td><p>enable automic rotation of x-axis ticks to
+prevent overlaps</p></td>
+</tr>
+<tr class="row-even"><td><p>xAxis
+TickF
+ormat
+ting</p></td>
+<td><p>funct
+ion</p></td>
+<td></td>
+<td><p>the x axis tick formatting</p></td>
+</tr>
+<tr class="row-odd"><td><p>yAxis
+TickF
+ormat
+ting</p></td>
+<td><p>funct
+ion</p></td>
+<td></td>
+<td><p>the y axis tick formatting</p></td>
+</tr>
+<tr class="row-even"><td><p>xAxis
+Ticks</p></td>
+<td><p>any[]</p></td>
+<td></td>
+<td><p>predefined list of x axis tick values</p></td>
+</tr>
+<tr class="row-odd"><td><p>yAxis
+Ticks</p></td>
+<td><p>any[]</p></td>
+<td></td>
+<td><p>predefined list of y axis tick values</p></td>
+</tr>
+<tr class="row-even"><td><p>activ
+eEntr
+ies</p></td>
+<td><p>objec
+t[]</p></td>
+<td><p>[]</p></td>
+<td><p>elements to highlight</p></td>
+</tr>
+<tr class="row-odd"><td><p>minRa
+dius</p></td>
+<td><p>numbe
+r</p></td>
+<td><p>3</p></td>
+<td><p>minimum bubble radius in px</p></td>
+</tr>
+<tr class="row-even"><td><p>maxRa
+dius</p></td>
+<td><p>numbe
+r</p></td>
+<td><p>10</p></td>
+<td><p>maximum bubble radius in px</p></td>
+</tr>
+<tr class="row-odd"><td><p>toolt
+ipDis
+abled</p></td>
+<td><p>boole
+an</p></td>
+<td><p>fa
+ls
+e</p></td>
+<td><p>show or hide the tooltip</p></td>
+</tr>
+<tr class="row-even"><td><p>toolt
+ipTem
+plate</p></td>
+<td><p>Templ
+ateRe
+f</p></td>
+<td></td>
+<td><p>a custom ng-template to be displayed inside
+the tooltip</p></td>
+</tr>
+<tr class="row-odd"><td><p>xScal
+eMin</p></td>
+<td><p>any</p></td>
+<td></td>
+<td><p>the minimum value of the x axis (if the x
+scale is linear or time)</p></td>
+</tr>
+<tr class="row-even"><td><p>xScal
+eMax</p></td>
+<td><p>any</p></td>
+<td></td>
+<td><p>the maximum value of the x axis (if the x
+scale is linear or time)</p></td>
+</tr>
+<tr class="row-odd"><td><p>yScal
+eMin</p></td>
+<td><p>any</p></td>
+<td></td>
+<td><p>the minimum value of the y axis (if the y
+scale is linear or time)</p></td>
+</tr>
+<tr class="row-even"><td><p>yScal
+eMax</p></td>
+<td><p>any</p></td>
+<td></td>
+<td><p>the maximum value of the y axis (if the y
+scale is linear or time)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="outputs">
+<h1>Outputs<a class="headerlink" href="#outputs" title="永久链接至标题">¶</a></h1>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Property</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>select</p></td>
+<td><p>click event</p></td>
+</tr>
+<tr class="row-odd"><td><p>activate</p></td>
+<td><p>element activation event (mouse enter)</p></td>
+</tr>
+<tr class="row-even"><td><p>deactivate</p></td>
+<td><p>element deactivation event (mouse leave)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="data-format">
+<h1>Data Format<a class="headerlink" href="#data-format" title="永久链接至标题">¶</a></h1>
+<div class="section" id="regular-bubble-charts">
+<h2>Regular bubble charts<a class="headerlink" href="#regular-bubble-charts" title="永久链接至标题">¶</a></h2>
+<p>The data format is multi series:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span>
+  <span class="p">{</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Germany&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;series&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;2010&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="mi">40632</span><span class="p">,</span>
+        <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="mf">80.3</span><span class="p">,</span>
+        <span class="s2">&quot;r&quot;</span><span class="p">:</span> <span class="mf">80.4</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;2000&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="mi">36953</span><span class="p">,</span>
+        <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="mf">80.3</span><span class="p">,</span>
+        <span class="s2">&quot;r&quot;</span><span class="p">:</span> <span class="mi">78</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;1990&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="mi">31476</span><span class="p">,</span>
+        <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="mf">75.4</span><span class="p">,</span>
+        <span class="s2">&quot;r&quot;</span><span class="p">:</span> <span class="mi">79</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;USA&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;series&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;2010&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="mi">49737</span><span class="p">,</span>
+        <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="mf">78.8</span><span class="p">,</span>
+        <span class="s2">&quot;r&quot;</span><span class="p">:</span> <span class="mi">310</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;2000&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="mi">45986</span><span class="p">,</span>
+        <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="mf">76.9</span><span class="p">,</span>
+        <span class="s2">&quot;r&quot;</span><span class="p">:</span> <span class="mi">283</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;1990&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="mi">3706</span><span class="p">,</span>
+        <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="mf">75.4</span><span class="p">,</span>
+        <span class="s2">&quot;r&quot;</span><span class="p">:</span> <span class="mi">253</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;France&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;series&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;2010&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="mi">36745</span><span class="p">,</span>
+        <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="mf">81.4</span><span class="p">,</span>
+        <span class="s2">&quot;r&quot;</span><span class="p">:</span> <span class="mi">63</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;2000&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="mi">34774</span><span class="p">,</span>
+        <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="mf">79.1</span><span class="p">,</span>
+        <span class="s2">&quot;r&quot;</span><span class="p">:</span> <span class="mf">59.4</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;1990&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="mi">29476</span><span class="p">,</span>
+        <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="mf">77.2</span><span class="p">,</span>
+        <span class="s2">&quot;r&quot;</span><span class="p">:</span> <span class="mf">56.9</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;United Kingdom&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;series&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;2010&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="mi">36240</span><span class="p">,</span>
+        <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="mf">80.2</span><span class="p">,</span>
+        <span class="s2">&quot;r&quot;</span><span class="p">:</span> <span class="mf">62.7</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;2000&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="mi">32543</span><span class="p">,</span>
+        <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="mf">77.8</span><span class="p">,</span>
+        <span class="s2">&quot;r&quot;</span><span class="p">:</span> <span class="mf">58.9</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;1990&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="mi">26424</span><span class="p">,</span>
+        <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="mf">75.7</span><span class="p">,</span>
+        <span class="s2">&quot;r&quot;</span><span class="p">:</span> <span class="mf">57.1</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../contributing/index.html" class="btn btn-neutral float-right" title="contributing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="tree-map-chart.html" class="btn btn-neutral float-left" title="Tree Map Chart" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Band Camp
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

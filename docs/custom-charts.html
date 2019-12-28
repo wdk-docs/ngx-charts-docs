@@ -1,0 +1,266 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Custom Charts &mdash; ngx-charts docs v2019.12.28 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="examples" href="examples/index.html" />
+    <link rel="prev" title="Installing" href="installing.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ngx-charts docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="README.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="motivation.html">Motivation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="features.html">Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installing.html">Installing</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Custom Charts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#custom-chart-index">Custom Chart Index</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pointers-when-creating-or-adapting-custom-charts">Pointers when creating or adapting Custom Charts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="examples/index.html">examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing/index.html">contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo.html">demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Table of contents</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ngx-charts docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Custom Charts</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/custom-charts.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="custom-charts">
+<h1>Custom Charts<a class="headerlink" href="#custom-charts" title="永久链接至标题">¶</a></h1>
+<p>Other than the library of available charts, ngx-charts also exports all
+of the components and helpers used as building blocks for the charts.
+Things like legends, axes, dimension helpers, gradients, shapes, series
+of shapes, can all be directly imported into your application and used
+in your components. This allows you to combine them and build custom
+charts that implement use cases that the pre-made charts do not support.</p>
+<p>You can find an example of how to use these components to build a custom
+chart here:
+<a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/combo-chart">https://github.com/swimlane/ngx-charts/tree/master/demo/combo-chart</a></p>
+<p>The demo of the above combo-chart can be seen here:
+<a class="reference external" href="https://swimlane.github.io/ngx-charts/#/ngx-charts/combo-chart">https://swimlane.github.io/ngx-charts/#/ngx-charts/combo-chart</a></p>
+<p>The charts under the ‘Demos’ group in our demo page are not distributed
+with the library. However, their code is available and can be copied
+directly into your project. We encourage you to submit a pull request
+for your custom charts to be listed in our ‘Demos’ section, because they
+may help other people that have the same use case as you.</p>
+<div class="section" id="custom-chart-index">
+<h2>Custom Chart Index<a class="headerlink" href="#custom-chart-index" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/combo-chart">Bar/Line Combo
+Chart</a></p></li>
+<li><p><a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/sparkline">Sparkline</a></p></li>
+<li><p><a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/timeline-filter-bar-chart">Timeline filter bar
+chart</a></p></li>
+<li><p><a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/bubble-chart-interactive-demo">Bubble Chart Interactive
+Drilldown</a></p></li>
+</ul>
+<p><em>If you want to have your custom chart featured above, please submit a
+pull request to</em> <a class="reference external" href="https://github.com/swimlane/ngx-charts/blob/master/docs/intro/custom-charts.md">this
+file</a><em>.</em></p>
+</div>
+<div class="section" id="pointers-when-creating-or-adapting-custom-charts">
+<h2>Pointers when creating or adapting Custom Charts<a class="headerlink" href="#pointers-when-creating-or-adapting-custom-charts" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>To develop new charts, start by building the shell in the demo
+project first.</p></li>
+<li><p>If you start by copying an existing chart from src (recommended), be
+sure to rename your new component(s) and their selectors, as well as
+the module that contains them (if applicable).</p></li>
+<li><p>If you discover the tooltip does not display correctly, try exporting
+the new chart as a module along with ChartCommonModule and import it
+into the demo’s app.module.ts file.</p></li>
+<li><p>For an example of this, look at most any chart in the src folder</p></li>
+<li><p>Always a good idea to give back. Use this link to learn how to
+contribute to github repos:
+<a class="reference external" href="http://kbroman.org/github_tutorial/pages/fork.html">http://kbroman.org/github_tutorial/pages/fork.html</a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="examples/index.html" class="btn btn-neutral float-right" title="examples" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="installing.html" class="btn btn-neutral float-left" title="Installing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Band Camp
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
