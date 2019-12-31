@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Band Camp
+# This file is distributed under the same license as the ngx-charts docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ngx-charts docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-29 12:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/summary.rst:2
+msgid "Table of contents"
+msgstr "目录"
+
+#: ../../source/summary.rst:4
+msgid "`Introduction <README>`_"
+msgstr "`Introduction <README>`_"
+
+#: ../../source/summary.rst:6
+msgid "`Motivation <motivation>`_"
+msgstr "`Motivation <motivation>`_"
+
+#: ../../source/summary.rst:7
+msgid "`Features <features>`_"
+msgstr "`Features <features>`_"
+
+#: ../../source/summary.rst:8
+msgid "`Installing <installing>`_"
+msgstr "`Installing <installing>`_"
+
+#: ../../source/summary.rst:9
+msgid "`Custom Charts <custom-charts>`_"
+msgstr "`Custom Charts <custom-charts>`_"
+
+#: ../../source/summary.rst:10
+msgid "Examples"
+msgstr "Examples"
+
+#: ../../source/summary.rst:12
+msgid "Bar Charts"
+msgstr "Bar Charts"
+
+#: ../../source/summary.rst:14
+msgid "`Vertical Bar Chart <examples/bar-charts/vertical-bar-chart>`_"
+msgstr "`Vertical Bar Chart <examples/bar-charts/vertical-bar-chart>`_"
+
+#: ../../source/summary.rst:15
+msgid "`Horizontal Bar Chart <examples/bar-charts/horizontal-bar-chart>`_"
+msgstr "`Horizontal Bar Chart <examples/bar-charts/horizontal-bar-chart>`_"
+
+#: ../../source/summary.rst:16
+msgid ""
+"`Grouped Vertical Bar Chart <examples/bar-charts/grouped-vertical-bar-"
+"chart>`_"
+msgstr ""
+
+#: ../../source/summary.rst:17
+msgid ""
+"`Grouped Horizontal Bar Chart <examples/bar-charts/grouped-horizontal-"
+"bar-chart>`_"
+msgstr ""
+
+#: ../../source/summary.rst:18
+msgid ""
+"`Stacked Vertical Bar Chart <examples/bar-charts/stacked-vertical-bar-"
+"chart>`_"
+msgstr ""
+
+#: ../../source/summary.rst:19
+msgid ""
+"`Stacked Horizontal Bar Chart <examples/bar-charts/stacked-horizontal-"
+"bar-chart>`_"
+msgstr ""
+
+#: ../../source/summary.rst:20
+msgid ""
+"`Normalized Vertical Bar Chart <examples/bar-charts/normalized-vertical-"
+"bar-chart>`_"
+msgstr ""
+
+#: ../../source/summary.rst:21
+msgid ""
+"`Normalized Horizontal Bar Chart <examples/bar-charts/normalized-"
+"horizontal-bar-chart>`_"
+msgstr ""
+
+#: ../../source/summary.rst:23
+msgid "Pie Charts"
+msgstr "Pie Charts"
+
+#: ../../source/summary.rst:25
+msgid "`Pie Chart <examples/pie-charts/pie-chart>`_"
+msgstr "`Pie Chart <examples/pie-charts/pie-chart>`_"
+
+#: ../../source/summary.rst:26
+msgid "`Advanced Pie Chart <examples/pie-charts/advanced-pie-chart>`_"
+msgstr "`Advanced Pie Chart <examples/pie-charts/advanced-pie-chart>`_"
+
+#: ../../source/summary.rst:27
+msgid "`Pie Grid Chart <examples/pie-charts/pie-grid-chart>`_"
+msgstr "`Pie Grid Chart <examples/pie-charts/pie-grid-chart>`_"
+
+#: ../../source/summary.rst:29
+msgid "Line/Area Charts"
+msgstr "Line/Area Charts"
+
+#: ../../source/summary.rst:31
+msgid "`Line Chart <examples/line-area-charts/line-chart>`_"
+msgstr "`Line Chart <examples/line-area-charts/line-chart>`_"
+
+#: ../../source/summary.rst:32
+msgid "`Area Chart <examples/line-area-charts/area-chart>`_"
+msgstr "`Area Chart <examples/line-area-charts/area-chart>`_"
+
+#: ../../source/summary.rst:33
+msgid "`Stacked Area Chart <examples/line-area-charts/stacked-area-chart>`_"
+msgstr "`Stacked Area Chart <examples/line-area-charts/stacked-area-chart>`_"
+
+#: ../../source/summary.rst:34
+msgid "`Normalized Area Chart <examples/line-area-charts/normalized-area-chart>`_"
+msgstr "`Normalized Area Chart <examples/line-area-charts/normalized-area-chart>`_"
+
+#: ../../source/summary.rst:36
+msgid "`Polar/radar Chart <examples/polar-radar-chart>`_"
+msgstr "`Polar/radar Chart <examples/polar-radar-chart>`_"
+
+#: ../../source/summary.rst:37
+msgid "`Heat Map Chart <examples/heat-map-chart>`_"
+msgstr "`Heat Map Chart <examples/heat-map-chart>`_"
+
+#: ../../source/summary.rst:38
+msgid "`Tree Map Chart <examples/tree-map-chart>`_"
+msgstr "`Tree Map Chart <examples/tree-map-chart>`_"
+
+#: ../../source/summary.rst:39
+msgid "`Number Card Chart <examples/number-card-chart>`_"
+msgstr "`Number Card Chart <examples/number-card-chart>`_"
+
+#: ../../source/summary.rst:40
+msgid "`Gauge Chart <examples/gauge-chart>`_"
+msgstr "`Gauge Chart <examples/gauge-chart>`_"
+
+#: ../../source/summary.rst:41
+msgid "`Linear Gauge Chart <examples/linear-gauge-chart>`_"
+msgstr "`Linear Gauge Chart <examples/linear-gauge-chart>`_"
+
+#: ../../source/summary.rst:42
+msgid "`DAG Chart <https://github.com/swimlane/ngx-charts-dag>`_"
+msgstr "`DAG Chart <https://github.com/swimlane/ngx-charts-dag>`_"
+
+#: ../../source/summary.rst:44
+msgid "Contributing"
+msgstr "Contributing"
+
+#: ../../source/summary.rst:46
+msgid "`Building <contributing/building>`_"
+msgstr "`Building <contributing/building>`_"
+
+#: ../../source/summary.rst:47
+msgid "`Troubleshooting <contributing/troubleshooting>`_"
+msgstr "`Troubleshooting <contributing/troubleshooting>`_"
+
+#: ../../source/summary.rst:48
+msgid "`Guidelines <contributing/guidelines>`_"
+msgstr "`Guidelines <contributing/guidelines>`_"
+
+#: ../../source/summary.rst:49
+msgid "`Community <contributing/community>`_"
+msgstr "`Community <contributing/community>`_"
+
+#: ../../source/summary.rst:50
+msgid "`Credits <contributing/credits>`_"
+msgstr "`Credits <contributing/credits>`_"
+
+#: ../../source/summary.rst:52
+msgid "`Changelog <changelog>`_"
+msgstr "`Changelog <changelog>`_"
+
+#: ../../source/summary.rst:53
+msgid "`License <license>`_"
+msgstr "`License <license>`_"
+

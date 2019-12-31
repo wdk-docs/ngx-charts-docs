@@ -1,0 +1,4022 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Band Camp
+# This file is distributed under the same license as the ngx-charts docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ngx-charts docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-30 21:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:2
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:7
+msgid "Grouped Horizontal Bar Chart"
+msgstr "分组水平条形图"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:18
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:16
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:16
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:16
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:16
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:16
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:16
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:16
+#: ../../source/examples/bubble-chart.rst:11
+#: ../../source/examples/gauge-chart.rst:14
+#: ../../source/examples/heat-map-chart.rst:14
+#: ../../source/examples/line-area-charts/area-chart.rst:31
+#: ../../source/examples/line-area-charts/line-chart.rst:16
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:16
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:16
+#: ../../source/examples/linear-gauge-chart.rst:14
+#: ../../source/examples/number-card-chart.rst:16
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:16
+#: ../../source/examples/pie-charts/pie-chart.rst:16
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:16
+#: ../../source/examples/polar-radar-chart.rst:16
+#: ../../source/examples/tree-map-chart.rst:16
+msgid "Inputs"
+msgstr "输入"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:21
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:96
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:19
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:163
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:19
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:167
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:157
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:157
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:164
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:164
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:19
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:170
+#: ../../source/examples/bubble-chart.rst:14
+#: ../../source/examples/bubble-chart.rst:141
+#: ../../source/examples/gauge-chart.rst:17
+#: ../../source/examples/gauge-chart.rst:105
+#: ../../source/examples/heat-map-chart.rst:17
+#: ../../source/examples/heat-map-chart.rst:126
+#: ../../source/examples/line-area-charts/area-chart.rst:34
+#: ../../source/examples/line-area-charts/area-chart.rst:197
+#: ../../source/examples/line-area-charts/line-chart.rst:19
+#: ../../source/examples/line-area-charts/line-chart.rst:387
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:19
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:170
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:19
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:182
+#: ../../source/examples/linear-gauge-chart.rst:17
+#: ../../source/examples/linear-gauge-chart.rst:72
+#: ../../source/examples/number-card-chart.rst:19
+#: ../../source/examples/number-card-chart.rst:84
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:19
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:85
+#: ../../source/examples/pie-charts/pie-chart.rst:19
+#: ../../source/examples/pie-charts/pie-chart.rst:128
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:19
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:135
+#: ../../source/examples/polar-radar-chart.rst:443
+#: ../../source/examples/tree-map-chart.rst:19
+#: ../../source/examples/tree-map-chart.rst:82
+msgid "Property"
+msgstr "属性"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:21
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:19
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:19
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:19
+#: ../../source/examples/bubble-chart.rst:14
+#: ../../source/examples/gauge-chart.rst:17
+#: ../../source/examples/heat-map-chart.rst:17
+#: ../../source/examples/line-area-charts/area-chart.rst:34
+#: ../../source/examples/line-area-charts/line-chart.rst:19
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:19
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:19
+#: ../../source/examples/linear-gauge-chart.rst:17
+#: ../../source/examples/number-card-chart.rst:19
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:19
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:19
+#: ../../source/examples/tree-map-chart.rst:19
+msgid "Type"
+msgstr "类型"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:21
+#: ../../source/examples/bubble-chart.rst:14
+#: ../../source/examples/heat-map-chart.rst:17
+#: ../../source/examples/line-area-charts/area-chart.rst:34
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:19
+msgid "Default Value"
+msgstr "默认值"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:21
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:96
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:19
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:163
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:19
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:167
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:157
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:157
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:164
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:164
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:19
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:170
+#: ../../source/examples/bubble-chart.rst:14
+#: ../../source/examples/bubble-chart.rst:141
+#: ../../source/examples/gauge-chart.rst:17
+#: ../../source/examples/gauge-chart.rst:105
+#: ../../source/examples/heat-map-chart.rst:17
+#: ../../source/examples/heat-map-chart.rst:126
+#: ../../source/examples/line-area-charts/area-chart.rst:34
+#: ../../source/examples/line-area-charts/area-chart.rst:197
+#: ../../source/examples/line-area-charts/line-chart.rst:19
+#: ../../source/examples/line-area-charts/line-chart.rst:387
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:19
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:170
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:19
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:182
+#: ../../source/examples/linear-gauge-chart.rst:17
+#: ../../source/examples/linear-gauge-chart.rst:72
+#: ../../source/examples/number-card-chart.rst:19
+#: ../../source/examples/number-card-chart.rst:84
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:19
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:85
+#: ../../source/examples/pie-charts/pie-chart.rst:19
+#: ../../source/examples/pie-charts/pie-chart.rst:128
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:19
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:135
+#: ../../source/examples/polar-radar-chart.rst:19
+#: ../../source/examples/polar-radar-chart.rst:443
+#: ../../source/examples/tree-map-chart.rst:19
+#: ../../source/examples/tree-map-chart.rst:82
+msgid "Description"
+msgstr "描述"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:23
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:21
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:21
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:21
+#: ../../source/examples/bubble-chart.rst:16
+#: ../../source/examples/gauge-chart.rst:25
+#: ../../source/examples/heat-map-chart.rst:19
+#: ../../source/examples/line-area-charts/area-chart.rst:36
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:21
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:21
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:27
+#: ../../source/examples/pie-charts/pie-chart.rst:25
+msgid "view"
+msgstr ""
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:23
+#: ../../source/examples/bubble-chart.rst:16
+#: ../../source/examples/heat-map-chart.rst:19
+#, fuzzy
+msgid "number[]"
+msgstr "numbe r[]"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:23
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:21
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:21
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:21
+#: ../../source/examples/bubble-chart.rst:16
+#: ../../source/examples/gauge-chart.rst:25
+#: ../../source/examples/heat-map-chart.rst:19
+#: ../../source/examples/line-area-charts/area-chart.rst:36
+#: ../../source/examples/line-area-charts/line-chart.rst:21
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:21
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:21
+#: ../../source/examples/linear-gauge-chart.rst:25
+#: ../../source/examples/number-card-chart.rst:23
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:27
+#: ../../source/examples/pie-charts/pie-chart.rst:25
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:21
+#: ../../source/examples/polar-radar-chart.rst:32
+#: ../../source/examples/tree-map-chart.rst:27
+msgid ""
+"the dimensions of the chart [width, height]. If left undefined, the chart"
+" will fit to the parent container size"
+msgstr "图表[宽度，高度]的尺寸。如果未定义，图表将适合于父容器的大小"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:25
+#: ../../source/examples/heat-map-chart.rst:23
+msgid "results"
+msgstr ""
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:25
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:79
+#: ../../source/examples/bubble-chart.rst:20
+#: ../../source/examples/heat-map-chart.rst:23
+msgid "object[]"
+msgstr "object[]"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:25
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:25
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:25
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:25
+#: ../../source/examples/bubble-chart.rst:20
+#: ../../source/examples/gauge-chart.rst:29
+#: ../../source/examples/heat-map-chart.rst:23
+#: ../../source/examples/line-area-charts/area-chart.rst:40
+#: ../../source/examples/line-area-charts/line-chart.rst:30
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:25
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:25
+#: ../../source/examples/number-card-chart.rst:27
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:31
+#: ../../source/examples/pie-charts/pie-chart.rst:30
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:26
+#: ../../source/examples/polar-radar-chart.rst:41
+#: ../../source/examples/tree-map-chart.rst:31
+msgid "the chart data"
+msgstr "图表数据"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:27
+#: ../../source/examples/heat-map-chart.rst:26
+msgid "scheme"
+msgstr "scheme"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:27
+#: ../../source/examples/bubble-chart.rst:23
+#: ../../source/examples/heat-map-chart.rst:26
+msgid "object"
+msgstr "object"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:27
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:28
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:28
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:28
+#: ../../source/examples/bubble-chart.rst:23
+#: ../../source/examples/gauge-chart.rst:32
+#: ../../source/examples/heat-map-chart.rst:26
+#: ../../source/examples/line-area-charts/area-chart.rst:43
+#: ../../source/examples/line-area-charts/line-chart.rst:39
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:28
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:28
+#: ../../source/examples/linear-gauge-chart.rst:29
+#: ../../source/examples/number-card-chart.rst:31
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:34
+#: ../../source/examples/pie-charts/pie-chart.rst:35
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:34
+#: ../../source/examples/polar-radar-chart.rst:50
+#: ../../source/examples/tree-map-chart.rst:35
+msgid "the color scheme of the chart"
+msgstr "图表的颜色方案"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:29
+msgid "schemeType"
+msgstr "schemeType"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:29
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:37
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:39
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:53
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:55
+#: ../../source/examples/bubble-chart.rst:26
+#: ../../source/examples/heat-map-chart.rst:35
+#: ../../source/examples/heat-map-chart.rst:39
+#: ../../source/examples/heat-map-chart.rst:57
+#: ../../source/examples/heat-map-chart.rst:60
+msgid "string"
+msgstr "string"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:29
+#: ../../source/examples/bubble-chart.rst:26
+msgid "‘ordinal’"
+msgstr "‘ordinal ’"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:29
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:31
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:31
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:31
+#: ../../source/examples/bubble-chart.rst:26
+#: ../../source/examples/line-area-charts/area-chart.rst:46
+#: ../../source/examples/line-area-charts/line-chart.rst:46
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:31
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:31
+#: ../../source/examples/polar-radar-chart.rst:57
+msgid "the color scale type. Can be either ‘ordinal’ or ‘linear’"
+msgstr "色阶类型。可以是 ‘ordinal’ 或 ‘linear’"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:31
+#, fuzzy
+msgid "customColors"
+msgstr "custo mColo rs"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:31
+#, fuzzy
+msgid "function or object"
+msgstr "funct ion or objec t"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:31
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:37
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:37
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:37
+#: ../../source/examples/bubble-chart.rst:32
+#: ../../source/examples/gauge-chart.rst:35
+#: ../../source/examples/line-area-charts/area-chart.rst:52
+#: ../../source/examples/line-area-charts/line-chart.rst:56
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:37
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:37
+#: ../../source/examples/linear-gauge-chart.rst:32
+#: ../../source/examples/number-card-chart.rst:34
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:37
+#: ../../source/examples/pie-charts/pie-chart.rst:39
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:41
+#: ../../source/examples/polar-radar-chart.rst:68
+#: ../../source/examples/tree-map-chart.rst:38
+msgid "custom colors for the chart. Used to override a color for a specific value"
+msgstr "自定义颜色图表。用于覆盖颜色的特定值"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:33
+#: ../../source/examples/heat-map-chart.rst:29
+msgid "animations"
+msgstr "animations"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:33
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:35
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:41
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:43
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:45
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:47
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:49
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:51
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:57
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:59
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:61
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:63
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:65
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:85
+#: ../../source/examples/heat-map-chart.rst:29
+#: ../../source/examples/heat-map-chart.rst:32
+#: ../../source/examples/heat-map-chart.rst:43
+#: ../../source/examples/heat-map-chart.rst:46
+#: ../../source/examples/heat-map-chart.rst:49
+#: ../../source/examples/heat-map-chart.rst:53
+#: ../../source/examples/heat-map-chart.rst:63
+#: ../../source/examples/heat-map-chart.rst:67
+#: ../../source/examples/heat-map-chart.rst:71
+#: ../../source/examples/heat-map-chart.rst:102
+#: ../../source/examples/heat-map-chart.rst:107
+msgid "boolean"
+msgstr "boolean"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:33
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:45
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:61
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:63
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:65
+#: ../../source/examples/heat-map-chart.rst:29
+#: ../../source/examples/number-card-chart.rst:40
+msgid "true"
+msgstr "true"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:33
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:43
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:43
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:43
+#: ../../source/examples/bubble-chart.rst:38
+#: ../../source/examples/gauge-chart.rst:41
+#: ../../source/examples/heat-map-chart.rst:29
+#: ../../source/examples/line-area-charts/area-chart.rst:58
+#: ../../source/examples/line-area-charts/line-chart.rst:73
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:43
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:43
+#: ../../source/examples/linear-gauge-chart.rst:38
+#: ../../source/examples/number-card-chart.rst:40
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:43
+#: ../../source/examples/pie-charts/pie-chart.rst:43
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:54
+#: ../../source/examples/polar-radar-chart.rst:85
+#: ../../source/examples/tree-map-chart.rst:44
+msgid "enable animations"
+msgstr "使动画"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:35
+#, fuzzy
+msgid "legend"
+msgstr "legen d"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:35
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:41
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:43
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:47
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:49
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:51
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:57
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:59
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:85
+#: ../../source/examples/heat-map-chart.rst:32
+#: ../../source/examples/heat-map-chart.rst:43
+#: ../../source/examples/heat-map-chart.rst:46
+#: ../../source/examples/heat-map-chart.rst:49
+#: ../../source/examples/heat-map-chart.rst:53
+#: ../../source/examples/heat-map-chart.rst:102
+#: ../../source/examples/heat-map-chart.rst:107
+msgid "false"
+msgstr "false"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:35
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:46
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:46
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:46
+#: ../../source/examples/bubble-chart.rst:41
+#: ../../source/examples/gauge-chart.rst:44
+#: ../../source/examples/heat-map-chart.rst:32
+#: ../../source/examples/line-area-charts/area-chart.rst:61
+#: ../../source/examples/line-area-charts/line-chart.rst:90
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:46
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:46
+#: ../../source/examples/pie-charts/pie-chart.rst:68
+#: ../../source/examples/polar-radar-chart.rst:113
+msgid "show or hide the legend"
+msgstr "显示或隐藏图例"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:37
+#, fuzzy
+msgid "legendTitle"
+msgstr "legendTitle"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:37
+#, fuzzy
+msgid "‘legend’"
+msgstr "legen d"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:37
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:50
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:50
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:50
+#: ../../source/examples/bubble-chart.rst:45
+#: ../../source/examples/gauge-chart.rst:48
+#: ../../source/examples/heat-map-chart.rst:35
+#: ../../source/examples/line-area-charts/area-chart.rst:65
+#: ../../source/examples/line-area-charts/line-chart.rst:98
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:50
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:50
+#: ../../source/examples/pie-charts/pie-chart.rst:73
+#: ../../source/examples/polar-radar-chart.rst:121
+msgid "the legend title"
+msgstr "图例标题"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:39
+#, fuzzy
+msgid "legendPosition"
+msgstr "legen dPosi tion"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:39
+#: ../../source/examples/heat-map-chart.rst:39
+msgid "‘right’"
+msgstr "‘right’"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:39
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:55
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:55
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:55
+#: ../../source/examples/bubble-chart.rst:50
+#: ../../source/examples/heat-map-chart.rst:39
+#: ../../source/examples/line-area-charts/area-chart.rst:70
+#: ../../source/examples/line-area-charts/line-chart.rst:107
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:55
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:55
+#: ../../source/examples/pie-charts/pie-chart.rst:77
+#: ../../source/examples/polar-radar-chart.rst:133
+msgid "the legend position [‘right’, ‘below’]"
+msgstr "图例位置 [‘right’, ‘below’]"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:41
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:60
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:60
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:60
+#: ../../source/examples/bubble-chart.rst:55
+#: ../../source/examples/heat-map-chart.rst:43
+#: ../../source/examples/line-area-charts/area-chart.rst:75
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:60
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:60
+msgid "xAxis"
+msgstr "xAxis"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:41
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:60
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:60
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:60
+#: ../../source/examples/bubble-chart.rst:55
+#: ../../source/examples/heat-map-chart.rst:43
+#: ../../source/examples/line-area-charts/area-chart.rst:75
+#: ../../source/examples/line-area-charts/line-chart.rst:115
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:60
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:60
+#: ../../source/examples/polar-radar-chart.rst:148
+msgid "show or hide the x axis"
+msgstr "显示或隐藏x轴"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:43
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:64
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:64
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:64
+#: ../../source/examples/bubble-chart.rst:59
+#: ../../source/examples/heat-map-chart.rst:46
+#: ../../source/examples/line-area-charts/area-chart.rst:79
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:64
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:64
+msgid "yAxis"
+msgstr "yAxis"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:43
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:64
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:64
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:64
+#: ../../source/examples/bubble-chart.rst:59
+#: ../../source/examples/heat-map-chart.rst:46
+#: ../../source/examples/line-area-charts/area-chart.rst:79
+#: ../../source/examples/line-area-charts/line-chart.rst:123
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:64
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:64
+#: ../../source/examples/polar-radar-chart.rst:156
+msgid "show or hide the y axis"
+msgstr "显示或隐藏y轴"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:45
+#, fuzzy
+msgid "showGridLines"
+msgstr "showG ridLi nes"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:45
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:68
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:68
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:68
+#: ../../source/examples/bubble-chart.rst:63
+#: ../../source/examples/line-area-charts/area-chart.rst:83
+#: ../../source/examples/line-area-charts/line-chart.rst:131
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:68
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:68
+#: ../../source/examples/polar-radar-chart.rst:164
+msgid "show or hide the grid lines"
+msgstr "显示或隐藏网格线"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:47
+#, fuzzy
+msgid "roundDomains"
+msgstr "round Domai ns"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:47
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:72
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:72
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:72
+#: ../../source/examples/bubble-chart.rst:67
+#: ../../source/examples/line-area-charts/area-chart.rst:87
+#: ../../source/examples/line-area-charts/line-chart.rst:139
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:72
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:72
+#: ../../source/examples/polar-radar-chart.rst:178
+msgid "round domains for aligned gridlines"
+msgstr "对于对齐网格线圆域"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:49
+#, fuzzy
+msgid "showXAxisLabel"
+msgstr "showY AxisL abel"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:49
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:76
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:76
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:76
+#: ../../source/examples/bubble-chart.rst:71
+#: ../../source/examples/heat-map-chart.rst:49
+#: ../../source/examples/line-area-charts/area-chart.rst:91
+#: ../../source/examples/line-area-charts/line-chart.rst:147
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:76
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:76
+#: ../../source/examples/polar-radar-chart.rst:191
+msgid "show or hide the x axis label"
+msgstr "显示或隐藏x轴标签"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:51
+#, fuzzy
+msgid "showYAxisLabel"
+msgstr "showY AxisL abel"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:51
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:80
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:80
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:80
+#: ../../source/examples/bubble-chart.rst:75
+#: ../../source/examples/heat-map-chart.rst:53
+#: ../../source/examples/line-area-charts/area-chart.rst:95
+#: ../../source/examples/line-area-charts/line-chart.rst:155
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:80
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:80
+#: ../../source/examples/polar-radar-chart.rst:206
+msgid "show or hide the y axis label"
+msgstr "显示或隐藏y轴标签"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:53
+#, fuzzy
+msgid "xAxisLabel"
+msgstr "xAxis Label"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:53
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:84
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:84
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:84
+#: ../../source/examples/bubble-chart.rst:79
+#: ../../source/examples/heat-map-chart.rst:57
+#: ../../source/examples/line-area-charts/area-chart.rst:99
+#: ../../source/examples/line-area-charts/line-chart.rst:163
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:84
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:84
+#: ../../source/examples/polar-radar-chart.rst:221
+msgid "the x axis label text"
+msgstr "X轴标签文本"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:55
+#, fuzzy
+msgid "yAxisLabel"
+msgstr "yAxis Label"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:55
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:87
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:87
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:87
+#: ../../source/examples/bubble-chart.rst:82
+#: ../../source/examples/heat-map-chart.rst:60
+#: ../../source/examples/line-area-charts/area-chart.rst:102
+#: ../../source/examples/line-area-charts/line-chart.rst:170
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:87
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:87
+#: ../../source/examples/polar-radar-chart.rst:232
+msgid "the y axis label text"
+msgstr "y轴标签文本"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:57
+#, fuzzy
+msgid "showDataLabel"
+msgstr "showD ataLa bel"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:57
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:124
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:129
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:129
+msgid "displays the value number next to the bar"
+msgstr "显示值旁边的数字杆"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:59
+#, fuzzy
+msgid "gradient"
+msgstr "gradi ent"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:59
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:132
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:137
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:137
+#: ../../source/examples/heat-map-chart.rst:102
+#: ../../source/examples/line-area-charts/area-chart.rst:158
+#: ../../source/examples/line-area-charts/line-chart.rst:281
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:143
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:143
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:46
+#: ../../source/examples/pie-charts/pie-chart.rst:96
+#: ../../source/examples/tree-map-chart.rst:67
+msgid "fill elements with a gradient instead of a solid color"
+msgstr "具有梯度，而不是纯色填充元件"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:61
+#, fuzzy
+msgid "noBarWhenZero"
+msgstr "noBar WhenZ ero"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:61
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:128
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:133
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:133
+msgid "hide bar if value is 0 and setting is true"
+msgstr "隐藏栏，如果值是0，设置为true"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:63
+#, fuzzy
+msgid "trimXAxisTicks"
+msgstr "trimY AxisT icks"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:63
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:90
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:90
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:90
+#: ../../source/examples/heat-map-chart.rst:63
+#: ../../source/examples/line-area-charts/area-chart.rst:105
+#: ../../source/examples/line-area-charts/line-chart.rst:177
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:90
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:90
+msgid "trim or not ticks on the x axis"
+msgstr "修剪或不在x轴上蜱"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:65
+#, fuzzy
+msgid "trimYAxisTicks"
+msgstr "trimY AxisT icks"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:65
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:94
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:94
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:94
+#: ../../source/examples/heat-map-chart.rst:67
+#: ../../source/examples/line-area-charts/area-chart.rst:109
+#: ../../source/examples/line-area-charts/line-chart.rst:185
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:94
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:94
+#: ../../source/examples/polar-radar-chart.rst:267
+msgid "trim or not ticks on the Y axis"
+msgstr "修剪或不蜱在Y轴上"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:67
+#, fuzzy
+msgid "maxXAxisTickLength"
+msgstr "maxYA xisTi ckLen gth"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:67
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:69
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:81
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:83
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:89
+#: ../../source/examples/heat-map-chart.rst:76
+#: ../../source/examples/heat-map-chart.rst:81
+msgid "number"
+msgstr "number"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:67
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:69
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:83
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:98
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:103
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:143
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:103
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:108
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:103
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:108
+#: ../../source/examples/heat-map-chart.rst:76
+#: ../../source/examples/heat-map-chart.rst:81
+#: ../../source/examples/line-area-charts/area-chart.rst:118
+#: ../../source/examples/line-area-charts/area-chart.rst:123
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:103
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:108
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:103
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:108
+msgid "16"
+msgstr "16"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:67
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:98
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:103
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:103
+#: ../../source/examples/heat-map-chart.rst:76
+#: ../../source/examples/line-area-charts/area-chart.rst:118
+#: ../../source/examples/line-area-charts/line-chart.rst:202
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:103
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:103
+msgid ""
+"max length of the ticks. If ``trimXAxisTicks`` is ``true``, ticks over "
+"this length will be trimmed"
+msgstr "蜱的最大长度。如果 ``trimXAxisTicks`` 是 ``True`` ，那么蜱超过这个长度会被剪掉"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:69
+msgid "maxYAxisTickLength"
+msgstr "maxYAxisTickLength"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:69
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:103
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:108
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:108
+#: ../../source/examples/heat-map-chart.rst:81
+#: ../../source/examples/line-area-charts/area-chart.rst:123
+#: ../../source/examples/line-area-charts/line-chart.rst:212
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:108
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:108
+#: ../../source/examples/polar-radar-chart.rst:282
+msgid ""
+"max length of the ticks. If ``trimYAxisTicks`` is ``true``, ticks over "
+"this length will be trimmed"
+msgstr "蜱的最大长度。如果 ``trimYAxisTicks`` 是 ``True`` ，那么蜱超过这个长度会被剪掉"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:71
+#, fuzzy
+msgid "xAxisTickFormatting"
+msgstr "x轴刻度格式"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:71
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:73
+#: ../../source/examples/heat-map-chart.rst:86
+#: ../../source/examples/heat-map-chart.rst:91
+#: ../../source/examples/heat-map-chart.rst:111
+msgid "function"
+msgstr "function"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:71
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:108
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:113
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:113
+#: ../../source/examples/bubble-chart.rst:90
+#: ../../source/examples/heat-map-chart.rst:86
+#: ../../source/examples/line-area-charts/area-chart.rst:128
+#: ../../source/examples/line-area-charts/line-chart.rst:222
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:113
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:113
+#: ../../source/examples/polar-radar-chart.rst:301
+msgid "the x axis tick formatting"
+msgstr "x轴刻度格式"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:73
+#, fuzzy
+msgid "yAxisTickFormatting"
+msgstr "y轴刻度格式"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:73
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:113
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:118
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:118
+#: ../../source/examples/bubble-chart.rst:95
+#: ../../source/examples/heat-map-chart.rst:91
+#: ../../source/examples/line-area-charts/area-chart.rst:133
+#: ../../source/examples/line-area-charts/line-chart.rst:233
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:118
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:118
+#: ../../source/examples/polar-radar-chart.rst:321
+msgid "the y axis tick formatting"
+msgstr "y轴刻度格式"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:75
+#, fuzzy
+msgid "xAxisTicks"
+msgstr "xAxis Ticks"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:75
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:77
+#: ../../source/examples/bubble-chart.rst:100
+#: ../../source/examples/bubble-chart.rst:103
+#: ../../source/examples/heat-map-chart.rst:96
+#: ../../source/examples/heat-map-chart.rst:99
+msgid "any[]"
+msgstr "any[]"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:75
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:118
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:123
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:123
+#: ../../source/examples/bubble-chart.rst:100
+#: ../../source/examples/heat-map-chart.rst:96
+#: ../../source/examples/line-area-charts/area-chart.rst:138
+#: ../../source/examples/line-area-charts/line-chart.rst:244
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:123
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:123
+msgid "predefined list of x axis tick values"
+msgstr "x轴刻度值的预定义的列表"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:77
+#, fuzzy
+msgid "yAxisTicks"
+msgstr "yAxis Ticks"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:77
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:121
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:126
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:126
+#: ../../source/examples/bubble-chart.rst:103
+#: ../../source/examples/heat-map-chart.rst:99
+#: ../../source/examples/line-area-charts/area-chart.rst:141
+#: ../../source/examples/line-area-charts/line-chart.rst:250
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:126
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:126
+msgid "predefined list of y axis tick values"
+msgstr "Y的预定义列表轴的刻度值"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:79
+#, fuzzy
+msgid "activeEntries"
+msgstr "activ eEntr ies"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:79
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:136
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:141
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:141
+#: ../../source/examples/bubble-chart.rst:106
+#: ../../source/examples/line-area-charts/area-chart.rst:162
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:147
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:147
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:50
+#: ../../source/examples/pie-charts/pie-chart.rst:101
+msgid "[]"
+msgstr "[]"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:79
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:136
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:141
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:141
+#: ../../source/examples/bubble-chart.rst:106
+#: ../../source/examples/line-area-charts/area-chart.rst:162
+#: ../../source/examples/line-area-charts/line-chart.rst:289
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:147
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:147
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:50
+#: ../../source/examples/pie-charts/pie-chart.rst:101
+#: ../../source/examples/polar-radar-chart.rst:360
+msgid "elements to highlight"
+msgstr "元素亮点"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:81
+#, fuzzy
+msgid "barPadding"
+msgstr "barPa dding"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:81
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:140
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:145
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:145
+#: ../../source/examples/heat-map-chart.rst:105
+msgid "8"
+msgstr "8"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:81
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:140
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:145
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:145
+msgid "padding between bars in px"
+msgstr "在PX条之间填充"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:83
+#, fuzzy
+msgid "groupPadding"
+msgstr "group Paddi ng"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:83
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:143
+msgid "padding between groups in px"
+msgstr "在像素组之间的填充"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:85
+#, fuzzy
+msgid "tooltipDisabled"
+msgstr "toolt ipDis abled"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:85
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:147
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:148
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:148
+#: ../../source/examples/bubble-chart.rst:116
+#: ../../source/examples/gauge-chart.rst:89
+#: ../../source/examples/heat-map-chart.rst:107
+#: ../../source/examples/line-area-charts/area-chart.rst:166
+#: ../../source/examples/line-area-charts/line-chart.rst:298
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:151
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:151
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:59
+#: ../../source/examples/pie-charts/pie-chart.rst:106
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:73
+#: ../../source/examples/polar-radar-chart.rst:374
+#: ../../source/examples/tree-map-chart.rst:49
+msgid "show or hide the tooltip"
+msgstr "显示或隐藏工具提示"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:87
+#, fuzzy
+msgid "tooltipTemplate"
+msgstr "toolt ipTem plate"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:87
+#: ../../source/examples/heat-map-chart.rst:117
+msgid "TemplateRef"
+msgstr "TemplateRef"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:87
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:151
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:152
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:152
+#: ../../source/examples/bubble-chart.rst:120
+#: ../../source/examples/gauge-chart.rst:93
+#: ../../source/examples/heat-map-chart.rst:117
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:63
+#: ../../source/examples/pie-charts/pie-chart.rst:116
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:89
+#: ../../source/examples/polar-radar-chart.rst:408
+#: ../../source/examples/tree-map-chart.rst:71
+msgid "a custom ng-template to be displayed inside the tooltip"
+msgstr "工具提示中要显示的自定义 ng-template"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:89
+#, fuzzy
+msgid "xScaleMax"
+msgstr "xScal eMax"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:89
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:156
+msgid ""
+"the maximum value of the x axis (ignored if chart data contains a higher "
+"value)"
+msgstr "（如果忽略图表数据中包含更高的值）x轴的最大值"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:93
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:160
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:164
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:154
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:154
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:161
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:161
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:167
+#: ../../source/examples/bubble-chart.rst:138
+#: ../../source/examples/gauge-chart.rst:102
+#: ../../source/examples/heat-map-chart.rst:123
+#: ../../source/examples/line-area-charts/area-chart.rst:194
+#: ../../source/examples/line-area-charts/line-chart.rst:384
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:167
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:179
+#: ../../source/examples/linear-gauge-chart.rst:69
+#: ../../source/examples/number-card-chart.rst:81
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:82
+#: ../../source/examples/pie-charts/pie-chart.rst:125
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:132
+#: ../../source/examples/polar-radar-chart.rst:440
+#: ../../source/examples/tree-map-chart.rst:79
+msgid "Outputs"
+msgstr "输出"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:98
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:165
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:169
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:159
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:159
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:166
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:166
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:172
+#: ../../source/examples/bubble-chart.rst:143
+#: ../../source/examples/gauge-chart.rst:107
+#: ../../source/examples/heat-map-chart.rst:128
+#: ../../source/examples/line-area-charts/area-chart.rst:199
+#: ../../source/examples/line-area-charts/line-chart.rst:389
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:172
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:184
+#: ../../source/examples/linear-gauge-chart.rst:74
+#: ../../source/examples/number-card-chart.rst:86
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:87
+#: ../../source/examples/pie-charts/pie-chart.rst:130
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:137
+#: ../../source/examples/polar-radar-chart.rst:445
+#: ../../source/examples/tree-map-chart.rst:84
+msgid "select"
+msgstr ""
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:98
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:165
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:169
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:159
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:159
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:166
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:166
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:172
+#: ../../source/examples/bubble-chart.rst:143
+#: ../../source/examples/gauge-chart.rst:107
+#: ../../source/examples/heat-map-chart.rst:128
+#: ../../source/examples/line-area-charts/area-chart.rst:199
+#: ../../source/examples/line-area-charts/line-chart.rst:389
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:172
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:184
+#: ../../source/examples/linear-gauge-chart.rst:74
+#: ../../source/examples/number-card-chart.rst:86
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:87
+#: ../../source/examples/pie-charts/pie-chart.rst:130
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:137
+#: ../../source/examples/polar-radar-chart.rst:445
+#: ../../source/examples/tree-map-chart.rst:84
+msgid "click event"
+msgstr "单击事件"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:99
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:166
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:170
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:160
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:160
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:167
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:167
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:173
+#: ../../source/examples/bubble-chart.rst:144
+#: ../../source/examples/gauge-chart.rst:108
+#: ../../source/examples/line-area-charts/area-chart.rst:200
+#: ../../source/examples/line-area-charts/line-chart.rst:390
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:173
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:185
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:88
+#: ../../source/examples/pie-charts/pie-chart.rst:131
+#: ../../source/examples/polar-radar-chart.rst:446
+msgid "activate"
+msgstr ""
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:99
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:166
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:170
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:160
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:160
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:167
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:167
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:173
+#: ../../source/examples/bubble-chart.rst:144
+#: ../../source/examples/gauge-chart.rst:108
+#: ../../source/examples/line-area-charts/area-chart.rst:200
+#: ../../source/examples/line-area-charts/line-chart.rst:390
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:173
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:185
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:88
+#: ../../source/examples/pie-charts/pie-chart.rst:131
+#: ../../source/examples/polar-radar-chart.rst:446
+msgid "element activation event (mouse enter)"
+msgstr "元件激活事件（鼠标输入）"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:100
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:167
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:171
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:161
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:161
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:168
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:168
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:174
+#: ../../source/examples/bubble-chart.rst:145
+#: ../../source/examples/gauge-chart.rst:109
+#: ../../source/examples/line-area-charts/area-chart.rst:201
+#: ../../source/examples/line-area-charts/line-chart.rst:391
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:174
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:186
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:89
+#: ../../source/examples/pie-charts/pie-chart.rst:132
+#: ../../source/examples/polar-radar-chart.rst:447
+msgid "deactivate"
+msgstr ""
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:100
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:167
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:171
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:161
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:161
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:168
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:168
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:174
+#: ../../source/examples/bubble-chart.rst:145
+#: ../../source/examples/gauge-chart.rst:109
+#: ../../source/examples/line-area-charts/area-chart.rst:201
+#: ../../source/examples/line-area-charts/line-chart.rst:391
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:174
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:186
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:89
+#: ../../source/examples/pie-charts/pie-chart.rst:132
+#: ../../source/examples/polar-radar-chart.rst:447
+msgid "element deactivation event (mouse leave)"
+msgstr "元件去激活事件（鼠标离开）"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:104
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:171
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:175
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:165
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:165
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:172
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:172
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:178
+#: ../../source/examples/bubble-chart.rst:149
+#: ../../source/examples/gauge-chart.rst:113
+#: ../../source/examples/heat-map-chart.rst:132
+#: ../../source/examples/line-area-charts/area-chart.rst:205
+#: ../../source/examples/line-area-charts/line-chart.rst:395
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:178
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:190
+#: ../../source/examples/number-card-chart.rst:90
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:93
+#: ../../source/examples/pie-charts/pie-chart.rst:136
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:141
+#: ../../source/examples/polar-radar-chart.rst:451
+#: ../../source/examples/tree-map-chart.rst:88
+msgid "Data Format"
+msgstr "数据格式"
+
+#: ../../source/examples/bar-charts/grouped-horizontal-bar-chart.rst:106
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:173
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:167
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:167
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:174
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:174
+#: ../../source/examples/bubble-chart.rst:154
+#: ../../source/examples/heat-map-chart.rst:134
+#: ../../source/examples/line-area-charts/area-chart.rst:207
+#: ../../source/examples/line-area-charts/line-chart.rst:400
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:180
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:192
+#: ../../source/examples/polar-radar-chart.rst:456
+msgid "The data format is multi series:"
+msgstr "数据格式是多系列:"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:2
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:7
+msgid "Grouped Vertical Bar Chart"
+msgstr "分组垂直条形图"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-grouped-"
+"vertical-bar-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"grouped-vertical-bar-chart - StackBlitz\",\"description\":\"Grouped "
+"Vertical Bar Chart demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:19
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:19
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:19
+#: ../../source/examples/line-area-charts/line-chart.rst:19
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:19
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:19
+msgid "Default Value"
+msgstr "默认值"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:21
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:21
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:21
+#: ../../source/examples/line-area-charts/area-chart.rst:36
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:21
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:21
+#: ../../source/examples/linear-gauge-chart.rst:25
+#: ../../source/examples/number-card-chart.rst:23
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:27
+msgid "numb er[]"
+msgstr "number[]"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:25
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:25
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:25
+#: ../../source/examples/bubble-chart.rst:20
+#: ../../source/examples/gauge-chart.rst:29
+#: ../../source/examples/line-area-charts/area-chart.rst:40
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:25
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:25
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:31
+msgid "resul ts"
+msgstr "resul ts"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:25
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:136
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:25
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:141
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:25
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:141
+#: ../../source/examples/line-area-charts/area-chart.rst:40
+#: ../../source/examples/line-area-charts/area-chart.rst:162
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:25
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:147
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:25
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:147
+#: ../../source/examples/number-card-chart.rst:27
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:31
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:50
+msgid "obje ct[]"
+msgstr "obje ct[]"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:28
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:28
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:28
+#: ../../source/examples/bubble-chart.rst:23
+#: ../../source/examples/gauge-chart.rst:32
+#: ../../source/examples/line-area-charts/area-chart.rst:43
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:28
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:28
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:34
+msgid "schem e"
+msgstr "schem e"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:28
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:28
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:28
+#: ../../source/examples/line-area-charts/area-chart.rst:43
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:28
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:28
+#: ../../source/examples/linear-gauge-chart.rst:29
+#: ../../source/examples/number-card-chart.rst:31
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:34
+msgid "obje ct"
+msgstr "obje ct"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:31
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:31
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:31
+#: ../../source/examples/bubble-chart.rst:26
+#: ../../source/examples/line-area-charts/area-chart.rst:46
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:31
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:31
+msgid "schem eType"
+msgstr "计划类型"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:31
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:50
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:55
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:84
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:87
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:31
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:50
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:55
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:84
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:87
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:31
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:50
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:55
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:84
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:87
+#: ../../source/examples/line-area-charts/area-chart.rst:46
+#: ../../source/examples/line-area-charts/area-chart.rst:65
+#: ../../source/examples/line-area-charts/area-chart.rst:70
+#: ../../source/examples/line-area-charts/area-chart.rst:99
+#: ../../source/examples/line-area-charts/area-chart.rst:102
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:31
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:50
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:55
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:84
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:87
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:31
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:50
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:55
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:84
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:87
+#: ../../source/examples/linear-gauge-chart.rst:58
+#: ../../source/examples/number-card-chart.rst:45
+#: ../../source/examples/number-card-chart.rst:49
+#: ../../source/examples/number-card-chart.rst:53
+#: ../../source/examples/number-card-chart.rst:57
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:54
+msgid "stri ng"
+msgstr "stri ng"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:31
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:31
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:31
+#: ../../source/examples/line-area-charts/area-chart.rst:46
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:31
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:31
+msgid "‘o rd in al ’"
+msgstr "‘o rd in al ’"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:37
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:37
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:37
+#: ../../source/examples/bubble-chart.rst:32
+#: ../../source/examples/gauge-chart.rst:35
+#: ../../source/examples/line-area-charts/area-chart.rst:52
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:37
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:37
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:37
+msgid "custo mColo rs"
+msgstr "custo mColo rs"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:37
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:37
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:37
+#: ../../source/examples/line-area-charts/area-chart.rst:52
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:37
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:37
+#: ../../source/examples/linear-gauge-chart.rst:32
+#: ../../source/examples/number-card-chart.rst:34
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:37
+msgid "func tion or obje ct"
+msgstr "func tion or obje ct"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:43
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:43
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:43
+#: ../../source/examples/bubble-chart.rst:38
+#: ../../source/examples/gauge-chart.rst:41
+#: ../../source/examples/line-area-charts/area-chart.rst:58
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:43
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:43
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:43
+msgid "anima tions"
+msgstr "anima tions"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:43
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:46
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:60
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:64
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:68
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:72
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:76
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:80
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:90
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:94
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:124
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:128
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:132
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:147
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:43
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:46
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:60
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:64
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:68
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:72
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:76
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:80
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:90
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:94
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:98
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:129
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:133
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:137
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:148
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:43
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:46
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:60
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:64
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:68
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:72
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:76
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:80
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:90
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:94
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:98
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:129
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:133
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:137
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:148
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:162
+#: ../../source/examples/line-area-charts/area-chart.rst:58
+#: ../../source/examples/line-area-charts/area-chart.rst:61
+#: ../../source/examples/line-area-charts/area-chart.rst:75
+#: ../../source/examples/line-area-charts/area-chart.rst:79
+#: ../../source/examples/line-area-charts/area-chart.rst:83
+#: ../../source/examples/line-area-charts/area-chart.rst:87
+#: ../../source/examples/line-area-charts/area-chart.rst:91
+#: ../../source/examples/line-area-charts/area-chart.rst:95
+#: ../../source/examples/line-area-charts/area-chart.rst:105
+#: ../../source/examples/line-area-charts/area-chart.rst:109
+#: ../../source/examples/line-area-charts/area-chart.rst:113
+#: ../../source/examples/line-area-charts/area-chart.rst:144
+#: ../../source/examples/line-area-charts/area-chart.rst:148
+#: ../../source/examples/line-area-charts/area-chart.rst:158
+#: ../../source/examples/line-area-charts/area-chart.rst:166
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:43
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:46
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:60
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:64
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:68
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:72
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:76
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:80
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:90
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:94
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:98
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:129
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:133
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:143
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:151
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:43
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:46
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:60
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:64
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:68
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:72
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:76
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:80
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:90
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:94
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:98
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:129
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:133
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:143
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:151
+#: ../../source/examples/linear-gauge-chart.rst:38
+#: ../../source/examples/number-card-chart.rst:40
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:43
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:46
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:59
+msgid "bool ean"
+msgstr "bool ean"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:43
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:68
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:90
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:94
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:128
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:43
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:68
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:90
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:94
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:98
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:133
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:43
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:68
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:90
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:94
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:98
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:133
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:162
+#: ../../source/examples/bubble-chart.rst:38
+#: ../../source/examples/bubble-chart.rst:63
+#: ../../source/examples/bubble-chart.rst:85
+#: ../../source/examples/gauge-chart.rst:41
+#: ../../source/examples/gauge-chart.rst:70
+#: ../../source/examples/gauge-chart.rst:97
+#: ../../source/examples/line-area-charts/area-chart.rst:58
+#: ../../source/examples/line-area-charts/area-chart.rst:83
+#: ../../source/examples/line-area-charts/area-chart.rst:105
+#: ../../source/examples/line-area-charts/area-chart.rst:109
+#: ../../source/examples/line-area-charts/area-chart.rst:113
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:43
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:68
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:90
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:94
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:98
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:43
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:68
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:90
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:94
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:98
+#: ../../source/examples/linear-gauge-chart.rst:38
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:43
+#: ../../source/examples/tree-map-chart.rst:44
+msgid "tr ue"
+msgstr "tr ue"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:46
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:46
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:46
+#: ../../source/examples/bubble-chart.rst:41
+#: ../../source/examples/gauge-chart.rst:44
+#: ../../source/examples/heat-map-chart.rst:32
+#: ../../source/examples/line-area-charts/area-chart.rst:61
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:46
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:46
+msgid "legen d"
+msgstr "legen d"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:46
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:60
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:64
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:72
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:76
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:80
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:124
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:132
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:147
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:46
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:60
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:64
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:72
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:76
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:80
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:129
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:137
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:148
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:46
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:60
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:64
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:72
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:76
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:80
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:129
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:137
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:148
+#: ../../source/examples/bubble-chart.rst:41
+#: ../../source/examples/bubble-chart.rst:55
+#: ../../source/examples/bubble-chart.rst:59
+#: ../../source/examples/bubble-chart.rst:67
+#: ../../source/examples/bubble-chart.rst:71
+#: ../../source/examples/bubble-chart.rst:75
+#: ../../source/examples/bubble-chart.rst:116
+#: ../../source/examples/gauge-chart.rst:44
+#: ../../source/examples/gauge-chart.rst:89
+#: ../../source/examples/line-area-charts/area-chart.rst:61
+#: ../../source/examples/line-area-charts/area-chart.rst:75
+#: ../../source/examples/line-area-charts/area-chart.rst:79
+#: ../../source/examples/line-area-charts/area-chart.rst:87
+#: ../../source/examples/line-area-charts/area-chart.rst:91
+#: ../../source/examples/line-area-charts/area-chart.rst:95
+#: ../../source/examples/line-area-charts/area-chart.rst:144
+#: ../../source/examples/line-area-charts/area-chart.rst:148
+#: ../../source/examples/line-area-charts/area-chart.rst:158
+#: ../../source/examples/line-area-charts/area-chart.rst:166
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:46
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:60
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:64
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:72
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:76
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:80
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:129
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:133
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:143
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:151
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:46
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:60
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:64
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:72
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:76
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:80
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:129
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:133
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:143
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:151
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:46
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:59
+#: ../../source/examples/tree-map-chart.rst:49
+#: ../../source/examples/tree-map-chart.rst:67
+msgid "fa ls e"
+msgstr "fa ls e"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:50
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:50
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:50
+#: ../../source/examples/bubble-chart.rst:45
+#: ../../source/examples/gauge-chart.rst:48
+#: ../../source/examples/heat-map-chart.rst:35
+#: ../../source/examples/line-area-charts/area-chart.rst:65
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:50
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:50
+msgid "legen dTitl e"
+msgstr "legendTitle"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:50
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:50
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:50
+#: ../../source/examples/bubble-chart.rst:45
+#: ../../source/examples/gauge-chart.rst:48
+#: ../../source/examples/line-area-charts/area-chart.rst:65
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:50
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:50
+msgid "‘L eg en d’"
+msgstr "‘L eg en d’"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:55
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:55
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:55
+#: ../../source/examples/bubble-chart.rst:50
+#: ../../source/examples/heat-map-chart.rst:39
+#: ../../source/examples/line-area-charts/area-chart.rst:70
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:55
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:55
+msgid "legen dPosi tion"
+msgstr "legen dPosi tion"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:55
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:55
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:55
+#: ../../source/examples/bubble-chart.rst:50
+#: ../../source/examples/line-area-charts/area-chart.rst:70
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:55
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:55
+msgid "‘r ig ht ’"
+msgstr "‘r ig ht ’"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:68
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:68
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:68
+#: ../../source/examples/bubble-chart.rst:63
+#: ../../source/examples/line-area-charts/area-chart.rst:83
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:68
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:68
+msgid "showG ridLi nes"
+msgstr "showG ridLi nes"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:72
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:72
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:72
+#: ../../source/examples/bubble-chart.rst:67
+#: ../../source/examples/line-area-charts/area-chart.rst:87
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:72
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:72
+msgid "round Domai ns"
+msgstr "round Domai ns"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:76
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:76
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:76
+#: ../../source/examples/bubble-chart.rst:71
+#: ../../source/examples/heat-map-chart.rst:49
+#: ../../source/examples/line-area-charts/area-chart.rst:91
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:76
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:76
+msgid "showX AxisL abel"
+msgstr "showX AxisL abel"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:80
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:80
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:80
+#: ../../source/examples/bubble-chart.rst:75
+#: ../../source/examples/heat-map-chart.rst:53
+#: ../../source/examples/line-area-charts/area-chart.rst:95
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:80
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:80
+msgid "showY AxisL abel"
+msgstr "showY AxisL abel"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:84
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:84
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:84
+#: ../../source/examples/bubble-chart.rst:79
+#: ../../source/examples/heat-map-chart.rst:57
+#: ../../source/examples/line-area-charts/area-chart.rst:99
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:84
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:84
+msgid "xAxis Label"
+msgstr "xAxis Label"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:87
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:87
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:87
+#: ../../source/examples/bubble-chart.rst:82
+#: ../../source/examples/heat-map-chart.rst:60
+#: ../../source/examples/line-area-charts/area-chart.rst:102
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:87
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:87
+msgid "yAxis Label"
+msgstr "yAxis Label"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:90
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:90
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:90
+#: ../../source/examples/heat-map-chart.rst:63
+#: ../../source/examples/line-area-charts/area-chart.rst:105
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:90
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:90
+msgid "trimX AxisT icks"
+msgstr "trimX AxisT icks"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:94
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:94
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:94
+#: ../../source/examples/heat-map-chart.rst:67
+#: ../../source/examples/line-area-charts/area-chart.rst:109
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:94
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:94
+msgid "trimY AxisT icks"
+msgstr "trimY AxisT icks"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:98
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:103
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:103
+#: ../../source/examples/heat-map-chart.rst:76
+#: ../../source/examples/line-area-charts/area-chart.rst:118
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:103
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:103
+msgid "maxXA xisTi ckLen gth"
+msgstr "maxXA xisTi ckLen gth"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:98
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:103
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:140
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:143
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:155
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:103
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:108
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:145
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:156
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:159
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:103
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:108
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:145
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:156
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:159
+#: ../../source/examples/line-area-charts/area-chart.rst:118
+#: ../../source/examples/line-area-charts/area-chart.rst:123
+#: ../../source/examples/line-area-charts/area-chart.rst:186
+#: ../../source/examples/line-area-charts/area-chart.rst:189
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:103
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:108
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:103
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:108
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:171
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:174
+#: ../../source/examples/linear-gauge-chart.rst:43
+#: ../../source/examples/linear-gauge-chart.rst:46
+#: ../../source/examples/linear-gauge-chart.rst:49
+#: ../../source/examples/linear-gauge-chart.rst:52
+msgid "numb er"
+msgstr "numb er"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:103
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:108
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:108
+#: ../../source/examples/heat-map-chart.rst:81
+#: ../../source/examples/line-area-charts/area-chart.rst:123
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:108
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:108
+msgid "maxYA xisTi ckLen gth"
+msgstr "maxYA xisTi ckLen gth"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:108
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:113
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:113
+#: ../../source/examples/bubble-chart.rst:90
+#: ../../source/examples/heat-map-chart.rst:86
+#: ../../source/examples/line-area-charts/area-chart.rst:128
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:113
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:113
+msgid "xAxis TickF ormat ting"
+msgstr "xAxis TickF ormat ting"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:108
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:113
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:113
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:118
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:113
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:118
+#: ../../source/examples/line-area-charts/area-chart.rst:128
+#: ../../source/examples/line-area-charts/area-chart.rst:133
+#: ../../source/examples/line-area-charts/area-chart.rst:152
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:113
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:118
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:137
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:113
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:118
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:137
+#: ../../source/examples/linear-gauge-chart.rst:61
+#: ../../source/examples/number-card-chart.rst:67
+#: ../../source/examples/number-card-chart.rst:73
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:67
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:71
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:75
+msgid "func tion"
+msgstr "func tion"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:113
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:118
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:118
+#: ../../source/examples/bubble-chart.rst:95
+#: ../../source/examples/heat-map-chart.rst:91
+#: ../../source/examples/line-area-charts/area-chart.rst:133
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:118
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:118
+msgid "yAxis TickF ormat ting"
+msgstr "yAxis TickF ormat ting"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:118
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:123
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:123
+#: ../../source/examples/bubble-chart.rst:100
+#: ../../source/examples/heat-map-chart.rst:96
+#: ../../source/examples/line-area-charts/area-chart.rst:138
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:123
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:123
+msgid "xAxis Ticks"
+msgstr "xAxis Ticks"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:118
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:121
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:123
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:126
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:123
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:126
+#: ../../source/examples/line-area-charts/area-chart.rst:138
+#: ../../source/examples/line-area-charts/area-chart.rst:141
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:123
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:126
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:123
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:126
+msgid "any[ ]"
+msgstr "any[ ]"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:121
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:126
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:126
+#: ../../source/examples/bubble-chart.rst:103
+#: ../../source/examples/heat-map-chart.rst:99
+#: ../../source/examples/line-area-charts/area-chart.rst:141
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:126
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:126
+msgid "yAxis Ticks"
+msgstr "yAxis Ticks"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:124
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:129
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:129
+msgid "showD ataLa bel"
+msgstr "showD ataLa bel"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:128
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:133
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:133
+msgid "noBar WhenZ ero"
+msgstr "noBar WhenZ ero"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:132
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:137
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:137
+#: ../../source/examples/heat-map-chart.rst:102
+#: ../../source/examples/line-area-charts/area-chart.rst:158
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:143
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:143
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:46
+msgid "gradi ent"
+msgstr "gradi ent"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:136
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:141
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:141
+#: ../../source/examples/bubble-chart.rst:106
+#: ../../source/examples/line-area-charts/area-chart.rst:162
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:147
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:147
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:50
+msgid "activ eEntr ies"
+msgstr "activ eEntr ies"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:140
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:145
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:145
+msgid "barPa dding"
+msgstr "barPa dding"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:143
+msgid "group Paddi ng"
+msgstr "group Paddi ng"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:147
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:148
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:148
+#: ../../source/examples/bubble-chart.rst:116
+#: ../../source/examples/gauge-chart.rst:89
+#: ../../source/examples/heat-map-chart.rst:107
+#: ../../source/examples/line-area-charts/area-chart.rst:166
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:151
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:151
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:59
+msgid "toolt ipDis abled"
+msgstr "toolt ipDis abled"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:151
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:152
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:152
+#: ../../source/examples/bubble-chart.rst:120
+#: ../../source/examples/gauge-chart.rst:93
+#: ../../source/examples/heat-map-chart.rst:117
+#: ../../source/examples/line-area-charts/area-chart.rst:170
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:155
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:155
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:63
+msgid "toolt ipTem plate"
+msgstr "toolt ipTem plate"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:151
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:152
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:152
+#: ../../source/examples/line-area-charts/area-chart.rst:170
+#: ../../source/examples/line-area-charts/area-chart.rst:174
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:155
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:159
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:155
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:159
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:63
+msgid "Temp late Ref"
+msgstr "Temp late Ref"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:155
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:156
+#: ../../source/examples/bubble-chart.rst:133
+#: ../../source/examples/line-area-charts/area-chart.rst:189
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:174
+msgid "yScal eMax"
+msgstr "yScal eMax"
+
+#: ../../source/examples/bar-charts/grouped-vertical-bar-chart.rst:155
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:156
+msgid ""
+"the maximum value of the y axis (ignored if chart data contains a higher "
+"value)"
+msgstr ""
+
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:2
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:7
+msgid "Horizontal Bar Chart"
+msgstr "水平条形图"
+
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-"
+"horizontal-bar-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"horizontal-bar-chart - StackBlitz\",\"description\":\"Horizontal Bar"
+" Chart demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:98
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:98
+#: ../../source/examples/bubble-chart.rst:85
+#: ../../source/examples/heat-map-chart.rst:71
+#: ../../source/examples/line-area-charts/area-chart.rst:113
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:98
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:98
+msgid "rotat eXAxi sTick s"
+msgstr "rotat eXAxi sTick s"
+
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:98
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:98
+#: ../../source/examples/bubble-chart.rst:85
+#: ../../source/examples/heat-map-chart.rst:71
+#: ../../source/examples/line-area-charts/area-chart.rst:113
+#: ../../source/examples/line-area-charts/line-chart.rst:193
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:98
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:98
+msgid "enable automic rotation of x-axis ticks to prevent overlaps"
+msgstr "enable automic rotation of x-axis ticks to prevent overlaps"
+
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:156
+#: ../../source/examples/bubble-chart.rst:127
+#: ../../source/examples/line-area-charts/area-chart.rst:183
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:168
+msgid "xScal eMax"
+msgstr "xScal eMax"
+
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:159
+#: ../../source/examples/bubble-chart.rst:124
+#: ../../source/examples/line-area-charts/area-chart.rst:180
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:165
+msgid "xScal eMin"
+msgstr "xScal eMin"
+
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:159
+msgid ""
+"the minimum value of the x axis (ignored if chart data contains a lower "
+"value)"
+msgstr ""
+
+#: ../../source/examples/bar-charts/horizontal-bar-chart.rst:177
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:180
+#: ../../source/examples/gauge-chart.rst:115
+#: ../../source/examples/number-card-chart.rst:92
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:95
+#: ../../source/examples/pie-charts/pie-chart.rst:138
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:143
+#: ../../source/examples/tree-map-chart.rst:90
+msgid "The data format is single series:"
+msgstr "数据格式为单系列:"
+
+#: ../../source/examples/bar-charts/index.rst:2
+msgid "bar-charts"
+msgstr "条形图"
+
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:2
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:7
+msgid "Normalized Horizontal Bar Chart"
+msgstr "标准化水平条形图"
+
+#: ../../source/examples/bar-charts/normalized-horizontal-bar-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-"
+"normalized-horizontal-bar-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"normalized-horizontal-bar-chart - "
+"StackBlitz\",\"description\":\"Normalized Horizontal Bar Chart demo for "
+"ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:2
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:7
+msgid "Normalized Vertical Bar Chart"
+msgstr "标准化垂直条形图"
+
+#: ../../source/examples/bar-charts/normalized-vertical-bar-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-"
+"normalized-vertical-bar-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"normalized-vertical-bar-chart - "
+"StackBlitz\",\"description\":\"Normalized Vertical Bar Chart demo for "
+"ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:2
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:7
+msgid "Stacked Horizontal Bar Chart"
+msgstr "堆积水平条形图"
+
+#: ../../source/examples/bar-charts/stacked-horizontal-bar-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-stacked-"
+"horizontal-bar-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"stacked-horizontal-bar-chart - "
+"StackBlitz\",\"description\":\"Stacked Horizontal Bar Chart demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:2
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:7
+msgid "Stacked Vertical Bar Chart"
+msgstr "堆积垂直条形图"
+
+#: ../../source/examples/bar-charts/stacked-vertical-bar-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-stacked-"
+"vertical-bar-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"stacked-vertical-bar-chart - StackBlitz\",\"description\":\"Stacked "
+"Vertical Bar Chart demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:2
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:7
+msgid "Vertical Bar Chart"
+msgstr "垂直条形图"
+
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/vertical-bar-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"vertical-bar-chart - StackBlitz\",\"description\":\"Vertical Bar "
+"Chart demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:159
+#: ../../source/examples/bubble-chart.rst:130
+#: ../../source/examples/line-area-charts/area-chart.rst:186
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:171
+msgid "yScal eMin"
+msgstr "yScal eMin"
+
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:159
+msgid ""
+"the minimum value of the y axis (ignored if chart data contains a lower "
+"value)"
+msgstr ""
+
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:162
+msgid "round Edges"
+msgstr "round Edges"
+
+#: ../../source/examples/bar-charts/vertical-bar-chart.rst:162
+msgid "round edges for the bars"
+msgstr "round edges for the bars"
+
+#: ../../source/examples/bubble-chart.rst:2
+msgid "Bubble Chart"
+msgstr "气泡图"
+
+#: ../../source/examples/bubble-chart.rst:4
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-bubble-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"bubble-chart - StackBlitz\",\"description\":\"Bubble Chart demo for "
+"ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/bubble-chart.rst:32
+#: ../../source/examples/gauge-chart.rst:35
+#: ../../source/examples/tree-map-chart.rst:38
+msgid "funct ion or objec t"
+msgstr "funct ion or objec t"
+
+#: ../../source/examples/bubble-chart.rst:38
+#: ../../source/examples/bubble-chart.rst:41
+#: ../../source/examples/bubble-chart.rst:55
+#: ../../source/examples/bubble-chart.rst:59
+#: ../../source/examples/bubble-chart.rst:63
+#: ../../source/examples/bubble-chart.rst:67
+#: ../../source/examples/bubble-chart.rst:71
+#: ../../source/examples/bubble-chart.rst:75
+#: ../../source/examples/bubble-chart.rst:85
+#: ../../source/examples/bubble-chart.rst:116
+#: ../../source/examples/gauge-chart.rst:41
+#: ../../source/examples/gauge-chart.rst:44
+#: ../../source/examples/gauge-chart.rst:70
+#: ../../source/examples/gauge-chart.rst:89
+#: ../../source/examples/gauge-chart.rst:97
+#: ../../source/examples/tree-map-chart.rst:44
+#: ../../source/examples/tree-map-chart.rst:49
+#: ../../source/examples/tree-map-chart.rst:67
+msgid "boole an"
+msgstr "boole an"
+
+#: ../../source/examples/bubble-chart.rst:45
+#: ../../source/examples/bubble-chart.rst:50
+#: ../../source/examples/bubble-chart.rst:79
+#: ../../source/examples/bubble-chart.rst:82
+#: ../../source/examples/gauge-chart.rst:48
+#: ../../source/examples/gauge-chart.rst:59
+msgid "strin g"
+msgstr "strin g"
+
+#: ../../source/examples/bubble-chart.rst:90
+#: ../../source/examples/bubble-chart.rst:95
+#: ../../source/examples/gauge-chart.rst:73
+#: ../../source/examples/gauge-chart.rst:78
+#: ../../source/examples/tree-map-chart.rst:55
+#: ../../source/examples/tree-map-chart.rst:61
+msgid "funct ion"
+msgstr "funct ion"
+
+#: ../../source/examples/bubble-chart.rst:106
+#: ../../source/examples/gauge-chart.rst:29
+#: ../../source/examples/tree-map-chart.rst:31
+msgid "objec t[]"
+msgstr "objec t[]"
+
+#: ../../source/examples/bubble-chart.rst:110
+msgid "minRa dius"
+msgstr "minRa dius"
+
+#: ../../source/examples/bubble-chart.rst:110
+#: ../../source/examples/bubble-chart.rst:113
+#: ../../source/examples/gauge-chart.rst:53
+#: ../../source/examples/gauge-chart.rst:56
+#: ../../source/examples/gauge-chart.rst:62
+#: ../../source/examples/gauge-chart.rst:66
+#: ../../source/examples/gauge-chart.rst:82
+#: ../../source/examples/gauge-chart.rst:85
+msgid "numbe r"
+msgstr "numbe r"
+
+#: ../../source/examples/bubble-chart.rst:110
+msgid "3"
+msgstr "3"
+
+#: ../../source/examples/bubble-chart.rst:110
+msgid "minimum bubble radius in px"
+msgstr "minimum bubble radius in px"
+
+#: ../../source/examples/bubble-chart.rst:113
+msgid "maxRa dius"
+msgstr "maxRa dius"
+
+#: ../../source/examples/bubble-chart.rst:113
+#: ../../source/examples/gauge-chart.rst:62
+#: ../../source/examples/pie-charts/pie-chart.rst:63
+msgid "10"
+msgstr "10"
+
+#: ../../source/examples/bubble-chart.rst:113
+msgid "maximum bubble radius in px"
+msgstr "maximum bubble radius in px"
+
+#: ../../source/examples/bubble-chart.rst:120
+#: ../../source/examples/gauge-chart.rst:93
+#: ../../source/examples/tree-map-chart.rst:71
+msgid "Templ ateRe f"
+msgstr "Templ ateRe f"
+
+#: ../../source/examples/bubble-chart.rst:124
+#: ../../source/examples/bubble-chart.rst:127
+#: ../../source/examples/bubble-chart.rst:130
+#: ../../source/examples/bubble-chart.rst:133
+#: ../../source/examples/line-area-charts/area-chart.rst:180
+#: ../../source/examples/line-area-charts/area-chart.rst:183
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:165
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:168
+msgid "any"
+msgstr "any"
+
+#: ../../source/examples/bubble-chart.rst:124
+#: ../../source/examples/line-area-charts/area-chart.rst:180
+#: ../../source/examples/line-area-charts/line-chart.rst:356
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:165
+msgid "the minimum value of the x axis (if the x scale is linear or time)"
+msgstr "the minimum value of the x axis (if the x scale is linear or time)"
+
+#: ../../source/examples/bubble-chart.rst:127
+#: ../../source/examples/line-area-charts/area-chart.rst:183
+#: ../../source/examples/line-area-charts/line-chart.rst:362
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:168
+msgid "the maximum value of the x axis (if the x scale is linear or time)"
+msgstr "the maximum value of the x axis (if the x scale is linear or time)"
+
+#: ../../source/examples/bubble-chart.rst:130
+msgid "the minimum value of the y axis (if the y scale is linear or time)"
+msgstr "the minimum value of the y axis (if the y scale is linear or time)"
+
+#: ../../source/examples/bubble-chart.rst:133
+msgid "the maximum value of the y axis (if the y scale is linear or time)"
+msgstr "the maximum value of the y axis (if the y scale is linear or time)"
+
+#: ../../source/examples/bubble-chart.rst:152
+msgid "Regular bubble charts"
+msgstr "Regular bubble charts"
+
+#: ../../source/examples/gauge-chart.rst:2
+msgid "Gauge Chart"
+msgstr "计图表"
+
+#: ../../source/examples/gauge-chart.rst:5
+msgid "Gauge"
+msgstr "规"
+
+#: ../../source/examples/gauge-chart.rst:7
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-gauge-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"gauge-chart - StackBlitz\",\"description\":\"Gauge Chart demo for "
+"ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/gauge-chart.rst:17
+#: ../../source/examples/linear-gauge-chart.rst:17
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:19
+#: ../../source/examples/tree-map-chart.rst:19
+msgid "De fa ul"
+msgstr ""
+
+#: ../../source/examples/gauge-chart.rst:20
+#: ../../source/examples/linear-gauge-chart.rst:20
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:22
+#: ../../source/examples/pie-charts/pie-chart.rst:21
+#: ../../source/examples/tree-map-chart.rst:22
+msgid "t"
+msgstr ""
+
+#: ../../source/examples/gauge-chart.rst:21
+#: ../../source/examples/linear-gauge-chart.rst:21
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:23
+#: ../../source/examples/tree-map-chart.rst:23
+#, fuzzy
+msgid "Va lu"
+msgstr "val ue"
+
+#: ../../source/examples/gauge-chart.rst:23
+#: ../../source/examples/linear-gauge-chart.rst:23
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:25
+#: ../../source/examples/tree-map-chart.rst:25
+msgid "e"
+msgstr ""
+
+#: ../../source/examples/gauge-chart.rst:25
+#: ../../source/examples/tree-map-chart.rst:27
+msgid "numbe r[]"
+msgstr "numbe r[]"
+
+#: ../../source/examples/gauge-chart.rst:32
+#: ../../source/examples/tree-map-chart.rst:35
+msgid "objec t"
+msgstr "objec t"
+
+#: ../../source/examples/gauge-chart.rst:53
+#: ../../source/examples/linear-gauge-chart.rst:43
+msgid "min"
+msgstr "min"
+
+#: ../../source/examples/gauge-chart.rst:53
+#: ../../source/examples/linear-gauge-chart.rst:43
+#: ../../source/examples/linear-gauge-chart.rst:49
+msgid "0"
+msgstr "0"
+
+#: ../../source/examples/gauge-chart.rst:53
+#: ../../source/examples/linear-gauge-chart.rst:43
+msgid "starting point of the scale"
+msgstr "首发规模点"
+
+#: ../../source/examples/gauge-chart.rst:56
+#: ../../source/examples/linear-gauge-chart.rst:46
+msgid "max"
+msgstr "max"
+
+#: ../../source/examples/gauge-chart.rst:56
+#: ../../source/examples/linear-gauge-chart.rst:46
+msgid "10 0"
+msgstr "10 0"
+
+#: ../../source/examples/gauge-chart.rst:56
+#: ../../source/examples/linear-gauge-chart.rst:46
+msgid "ending point of the scale"
+msgstr "ending point of the scale"
+
+#: ../../source/examples/gauge-chart.rst:59
+msgid "units"
+msgstr "units"
+
+#: ../../source/examples/gauge-chart.rst:59
+#: ../../source/examples/linear-gauge-chart.rst:58
+msgid "text to display under the value"
+msgstr "text to display under the value"
+
+#: ../../source/examples/gauge-chart.rst:62
+msgid "bigSe gment s"
+msgstr "bigSe gment s"
+
+#: ../../source/examples/gauge-chart.rst:62
+msgid "number of big segments on the axis"
+msgstr "number of big segments on the axis"
+
+#: ../../source/examples/gauge-chart.rst:66
+msgid "small Segme nts"
+msgstr "small Segme nts"
+
+#: ../../source/examples/gauge-chart.rst:66
+msgid "5"
+msgstr "5"
+
+#: ../../source/examples/gauge-chart.rst:66
+msgid "number of small segments between every big segment"
+msgstr "number of small segments between every big segment"
+
+#: ../../source/examples/gauge-chart.rst:70
+msgid "showA xis"
+msgstr "showA xis"
+
+#: ../../source/examples/gauge-chart.rst:70
+msgid "show or hide the axis"
+msgstr "show or hide the axis"
+
+#: ../../source/examples/gauge-chart.rst:73
+msgid "axisT ickFo rmatt ing"
+msgstr "axisT ickFo rmatt ing"
+
+#: ../../source/examples/gauge-chart.rst:73
+msgid "the axis tick formatting"
+msgstr "the axis tick formatting"
+
+#: ../../source/examples/gauge-chart.rst:78
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:67
+msgid "value Forma tting"
+msgstr "value Forma tting"
+
+#: ../../source/examples/gauge-chart.rst:78
+#: ../../source/examples/linear-gauge-chart.rst:61
+msgid "function that formats the value in the middle of the chart"
+msgstr "function that formats the value in the middle of the chart"
+
+#: ../../source/examples/gauge-chart.rst:82
+msgid "angle Span"
+msgstr "angle Span"
+
+#: ../../source/examples/gauge-chart.rst:82
+msgid "24 0"
+msgstr "24 0"
+
+#: ../../source/examples/gauge-chart.rst:82
+msgid "the angle that the chart spans (in degrees)"
+msgstr "the angle that the chart spans (in degrees)"
+
+#: ../../source/examples/gauge-chart.rst:85
+msgid "start Angle"
+msgstr "start Angle"
+
+#: ../../source/examples/gauge-chart.rst:85
+msgid "-1 20"
+msgstr "-1 20"
+
+#: ../../source/examples/gauge-chart.rst:85
+msgid ""
+"the angle that the chart is rotated by. Use negative half of the spanning"
+" angle to centralize"
+msgstr ""
+
+#: ../../source/examples/gauge-chart.rst:97
+msgid "showT ext"
+msgstr "showT ext"
+
+#: ../../source/examples/gauge-chart.rst:97
+msgid "show or hide the inner text"
+msgstr "显示或隐藏内部文本"
+
+#: ../../source/examples/heat-map-chart.rst:2
+msgid "Heat Map Chart"
+msgstr "热图图"
+
+#: ../../source/examples/heat-map-chart.rst:5
+msgid "Heat Map"
+msgstr "热图"
+
+#: ../../source/examples/heat-map-chart.rst:7
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-heat-map-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"heat-map-chart - StackBlitz\",\"description\":\"Heat Map Chart demo "
+"for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/heat-map-chart.rst:35
+msgid "‘Legend’"
+msgstr ""
+
+#: ../../source/examples/heat-map-chart.rst:63
+#: ../../source/examples/heat-map-chart.rst:67
+#: ../../source/examples/heat-map-chart.rst:71
+#: ../../source/examples/pie-charts/pie-chart.rst:43
+#: ../../source/examples/pie-charts/pie-chart.rst:58
+msgid "tru e"
+msgstr "tru e"
+
+#: ../../source/examples/heat-map-chart.rst:105
+msgid "innerPadding"
+msgstr "innerPadding"
+
+#: ../../source/examples/heat-map-chart.rst:105
+msgid "number or number[]"
+msgstr "number or number[]"
+
+#: ../../source/examples/heat-map-chart.rst:105
+msgid "the inner padding in px"
+msgstr "在像素内填充"
+
+#: ../../source/examples/heat-map-chart.rst:111
+msgid "toolt ipTex t"
+msgstr "tooltipText"
+
+#: ../../source/examples/heat-map-chart.rst:111
+msgid "(see source)"
+msgstr "(see source )"
+
+#: ../../source/examples/heat-map-chart.rst:111
+msgid "the HTML text to display in the tooltip"
+msgstr "HTML文本在显示工具提示"
+
+#: ../../source/examples/index.rst:2
+msgid "examples"
+msgstr "例子"
+
+#: ../../source/examples/line-area-charts/area-chart.rst:2
+#: ../../source/examples/line-area-charts/area-chart.rst:7
+msgid "Area Chart"
+msgstr "面积图"
+
+#: ../../source/examples/line-area-charts/area-chart.rst:144
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:129
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:129
+msgid "timel ine"
+msgstr "timel ine"
+
+#: ../../source/examples/line-area-charts/area-chart.rst:144
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:129
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:129
+msgid ""
+"display a timeline control under the chart. Only available if x scale is "
+"date"
+msgstr ""
+
+#: ../../source/examples/line-area-charts/area-chart.rst:148
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:133
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:133
+msgid "autoS cale"
+msgstr "autoS cale"
+
+#: ../../source/examples/line-area-charts/area-chart.rst:148
+#: ../../source/examples/line-area-charts/line-chart.rst:264
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:133
+msgid ""
+"set the minimum value of the y axis to the minimum value in the data, "
+"instead of 0 (ignored if yScaleMin is defined)"
+msgstr ""
+
+#: ../../source/examples/line-area-charts/area-chart.rst:152
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:137
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:137
+msgid "curve"
+msgstr "curve"
+
+#: ../../source/examples/line-area-charts/area-chart.rst:152
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:137
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:137
+msgid ""
+"the interpolation function used to generate the curve. It accepts any "
+"`d3.curve <https://github.com/d3/d3-shape#curves >`__ function"
+msgstr ""
+
+#: ../../source/examples/line-area-charts/area-chart.rst:170
+#: ../../source/examples/line-area-charts/line-chart.rst:307
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:155
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:155
+msgid ""
+"a custom ng-template to be displayed inside the tooltip when hovering a "
+"single point"
+msgstr ""
+
+#: ../../source/examples/line-area-charts/area-chart.rst:174
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:159
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:159
+msgid "serie sTool tipTe mplat e"
+msgstr "serie sTool tipTe mplat e"
+
+#: ../../source/examples/line-area-charts/area-chart.rst:174
+#: ../../source/examples/line-area-charts/line-chart.rst:319
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:159
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:159
+msgid ""
+"a custom ng-template to be displayed inside the tooltip when hovering "
+"series"
+msgstr "徘徊系列时，要在提示中显示的自定义NG-模板"
+
+#: ../../source/examples/line-area-charts/area-chart.rst:186
+#: ../../source/examples/line-area-charts/line-chart.rst:368
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:171
+msgid "the minimum value of the y axis"
+msgstr "y轴的最小值"
+
+#: ../../source/examples/line-area-charts/area-chart.rst:189
+#: ../../source/examples/line-area-charts/line-chart.rst:375
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:174
+msgid "the maximum value of the y axis"
+msgstr "y轴的最大值"
+
+#: ../../source/examples/line-area-charts/index.rst:2
+msgid "line-area-charts"
+msgstr "行区域图"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:2
+#: ../../source/examples/line-area-charts/line-chart.rst:7
+msgid "Line Chart"
+msgstr "折线图"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-line-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"line-chart - StackBlitz\",\"description\":\"Line Chart demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/line-area-charts/line-chart.rst:21
+msgid "vi ew"
+msgstr "vi ew"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:21
+#: ../../source/examples/polar-radar-chart.rst:32
+msgid "n u m b e r [ ]"
+msgstr "n u m b e r [ ]"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:30
+msgid "re su lt s"
+msgstr "re su lt s"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:30
+#: ../../source/examples/line-area-charts/line-chart.rst:289
+#: ../../source/examples/line-area-charts/line-chart.rst:331
+#: ../../source/examples/polar-radar-chart.rst:41
+#: ../../source/examples/polar-radar-chart.rst:360
+msgid "o b j e c t [ ]"
+msgstr "o b j e c t [ ]"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:39
+msgid "sc he me"
+msgstr "sc he me"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:39
+#: ../../source/examples/polar-radar-chart.rst:50
+msgid "o b j e c t"
+msgstr "o b j e c t"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:46
+msgid "sc he me Ty pe"
+msgstr "sc he me Ty pe"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:46
+#: ../../source/examples/line-area-charts/line-chart.rst:98
+#: ../../source/examples/line-area-charts/line-chart.rst:107
+#: ../../source/examples/line-area-charts/line-chart.rst:163
+#: ../../source/examples/line-area-charts/line-chart.rst:170
+#: ../../source/examples/polar-radar-chart.rst:57
+#: ../../source/examples/polar-radar-chart.rst:121
+#: ../../source/examples/polar-radar-chart.rst:133
+#: ../../source/examples/polar-radar-chart.rst:221
+#: ../../source/examples/polar-radar-chart.rst:232
+msgid "s t r i n g"
+msgstr "s t r i n g"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:46
+#: ../../source/examples/polar-radar-chart.rst:57
+msgid "‘ o r d i n a l ’"
+msgstr "‘ o r d i n a l ’"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:56
+msgid "cu st om Co lo rs"
+msgstr "cu st om Co lo rs"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:56
+#: ../../source/examples/polar-radar-chart.rst:68
+msgid "f u n c t i o n o r o b j e c t"
+msgstr "f u n c t i o n o r o b j e c t"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:73
+msgid "an im at io ns"
+msgstr "an im at io ns"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:73
+#: ../../source/examples/line-area-charts/line-chart.rst:90
+#: ../../source/examples/line-area-charts/line-chart.rst:115
+#: ../../source/examples/line-area-charts/line-chart.rst:123
+#: ../../source/examples/line-area-charts/line-chart.rst:131
+#: ../../source/examples/line-area-charts/line-chart.rst:139
+#: ../../source/examples/line-area-charts/line-chart.rst:147
+#: ../../source/examples/line-area-charts/line-chart.rst:155
+#: ../../source/examples/line-area-charts/line-chart.rst:177
+#: ../../source/examples/line-area-charts/line-chart.rst:185
+#: ../../source/examples/line-area-charts/line-chart.rst:193
+#: ../../source/examples/line-area-charts/line-chart.rst:256
+#: ../../source/examples/line-area-charts/line-chart.rst:264
+#: ../../source/examples/line-area-charts/line-chart.rst:281
+#: ../../source/examples/line-area-charts/line-chart.rst:298
+#: ../../source/examples/line-area-charts/line-chart.rst:340
+#: ../../source/examples/line-area-charts/line-chart.rst:348
+#: ../../source/examples/polar-radar-chart.rst:85
+#: ../../source/examples/polar-radar-chart.rst:113
+#: ../../source/examples/polar-radar-chart.rst:148
+#: ../../source/examples/polar-radar-chart.rst:156
+#: ../../source/examples/polar-radar-chart.rst:164
+#: ../../source/examples/polar-radar-chart.rst:178
+#: ../../source/examples/polar-radar-chart.rst:191
+#: ../../source/examples/polar-radar-chart.rst:206
+#: ../../source/examples/polar-radar-chart.rst:243
+#: ../../source/examples/polar-radar-chart.rst:267
+#: ../../source/examples/polar-radar-chart.rst:341
+#: ../../source/examples/polar-radar-chart.rst:374
+#: ../../source/examples/polar-radar-chart.rst:390
+msgid "b o o l e a n"
+msgstr "b o o l e a n"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:73
+#: ../../source/examples/line-area-charts/line-chart.rst:131
+#: ../../source/examples/line-area-charts/line-chart.rst:177
+#: ../../source/examples/line-area-charts/line-chart.rst:185
+#: ../../source/examples/line-area-charts/line-chart.rst:193
+#: ../../source/examples/line-area-charts/line-chart.rst:348
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:54
+#: ../../source/examples/polar-radar-chart.rst:85
+#: ../../source/examples/polar-radar-chart.rst:164
+#: ../../source/examples/polar-radar-chart.rst:243
+#: ../../source/examples/polar-radar-chart.rst:267
+#: ../../source/examples/polar-radar-chart.rst:390
+msgid "t r u e"
+msgstr "t r u e"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:81
+msgid "ra ng eF il lO pa ci ty"
+msgstr "ra ng eF il lO pa ci ty"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:81
+#: ../../source/examples/line-area-charts/line-chart.rst:202
+#: ../../source/examples/line-area-charts/line-chart.rst:212
+#: ../../source/examples/line-area-charts/line-chart.rst:368
+#: ../../source/examples/line-area-charts/line-chart.rst:375
+#: ../../source/examples/polar-radar-chart.rst:96
+#: ../../source/examples/polar-radar-chart.rst:253
+#: ../../source/examples/polar-radar-chart.rst:282
+#: ../../source/examples/polar-radar-chart.rst:424
+msgid "n u m b e r"
+msgstr "n u m b e r"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:83
+#: ../../source/examples/polar-radar-chart.rst:98
+msgid "1 5"
+msgstr "1 5"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:81
+msgid ""
+"opacity of the shadow around the line indication the (optional) min and "
+"max values. The range shadow is only displayed if min and max values are "
+"provided with the data. The color of the shadow is alwas the color of the"
+" central line."
+msgstr ""
+
+#: ../../source/examples/line-area-charts/line-chart.rst:90
+msgid "le ge nd"
+msgstr "le ge nd"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:90
+#: ../../source/examples/line-area-charts/line-chart.rst:115
+#: ../../source/examples/line-area-charts/line-chart.rst:123
+#: ../../source/examples/line-area-charts/line-chart.rst:139
+#: ../../source/examples/line-area-charts/line-chart.rst:147
+#: ../../source/examples/line-area-charts/line-chart.rst:155
+#: ../../source/examples/line-area-charts/line-chart.rst:256
+#: ../../source/examples/line-area-charts/line-chart.rst:264
+#: ../../source/examples/line-area-charts/line-chart.rst:281
+#: ../../source/examples/line-area-charts/line-chart.rst:298
+#: ../../source/examples/line-area-charts/line-chart.rst:340
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:73
+#: ../../source/examples/polar-radar-chart.rst:113
+#: ../../source/examples/polar-radar-chart.rst:148
+#: ../../source/examples/polar-radar-chart.rst:156
+#: ../../source/examples/polar-radar-chart.rst:178
+#: ../../source/examples/polar-radar-chart.rst:191
+#: ../../source/examples/polar-radar-chart.rst:206
+#: ../../source/examples/polar-radar-chart.rst:341
+#: ../../source/examples/polar-radar-chart.rst:374
+msgid "f a l s e"
+msgstr "f a l s e"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:98
+msgid "le ge nd Ti tl e"
+msgstr "le ge nd Ti tl e"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:98
+#: ../../source/examples/polar-radar-chart.rst:121
+msgid "‘ L e g e n d ’"
+msgstr "‘ L e g e n d ’"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:107
+msgid "le ge nd Po si ti on"
+msgstr "le ge nd Po si ti on"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:107
+#: ../../source/examples/polar-radar-chart.rst:133
+msgid "‘ r i g h t ’"
+msgstr "‘ r i g h t ’"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:115
+msgid "xA xi s"
+msgstr "xA xi s"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:123
+msgid "yA xi s"
+msgstr "yA xi s"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:131
+msgid "sh ow Gr id Li ne s"
+msgstr "sh ow Gr id Li ne s"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:139
+msgid "ro un dD om ai ns"
+msgstr "ro un dD om ai ns"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:147
+msgid "sh ow XA xi sL ab el"
+msgstr "sh ow XA xi sL ab el"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:155
+msgid "sh ow YA xi sL ab el"
+msgstr "sh ow YA xi sL ab el"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:163
+msgid "xA xi sL ab el"
+msgstr "xA xi sL ab el"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:170
+msgid "yA xi sL ab el"
+msgstr "yA xi sL ab el"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:177
+msgid "tr im XA xi sT ic ks"
+msgstr "tr im XA xi sT ic ks"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:185
+msgid "tr im YA xi sT ic ks"
+msgstr "tr im YA xi sT ic ks"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:193
+msgid "ro ta te XA xi sT ic ks"
+msgstr "ro ta te XA xi sT ic ks"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:202
+msgid "ma xX Ax is Ti ck Le ng th"
+msgstr "ma xX Ax is Ti ck Le ng th"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:202
+#: ../../source/examples/line-area-charts/line-chart.rst:212
+#: ../../source/examples/polar-radar-chart.rst:282
+msgid "1 6"
+msgstr "1 6"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:212
+msgid "ma xY Ax is Ti ck Le ng th"
+msgstr "ma xY Ax is Ti ck Le ng th"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:222
+msgid "xA xi sT ic kF or ma tt in g"
+msgstr "xA xi sT ic kF or ma tt in g"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:222
+#: ../../source/examples/line-area-charts/line-chart.rst:233
+#: ../../source/examples/line-area-charts/line-chart.rst:272
+#: ../../source/examples/polar-radar-chart.rst:301
+#: ../../source/examples/polar-radar-chart.rst:321
+#: ../../source/examples/polar-radar-chart.rst:351
+msgid "f u n c t i o n"
+msgstr "f u n c t i o n"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:233
+msgid "yA xi sT ic kF or ma tt in g"
+msgstr "yA xi sT ic kF or ma tt in g"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:244
+msgid "xA xi sT ic ks"
+msgstr "xA xi sT ic ks"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:244
+#: ../../source/examples/line-area-charts/line-chart.rst:250
+msgid "a n y [ ]"
+msgstr "a n y [ ]"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:250
+msgid "yA xi sT ic ks"
+msgstr "yA xi sT ic ks"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:256
+msgid "ti me li ne"
+msgstr "ti me li ne"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:256
+msgid ""
+"display a timeline control under the chart. Only available if a the x "
+"scale is linear or time"
+msgstr ""
+
+#: ../../source/examples/line-area-charts/line-chart.rst:264
+msgid "au to Sc al e"
+msgstr "au to Sc al e"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:272
+msgid "cu rv e"
+msgstr "cu rv e"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:272
+#: ../../source/examples/polar-radar-chart.rst:351
+msgid ""
+"the interpolation function used to generate the curve. It accepts any "
+"`d3.curve <https://github.com/d3/d3-shape#curves>`__ function"
+msgstr ""
+
+#: ../../source/examples/line-area-charts/line-chart.rst:281
+msgid "gr ad ie nt"
+msgstr "gr ad ie nt"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:289
+msgid "ac ti ve En tr ie s"
+msgstr "ac ti ve En tr ie s"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:298
+msgid "to ol ti pD is ab le d"
+msgstr "to ol ti pD is ab le d"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:307
+msgid "to ol ti pT em pl at e"
+msgstr "to ol ti pT em pl at e"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:307
+#: ../../source/examples/line-area-charts/line-chart.rst:319
+#: ../../source/examples/polar-radar-chart.rst:408
+msgid "T e m p l a t e R e f"
+msgstr "T e m p l a t e R e f"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:319
+msgid "se ri es To ol ti pT em pl at e"
+msgstr "se ri es To ol ti pT em pl at e"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:331
+msgid "re fe re nc eL in es"
+msgstr "re fe re nc eL in es"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:331
+msgid ""
+"an array of reference lines to be shown behind the chart. Every reference"
+" line should be of format {name, value}"
+msgstr ""
+
+#: ../../source/examples/line-area-charts/line-chart.rst:340
+msgid "sh ow Re fL in es"
+msgstr "sh ow Re fL in es"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:340
+msgid "show or hide the reference lines"
+msgstr "show or hide the reference lines"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:348
+msgid "sh ow Re fL ab el s"
+msgstr "sh ow Re fL ab el s"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:348
+msgid "show or hide the reference line labels"
+msgstr "show or hide the reference line labels"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:356
+msgid "xS ca le Mi n"
+msgstr "xS ca le Mi n"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:356
+#: ../../source/examples/line-area-charts/line-chart.rst:362
+msgid "a n y"
+msgstr "a n y"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:362
+msgid "xS ca le Ma x"
+msgstr "xS ca le Ma x"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:368
+msgid "yS ca le Mi n"
+msgstr "yS ca le Mi n"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:375
+msgid "yS ca le Ma x"
+msgstr "yS ca le Ma x"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:398
+msgid "Regular line charts"
+msgstr "Regular line charts"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:435
+msgid "Line charts indicating the range of the data"
+msgstr "Line charts indicating the range of the data"
+
+#: ../../source/examples/line-area-charts/line-chart.rst:437
+msgid ""
+"The data format is multi series. Plus, the minimum and the maximum value "
+"of each data point are provided. For instance, you can use these values "
+"to show the error margin of your data. Another use case are cumulated "
+"data. The central line show the average values. The range shows indicates"
+" the distribution of the data."
+msgstr ""
+
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:2
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:7
+msgid "Normalized Area Chart"
+msgstr "归一化面积图"
+
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-"
+"normalized-area-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"normalized-area-chart - StackBlitz\",\"description\":\"Normalized "
+"Area Chart demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/line-area-charts/normalized-area-chart.rst:133
+#: ../../source/examples/polar-radar-chart.rst:341
+msgid ""
+"set the minimum value of the y axis to the minimum value in the data, "
+"instead of 0"
+msgstr ""
+
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:2
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:7
+msgid "Stacked Area Chart"
+msgstr "堆积面积图"
+
+#: ../../source/examples/line-area-charts/stacked-area-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-stacked-"
+"area-chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"stacked-area-chart - StackBlitz\",\"description\":\"Stacked Area "
+"Chart demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/linear-gauge-chart.rst:2
+msgid "Linear Gauge Chart"
+msgstr "线性仪表图"
+
+#: ../../source/examples/linear-gauge-chart.rst:5
+msgid "Linear Gauge"
+msgstr "线性仪表"
+
+#: ../../source/examples/linear-gauge-chart.rst:7
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-linear-"
+"gauge-chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"linear-gauge-chart - StackBlitz\",\"description\":\"Linear Gauge "
+"Chart demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/linear-gauge-chart.rst:25
+#: ../../source/examples/number-card-chart.rst:23
+#: ../../source/examples/tree-map-chart.rst:27
+msgid "vie w"
+msgstr "vie w"
+
+#: ../../source/examples/linear-gauge-chart.rst:29
+#: ../../source/examples/number-card-chart.rst:31
+#: ../../source/examples/tree-map-chart.rst:35
+msgid "sch eme"
+msgstr "sch eme"
+
+#: ../../source/examples/linear-gauge-chart.rst:32
+#: ../../source/examples/number-card-chart.rst:34
+#: ../../source/examples/tree-map-chart.rst:38
+msgid "cus tom Col ors"
+msgstr "cus tom Col ors"
+
+#: ../../source/examples/linear-gauge-chart.rst:38
+#: ../../source/examples/number-card-chart.rst:40
+#: ../../source/examples/tree-map-chart.rst:44
+msgid "ani mat ion s"
+msgstr "ani mat ion s"
+
+#: ../../source/examples/linear-gauge-chart.rst:49
+msgid "val ue"
+msgstr "val ue"
+
+#: ../../source/examples/linear-gauge-chart.rst:49
+msgid "the value represented on the gauge"
+msgstr "the value represented on the gauge"
+
+#: ../../source/examples/linear-gauge-chart.rst:52
+msgid "pre vio usV alu e"
+msgstr "pre vio usV alu e"
+
+#: ../../source/examples/linear-gauge-chart.rst:52
+msgid ""
+"the value represented by the vertical line on the gauge. Use this if you "
+"want to compare the current value to a previous one"
+msgstr ""
+
+#: ../../source/examples/linear-gauge-chart.rst:58
+msgid "uni ts"
+msgstr "uni ts"
+
+#: ../../source/examples/linear-gauge-chart.rst:61
+#: ../../source/examples/number-card-chart.rst:67
+#: ../../source/examples/tree-map-chart.rst:55
+msgid "val ueF orm att ing"
+msgstr "val ueF orm att ing"
+
+#: ../../source/examples/number-card-chart.rst:2
+#: ../../source/examples/number-card-chart.rst:7
+msgid "Number Card Chart"
+msgstr "号卡图"
+
+#: ../../source/examples/number-card-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-number-"
+"card-chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"number-card-chart - StackBlitz\",\"description\":\"Number Card Chart"
+" demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/number-card-chart.rst:19
+msgid "Defau"
+msgstr ""
+
+#: ../../source/examples/number-card-chart.rst:20
+msgid "lt"
+msgstr ""
+
+#: ../../source/examples/number-card-chart.rst:21
+#, fuzzy
+msgid "Value"
+msgstr "val ue"
+
+#: ../../source/examples/number-card-chart.rst:27
+#: ../../source/examples/tree-map-chart.rst:31
+msgid "res ult s"
+msgstr "res ult s"
+
+#: ../../source/examples/number-card-chart.rst:45
+msgid "car dCo lor"
+msgstr "car dCo lor"
+
+#: ../../source/examples/number-card-chart.rst:45
+msgid "color of the card background, defaults to color based on value and scheme"
+msgstr "color of the card background, defaults to color based on value and scheme"
+
+#: ../../source/examples/number-card-chart.rst:49
+msgid "ban dCo lor"
+msgstr "ban dCo lor"
+
+#: ../../source/examples/number-card-chart.rst:49
+msgid "color of the card color-bar, defaults to color based on value and scheme"
+msgstr "color of the card color-bar, defaults to color based on value and scheme"
+
+#: ../../source/examples/number-card-chart.rst:53
+msgid "tex tCo lor"
+msgstr "tex tCo lor"
+
+#: ../../source/examples/number-card-chart.rst:53
+msgid "color of the card text, defaults to the inverse of the card color"
+msgstr "color of the card text, defaults to the inverse of the card color"
+
+#: ../../source/examples/number-card-chart.rst:57
+msgid "emp tyC olo r"
+msgstr "emp tyC olo r"
+
+#: ../../source/examples/number-card-chart.rst:57
+msgid "‘rgba (0, 0, 0, 0)’"
+msgstr "‘rgba (0, 0, 0, 0)’"
+
+#: ../../source/examples/number-card-chart.rst:57
+msgid "color of empty card slots"
+msgstr "color of empty card slots"
+
+#: ../../source/examples/number-card-chart.rst:62
+msgid "inn erP add ing"
+msgstr "inn erP add ing"
+
+#: ../../source/examples/number-card-chart.rst:62
+msgid "numb er numb er[]"
+msgstr "numb er numb er[]"
+
+#: ../../source/examples/number-card-chart.rst:62
+msgid "15"
+msgstr "15"
+
+#: ../../source/examples/number-card-chart.rst:62
+msgid "padding around each card in px"
+msgstr "padding around each card in px"
+
+#: ../../source/examples/number-card-chart.rst:67
+msgid "function that formats the card value"
+msgstr "function that formats the card value"
+
+#: ../../source/examples/number-card-chart.rst:73
+#: ../../source/examples/tree-map-chart.rst:61
+msgid "lab elF orm att ing"
+msgstr "lab elF orm att ing"
+
+#: ../../source/examples/number-card-chart.rst:73
+msgid "function that formats the card label"
+msgstr "功能格式化存储卡标签"
+
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:2
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:7
+msgid "Advanced Pie Chart"
+msgstr "高级饼图"
+
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-pie-chart-"
+"advanced?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"advanced-pie-chart - StackBlitz\",\"description\":\"Advanced Pie "
+"Chart demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:54
+msgid "label"
+msgstr "label"
+
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:54
+msgid "‘T ot al ’"
+msgstr "‘T ot al ’"
+
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:54
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:65
+msgid "the text to show under the total value"
+msgstr "the text to show under the total value"
+
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:67
+msgid "function that formats the numerical value in the chart legend"
+msgstr "function that formats the numerical value in the chart legend"
+
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:71
+msgid "nameF ormat ting"
+msgstr "nameF ormat ting"
+
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:71
+msgid "function that formats name in the chart legend"
+msgstr "function that formats name in the chart legend"
+
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:75
+msgid "perce ntage Forma tting"
+msgstr "perce ntage Forma tting"
+
+#: ../../source/examples/pie-charts/advanced-pie-chart.rst:75
+msgid "function that formats the percentage number in the chart legend"
+msgstr "function that formats the percentage number in the chart legend"
+
+#: ../../source/examples/pie-charts/index.rst:2
+msgid "pie-charts"
+msgstr "饼状图"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:2
+#: ../../source/examples/pie-charts/pie-chart.rst:7
+msgid "Pie Chart"
+msgstr "饼形图"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-pie-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"pie-chart - StackBlitz\",\"description\":\"Pie Chart demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/pie-charts/pie-chart.rst:19
+msgid "Ty pe"
+msgstr "Ty pe"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:19
+msgid "Def aul"
+msgstr ""
+
+#: ../../source/examples/pie-charts/pie-chart.rst:22
+#, fuzzy
+msgid "Val ue"
+msgstr "val ue"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:25
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:21
+msgid "nu mb er []"
+msgstr "nu mb er []"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:30
+msgid "resu lts"
+msgstr "resu lts"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:30
+#: ../../source/examples/pie-charts/pie-chart.rst:101
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:26
+msgid "ob je ct []"
+msgstr "ob je ct []"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:35
+msgid "sche me"
+msgstr "sche me"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:35
+#: ../../source/examples/pie-charts/pie-chart.rst:39
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:34
+msgid "ob je ct"
+msgstr "ob je ct"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:39
+msgid "cust omCo lors"
+msgstr "cust omCo lors"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:43
+msgid "anim atio ns"
+msgstr "anim atio ns"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:43
+#: ../../source/examples/pie-charts/pie-chart.rst:48
+#: ../../source/examples/pie-charts/pie-chart.rst:58
+#: ../../source/examples/pie-charts/pie-chart.rst:68
+#: ../../source/examples/pie-charts/pie-chart.rst:82
+#: ../../source/examples/pie-charts/pie-chart.rst:87
+#: ../../source/examples/pie-charts/pie-chart.rst:96
+#: ../../source/examples/pie-charts/pie-chart.rst:106
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:54
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:73
+msgid "bo ol ea n"
+msgstr "bo ol ea n"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:48
+msgid "labe ls"
+msgstr "labe ls"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:48
+#: ../../source/examples/pie-charts/pie-chart.rst:68
+#: ../../source/examples/pie-charts/pie-chart.rst:82
+#: ../../source/examples/pie-charts/pie-chart.rst:87
+#: ../../source/examples/pie-charts/pie-chart.rst:96
+#: ../../source/examples/pie-charts/pie-chart.rst:106
+msgid "fal se"
+msgstr "fal se"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:48
+msgid "show or hide the labels"
+msgstr "show or hide the labels"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:53
+msgid "labe lFor matt ing"
+msgstr "labe lFor matt ing"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:53
+#: ../../source/examples/pie-charts/pie-chart.rst:111
+msgid "fu nc ti on"
+msgstr "fu nc ti on"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:53
+msgid "function that formats the label text"
+msgstr "function that formats the label text"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:58
+msgid "trim Labe ls"
+msgstr "trim Labe ls"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:58
+#: ../../source/examples/polar-radar-chart.rst:243
+msgid "trim the labels beyond a certain maximum length"
+msgstr "trim the labels beyond a certain maximum length"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:63
+msgid "maxL abel Leng th"
+msgstr "maxL abel Leng th"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:63
+#: ../../source/examples/pie-charts/pie-chart.rst:92
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:105
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:121
+msgid "nu mb er"
+msgstr "nu mb er"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:63
+msgid ""
+"maximum length of the labels. If ``trimLabels`` is ``true``, labels over "
+"this length will be trimmed"
+msgstr ""
+
+#: ../../source/examples/pie-charts/pie-chart.rst:68
+msgid "lege nd"
+msgstr "lege nd"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:73
+msgid "lege ndTi tle"
+msgstr "lege ndTi tle"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:73
+#: ../../source/examples/pie-charts/pie-chart.rst:77
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:65
+msgid "st ri ng"
+msgstr "st ri ng"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:73
+msgid "‘Le gen d’"
+msgstr "‘Le gen d’"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:77
+msgid "lege ndPo siti on"
+msgstr "lege ndPo siti on"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:77
+msgid "‘ri ght ’"
+msgstr "‘ri ght ’"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:82
+msgid "expl odeS lice s"
+msgstr "expl odeS lice s"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:82
+msgid "make the radius of each slice proportional to it’s value"
+msgstr "make the radius of each slice proportional to it’s value"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:87
+msgid "doug hnut"
+msgstr "doug hnut"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:87
+msgid "should doughnut instead of pie slices"
+msgstr "should doughnut instead of pie slices"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:92
+msgid "arcW idth"
+msgstr "arcW idth"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:92
+msgid "0.2 5"
+msgstr "0.2 5"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:92
+msgid "arc width, expressed as a fraction of outer radius"
+msgstr "arc width, expressed as a fraction of outer radius"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:96
+msgid "grad ient"
+msgstr "grad ient"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:101
+msgid "acti veEn trie s"
+msgstr "acti veEn trie s"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:106
+msgid "tool tipD isab led"
+msgstr "tool tipD isab led"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:111
+msgid "tool tipT ext"
+msgstr "tool tipT ext"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:111
+msgid "a function that formats the tooltip"
+msgstr "a function that formats the tooltip"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:116
+msgid "tool tipT empl ate"
+msgstr "tool tipT empl ate"
+
+#: ../../source/examples/pie-charts/pie-chart.rst:116
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:89
+msgid "Te mp la te Re f"
+msgstr "Te mp la te Re f"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:2
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:7
+msgid "Pie Grid Chart"
+msgstr "Pie Grid Chart"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-pie-chart-"
+"grid?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"pie-grid-chart - StackBlitz\",\"description\":\"Pie Grid Chart demo "
+"for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:21
+#: ../../source/examples/polar-radar-chart.rst:32
+msgid "v i e w"
+msgstr "v i e w"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:26
+#: ../../source/examples/polar-radar-chart.rst:41
+msgid "r e s u l t s"
+msgstr "r e s u l t s"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:34
+#: ../../source/examples/polar-radar-chart.rst:50
+msgid "s c h e m e"
+msgstr "s c h e m e"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:41
+#: ../../source/examples/polar-radar-chart.rst:68
+msgid "c u s t o m C o l o r s"
+msgstr "c u s t o m C o l o r s"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:41
+msgid "fu nc ti on or ob je ct"
+msgstr "fu nc ti on or ob je ct"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:54
+#: ../../source/examples/polar-radar-chart.rst:85
+msgid "a n i m a t i o n s"
+msgstr "a n i m a t i o n s"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:65
+msgid "l a b e l"
+msgstr "l a b e l"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:65
+msgid "‘ T o t a l ’"
+msgstr "‘ T o t a l ’"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:73
+#: ../../source/examples/polar-radar-chart.rst:374
+msgid "t o o l t i p D i s a b l e d"
+msgstr "t o o l t i p D i s a b l e d"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:89
+#: ../../source/examples/polar-radar-chart.rst:408
+msgid "t o o l t i p T e m p l a t e"
+msgstr "t o o l t i p T e m p l a t e"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:105
+msgid "d e s i g n a t e d T o t a l"
+msgstr "d e s i g n a t e d T o t a l"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:105
+msgid ""
+"total number that the value of each object in the results array will be "
+"compared to. If left undefined, the value of each object will "
+"automatically be compared to the total of all the values in the results "
+"array."
+msgstr ""
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:121
+msgid "m i n W i d t h"
+msgstr "m i n W i d t h"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:121
+msgid "1 5 0"
+msgstr "1 5 0"
+
+#: ../../source/examples/pie-charts/pie-grid-chart.rst:121
+msgid "minimum width of each graph in grid"
+msgstr "minimum width of each graph in grid"
+
+#: ../../source/examples/polar-radar-chart.rst:2
+#: ../../source/examples/polar-radar-chart.rst:7
+msgid "Polar/radar Chart"
+msgstr "极地/雷达图"
+
+#: ../../source/examples/polar-radar-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-polar-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"polar-chart - StackBlitz\",\"description\":\"Polar / Radar Chart "
+"demo for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/polar-radar-chart.rst:19
+msgid "P r o p e r t y"
+msgstr "P r o p e r t y"
+
+#: ../../source/examples/polar-radar-chart.rst:19
+msgid "T y p e"
+msgstr "T y p e"
+
+#: ../../source/examples/polar-radar-chart.rst:19
+msgid "D e f a u l t V a l u e"
+msgstr "D e f a u l t V a l u e"
+
+#: ../../source/examples/polar-radar-chart.rst:57
+msgid "s c h e m e T y p e"
+msgstr "s c h e m e T y p e"
+
+#: ../../source/examples/polar-radar-chart.rst:96
+msgid "r a n g e F i l l O p a c i t y"
+msgstr "r a n g e F i l l O p a c i t y"
+
+#: ../../source/examples/polar-radar-chart.rst:96
+msgid ""
+"opacity of the shadow around the line indication the (optional) min and "
+"max values. The range shadow is only displayed if min and max values are "
+"provided with the data. The color of the shadow is always the color of "
+"the central line."
+msgstr ""
+
+#: ../../source/examples/polar-radar-chart.rst:113
+msgid "l e g e n d"
+msgstr "l e g e n d"
+
+#: ../../source/examples/polar-radar-chart.rst:121
+msgid "l e g e n d T i t l e"
+msgstr "l e g e n d T i t l e"
+
+#: ../../source/examples/polar-radar-chart.rst:133
+msgid "l e g e n d P o s i t i o n"
+msgstr "l e g e n d P o s i t i o n"
+
+#: ../../source/examples/polar-radar-chart.rst:148
+msgid "x A x i s"
+msgstr "x A x i s"
+
+#: ../../source/examples/polar-radar-chart.rst:156
+msgid "y A x i s"
+msgstr "y A x i s"
+
+#: ../../source/examples/polar-radar-chart.rst:164
+msgid "s h o w G r i d L i n e s"
+msgstr "s h o w G r i d L i n e s"
+
+#: ../../source/examples/polar-radar-chart.rst:178
+msgid "r o u n d D o m a i n s"
+msgstr "r o u n d D o m a i n s"
+
+#: ../../source/examples/polar-radar-chart.rst:191
+msgid "s h o w X A x i s L a b e l"
+msgstr "s h o w X A x i s L a b e l"
+
+#: ../../source/examples/polar-radar-chart.rst:206
+msgid "s h o w Y A x i s L a b e l"
+msgstr "s h o w Y A x i s L a b e l"
+
+#: ../../source/examples/polar-radar-chart.rst:221
+msgid "x A x i s L a b e l"
+msgstr "x A x i s L a b e l"
+
+#: ../../source/examples/polar-radar-chart.rst:232
+msgid "y A x i s L a b e l"
+msgstr "y A x i s L a b e l"
+
+#: ../../source/examples/polar-radar-chart.rst:243
+msgid "l a b e l T r i m"
+msgstr "l a b e l T r i m"
+
+#: ../../source/examples/polar-radar-chart.rst:253
+msgid "l a b e l T r i m S i z e"
+msgstr "l a b e l T r i m S i z e"
+
+#: ../../source/examples/polar-radar-chart.rst:253
+msgid "1 0"
+msgstr "1 0"
+
+#: ../../source/examples/polar-radar-chart.rst:253
+msgid ""
+"maximum length of the labels. If ``labelTrim`` is ``true``, labels over "
+"this length will be trimmed"
+msgstr ""
+
+#: ../../source/examples/polar-radar-chart.rst:267
+msgid "t r i m Y A x i s T i c k s"
+msgstr "t r i m Y A x i s T i c k s"
+
+#: ../../source/examples/polar-radar-chart.rst:282
+msgid "m a x Y A x i s T i c k L e n g t h"
+msgstr "m a x Y A x i s T i c k L e n g t h"
+
+#: ../../source/examples/polar-radar-chart.rst:301
+msgid "x A x i s T i c k F o r m a t t i n g"
+msgstr "x A x i s T i c k F o r m a t t i n g"
+
+#: ../../source/examples/polar-radar-chart.rst:321
+msgid "y A x i s T i c k F o r m a t t i n g"
+msgstr "y A x i s T i c k F o r m a t t i n g"
+
+#: ../../source/examples/polar-radar-chart.rst:341
+msgid "a u t o S c a l e"
+msgstr "a u t o S c a l e"
+
+#: ../../source/examples/polar-radar-chart.rst:351
+msgid "c u r v e"
+msgstr "c u r v e"
+
+#: ../../source/examples/polar-radar-chart.rst:360
+msgid "a c t i v e E n t r i e s"
+msgstr "a c t i v e E n t r i e s"
+
+#: ../../source/examples/polar-radar-chart.rst:390
+msgid "s h o w S e r i e s O n H o v e r"
+msgstr "s h o w S e r i e s O n H o v e r"
+
+#: ../../source/examples/polar-radar-chart.rst:390
+msgid "show or hide all points on the line on hover"
+msgstr "show or hide all points on the line on hover"
+
+#: ../../source/examples/polar-radar-chart.rst:424
+msgid "y A x i s M i n S c a l e"
+msgstr "y A x i s M i n S c a l e"
+
+#: ../../source/examples/polar-radar-chart.rst:424
+msgid ""
+"force y axis scaling to the provided value (ignored if chart data "
+"contains a higher value)"
+msgstr ""
+
+#: ../../source/examples/polar-radar-chart.rst:454
+msgid "Regular polar charts"
+msgstr "常规极坐标图"
+
+#: ../../source/examples/tree-map-chart.rst:2
+#: ../../source/examples/tree-map-chart.rst:7
+msgid "Tree Map Chart"
+msgstr "树状图"
+
+#: ../../source/examples/tree-map-chart.rst:9
+#, python-format
+msgid ""
+"{% embed data=“{\"url\":\"https://stackblitz.com/edit/swimlane-tree-map-"
+"chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+"\":\"tree-map-chart - StackBlitz\",\"description\":\"Tree Map Chart demo "
+"for ngx-"
+"charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+"/icon-"
+"664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+" %}"
+msgstr ""
+
+#: ../../source/examples/tree-map-chart.rst:49
+msgid "too lti pDi sab led"
+msgstr "too lti pDi sab led"
+
+#: ../../source/examples/tree-map-chart.rst:55
+msgid "function that formats the cell value"
+msgstr "function that formats the cell value"
+
+#: ../../source/examples/tree-map-chart.rst:61
+msgid "function that formats the cell label"
+msgstr "function that formats the cell label"
+
+#: ../../source/examples/tree-map-chart.rst:67
+msgid "gra die nt"
+msgstr "gra die nt"
+
+#: ../../source/examples/tree-map-chart.rst:71
+msgid "too lti pTe mpl ate"
+msgstr "too lti pTe mpl ate"
+
+#~ msgid ""
+#~ "{% embed data=“{\"url\":\"https://stackblitz.com/edit"
+#~ "/swimlane-grouped-horizontal-bar-"
+#~ "chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+#~ "\":\"grouped-horizontal-bar-chart - "
+#~ "StackBlitz\",\"description\":\"Grouped Horizontal Bar "
+#~ "Chart demo for ngx-"
+#~ "charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+#~ "/icon-"
+#~ "664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+#~ "/icon-"
+#~ "664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+#~ " %}"
+#~ msgstr ""
+
+#~ msgid "Prope rty"
+#~ msgstr "Prope rty"
+
+#~ msgid "De fa ul t Va lu e"
+#~ msgstr "De fa ul t Va lu e"
+
+#~ msgid "Def aul t Val ue"
+#~ msgstr "Def aul t Val ue"
+
+#~ msgid ""
+#~ "{% embed data=“{\"url\":\"https://stackblitz.com/edit"
+#~ "/swimlane-area-"
+#~ "chart?embed=1&file=app/app.component.ts\",\"type\":\"link\",\"title"
+#~ "\":\"area-chart - StackBlitz\",\"description\":\"Area"
+#~ " Chart demo for ngx-"
+#~ "charts\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets"
+#~ "/icon-"
+#~ "664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets"
+#~ "/icon-"
+#~ "664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}”"
+#~ " %}"
+#~ msgstr ""
+
+#~ msgid "Pr op er ty"
+#~ msgstr "Pr op er ty"
+
+#~ msgid "Pro per ty"
+#~ msgstr "Pro per ty"
+
+#~ msgid "Prop erty"
+#~ msgstr "Prop erty"
+
+#~ msgid "schemeType"
+#~ msgstr "schemeType"
+
+#~ msgid "customColors"
+#~ msgstr "customColors"
+
+#~ msgid "function or object"
+#~ msgstr "function or object"
+
+#~ msgid "custom colors for the chart. Used to override"
+#~ msgstr ""
+#~ "custom colors for the chart. Used "
+#~ "to override a color for a specific"
+#~ " value"
+
+#~ msgid "legend"
+#~ msgstr "legend"
+
+#~ msgid "legenddTitle"
+#~ msgstr ""
+
+#~ msgid "‘legend"
+#~ msgstr ""
+
+#~ msgid "legendPosition"
+#~ msgstr "legendPosition"
+
+#~ msgid "showGridLines"
+#~ msgstr ""
+
+#~ msgid "roundDomains"
+#~ msgstr ""
+
+#~ msgid "showXAxisLabel"
+#~ msgstr "showYAxisLabel"
+
+#~ msgid "showYAxisLabel"
+#~ msgstr "showYAxisLabel"
+
+#~ msgid "xAxisLabel"
+#~ msgstr "xAxisLabel"
+
+#~ msgid "yAxisLabel"
+#~ msgstr "yAxisLabel"
+
+#~ msgid "showDataLabel"
+#~ msgstr "showDataLabel"
+
+#~ msgid "gradient"
+#~ msgstr "gradient"
+
+#~ msgid "noBarWhenZero"
+#~ msgstr "noBarWhenZero"
+
+#~ msgid "trimXAxisTicks"
+#~ msgstr "trimYAxisTicks"
+
+#~ msgid "trimYAxisTicks"
+#~ msgstr "trimYAxisTicks"
+
+#~ msgid "maxXAxisTickLength"
+#~ msgstr "maxYAxisTickLength"
+
+#~ msgid "maxYAxisTickLength"
+#~ msgstr "maxYAxisTickLength"
+
+#~ msgid "xAxisTickFormatting"
+#~ msgstr "thexaxistickformatting"
+
+#~ msgid "yAxisTickFormatting"
+#~ msgstr "the y axis tick formatting"
+
+#~ msgid "xAxisTicks"
+#~ msgstr "xAxis Ticks"
+
+#~ msgid "yAxisTicks"
+#~ msgstr "yAxis Ticks"
+
+#~ msgid "activeEntries"
+#~ msgstr "activ eEntr ies"
+
+#~ msgid "barPadding"
+#~ msgstr "barPa dding"
+
+#~ msgid "groupPadding"
+#~ msgstr "group Paddi ng"
+
+#~ msgid "tooltipDisabled"
+#~ msgstr "toolt ipDis abled"
+
+#~ msgid "tooltipTemplate"
+#~ msgstr "toolt ipTem plate"
+
+#~ msgid "xScaleMax"
+#~ msgstr "xScal eMax"
+

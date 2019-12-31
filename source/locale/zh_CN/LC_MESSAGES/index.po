@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Band Camp
+# This file is distributed under the same license as the ngx-charts docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ngx-charts docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-29 12:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/index.rst:9
+msgid "Contents:"
+msgstr "内容:"
+
+#: ../../source/index.rst:7
+msgid "ngx-charts docs"
+msgstr "ngx-charts 文档"
+
+#: ../../source/index.rst:26
+msgid "Indices and tables"
+msgstr "Indices and tables"
+
+#: ../../source/index.rst:28
+msgid ":ref:`genindex`"
+msgstr ":ref:`genindex`"
+
+#: ../../source/index.rst:29
+msgid ":ref:`modindex`"
+msgstr ":ref:`modindex`"
+
+#: ../../source/index.rst:30
+msgid ":ref:`search`"
+msgstr ":ref:`search`"
+

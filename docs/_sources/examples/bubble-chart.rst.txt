@@ -8,140 +8,134 @@ ngx-charts","icon":{"type":"icon","url":"https://c.staticblitz.com/assets/icon-6
 %}
 
 Inputs
-======
+---------------------
 
-+-------+-------+----+------------------------------------------------+
-| Prope | Type  | De | Description                                    |
-| rty   |       | fa |                                                |
-|       |       | ul |                                                |
-|       |       | t  |                                                |
-|       |       | Va |                                                |
-|       |       | lu |                                                |
-|       |       | e  |                                                |
-+=======+=======+====+================================================+
-| view  | numbe |    | the dimensions of the chart [width, height].   |
-|       | r[]   |    | If left undefined, the chart will fit to the   |
-|       |       |    | parent container size                          |
-+-------+-------+----+------------------------------------------------+
-| resul | objec |    | the chart data                                 |
-| ts    | t[]   |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| schem | objec |    | the color scheme of the chart                  |
-| e     | t     |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| schem | strin | ‘o | the color scale type. Can be either ‘ordinal’  |
-| eType | g     | rd | or ‘linear’                                    |
-|       |       | in |                                                |
-|       |       | al |                                                |
-|       |       | ’  |                                                |
-+-------+-------+----+------------------------------------------------+
-| custo | funct |    | custom colors for the chart. Used to override  |
-| mColo | ion   |    | a color for a specific value                   |
-| rs    | or    |    |                                                |
-|       | objec |    |                                                |
-|       | t     |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| anima | boole | tr | enable animations                              |
-| tions | an    | ue |                                                |
-+-------+-------+----+------------------------------------------------+
-| legen | boole | fa | show or hide the legend                        |
-| d     | an    | ls |                                                |
-|       |       | e  |                                                |
-+-------+-------+----+------------------------------------------------+
-| legen | strin | ‘L | the legend title                               |
-| dTitl | g     | eg |                                                |
-| e     |       | en |                                                |
-|       |       | d’ |                                                |
-+-------+-------+----+------------------------------------------------+
-| legen | strin | ‘r | the legend position [‘right’, ‘below’]         |
-| dPosi | g     | ig |                                                |
-| tion  |       | ht |                                                |
-|       |       | ’  |                                                |
-+-------+-------+----+------------------------------------------------+
-| xAxis | boole | fa | show or hide the x axis                        |
-|       | an    | ls |                                                |
-|       |       | e  |                                                |
-+-------+-------+----+------------------------------------------------+
-| yAxis | boole | fa | show or hide the y axis                        |
-|       | an    | ls |                                                |
-|       |       | e  |                                                |
-+-------+-------+----+------------------------------------------------+
-| showG | boole | tr | show or hide the grid lines                    |
-| ridLi | an    | ue |                                                |
-| nes   |       |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| round | boole | fa | round domains for aligned gridlines            |
-| Domai | an    | ls |                                                |
-| ns    |       | e  |                                                |
-+-------+-------+----+------------------------------------------------+
-| showX | boole | fa | show or hide the x axis label                  |
-| AxisL | an    | ls |                                                |
-| abel  |       | e  |                                                |
-+-------+-------+----+------------------------------------------------+
-| showY | boole | fa | show or hide the y axis label                  |
-| AxisL | an    | ls |                                                |
-| abel  |       | e  |                                                |
-+-------+-------+----+------------------------------------------------+
-| xAxis | strin |    | the x axis label text                          |
-| Label | g     |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| yAxis | strin |    | the y axis label text                          |
-| Label | g     |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| rotat | boole | tr | enable automic rotation of x-axis ticks to     |
-| eXAxi | an    | ue | prevent overlaps                               |
-| sTick |       |    |                                                |
-| s     |       |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| xAxis | funct |    | the x axis tick formatting                     |
-| TickF | ion   |    |                                                |
-| ormat |       |    |                                                |
-| ting  |       |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| yAxis | funct |    | the y axis tick formatting                     |
-| TickF | ion   |    |                                                |
-| ormat |       |    |                                                |
-| ting  |       |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| xAxis | any[] |    | predefined list of x axis tick values          |
-| Ticks |       |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| yAxis | any[] |    | predefined list of y axis tick values          |
-| Ticks |       |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| activ | objec | [] | elements to highlight                          |
-| eEntr | t[]   |    |                                                |
-| ies   |       |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| minRa | numbe | 3  | minimum bubble radius in px                    |
-| dius  | r     |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| maxRa | numbe | 10 | maximum bubble radius in px                    |
-| dius  | r     |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| toolt | boole | fa | show or hide the tooltip                       |
-| ipDis | an    | ls |                                                |
-| abled |       | e  |                                                |
-+-------+-------+----+------------------------------------------------+
-| toolt | Templ |    | a custom ng-template to be displayed inside    |
-| ipTem | ateRe |    | the tooltip                                    |
-| plate | f     |    |                                                |
-+-------+-------+----+------------------------------------------------+
-| xScal | any   |    | the minimum value of the x axis (if the x      |
-| eMin  |       |    | scale is linear or time)                       |
-+-------+-------+----+------------------------------------------------+
-| xScal | any   |    | the maximum value of the x axis (if the x      |
-| eMax  |       |    | scale is linear or time)                       |
-+-------+-------+----+------------------------------------------------+
-| yScal | any   |    | the minimum value of the y axis (if the y      |
-| eMin  |       |    | scale is linear or time)                       |
-+-------+-------+----+------------------------------------------------+
-| yScal | any   |    | the maximum value of the y axis (if the y      |
-| eMax  |       |    | scale is linear or time)                       |
-+-------+-------+----+------------------------------------------------+
++----------+----------+---------------+-----------------------------------------------+
+| Property |   Type   | Default Value |                  Description                  |
++==========+==========+===============+===============================================+
+| view     | number[] |               | the dimensions of the chart [width, height].  |
+|          |          |               | If left undefined, the chart will fit to the  |
+|          |          |               | parent container size                         |
++----------+----------+---------------+-----------------------------------------------+
+| resul    | object[] |               | the chart data                                |
+| ts       |          |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| schem    | object   |               | the color scheme of the chart                 |
+| e        |          |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| schem    | string   | ‘ordinal’     | the color scale type. Can be either ‘ordinal’ |
+| eType    |          |               | or ‘linear’                                   |
+|          |          |               |                                               |
+|          |          |               |                                               |
+|          |          |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| custo    | funct    |               | custom colors for the chart. Used to override |
+| mColo    | ion      |               | a color for a specific value                  |
+| rs       | or       |               |                                               |
+|          | objec    |               |                                               |
+|          | t        |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| anima    | boole    | tr            | enable animations                             |
+| tions    | an       | ue            |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| legen    | boole    | fa            | show or hide the legend                       |
+| d        | an       | ls            |                                               |
+|          |          | e             |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| legen    | strin    | ‘L            | the legend title                              |
+| dTitl    | g        | eg            |                                               |
+| e        |          | en            |                                               |
+|          |          | d’            |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| legen    | strin    | ‘r            | the legend position [‘right’, ‘below’]        |
+| dPosi    | g        | ig            |                                               |
+| tion     |          | ht            |                                               |
+|          |          | ’             |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| xAxis    | boole    | fa            | show or hide the x axis                       |
+|          | an       | ls            |                                               |
+|          |          | e             |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| yAxis    | boole    | fa            | show or hide the y axis                       |
+|          | an       | ls            |                                               |
+|          |          | e             |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| showG    | boole    | tr            | show or hide the grid lines                   |
+| ridLi    | an       | ue            |                                               |
+| nes      |          |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| round    | boole    | fa            | round domains for aligned gridlines           |
+| Domai    | an       | ls            |                                               |
+| ns       |          | e             |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| showX    | boole    | fa            | show or hide the x axis label                 |
+| AxisL    | an       | ls            |                                               |
+| abel     |          | e             |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| showY    | boole    | fa            | show or hide the y axis label                 |
+| AxisL    | an       | ls            |                                               |
+| abel     |          | e             |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| xAxis    | strin    |               | the x axis label text                         |
+| Label    | g        |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| yAxis    | strin    |               | the y axis label text                         |
+| Label    | g        |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| rotat    | boole    | tr            | enable automic rotation of x-axis ticks to    |
+| eXAxi    | an       | ue            | prevent overlaps                              |
+| sTick    |          |               |                                               |
+| s        |          |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| xAxis    | funct    |               | the x axis tick formatting                    |
+| TickF    | ion      |               |                                               |
+| ormat    |          |               |                                               |
+| ting     |          |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| yAxis    | funct    |               | the y axis tick formatting                    |
+| TickF    | ion      |               |                                               |
+| ormat    |          |               |                                               |
+| ting     |          |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| xAxis    | any[]    |               | predefined list of x axis tick values         |
+| Ticks    |          |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| yAxis    | any[]    |               | predefined list of y axis tick values         |
+| Ticks    |          |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| activ    | objec    | []            | elements to highlight                         |
+| eEntr    | t[]      |               |                                               |
+| ies      |          |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| minRa    | numbe    | 3             | minimum bubble radius in px                   |
+| dius     | r        |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| maxRa    | numbe    | 10            | maximum bubble radius in px                   |
+| dius     | r        |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| toolt    | boole    | fa            | show or hide the tooltip                      |
+| ipDis    | an       | ls            |                                               |
+| abled    |          | e             |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| toolt    | Templ    |               | a custom ng-template to be displayed inside   |
+| ipTem    | ateRe    |               | the tooltip                                   |
+| plate    | f        |               |                                               |
++----------+----------+---------------+-----------------------------------------------+
+| xScal    | any      |               | the minimum value of the x axis (if the x     |
+| eMin     |          |               | scale is linear or time)                      |
++----------+----------+---------------+-----------------------------------------------+
+| xScal    | any      |               | the maximum value of the x axis (if the x     |
+| eMax     |          |               | scale is linear or time)                      |
++----------+----------+---------------+-----------------------------------------------+
+| yScal    | any      |               | the minimum value of the y axis (if the y     |
+| eMin     |          |               | scale is linear or time)                      |
++----------+----------+---------------+-----------------------------------------------+
+| yScal    | any      |               | the maximum value of the y axis (if the y     |
+| eMax     |          |               | scale is linear or time)                      |
++----------+----------+---------------+-----------------------------------------------+
 
 Outputs
-=======
+---------------------
 
 ========== ========================================
 Property   Description
@@ -152,7 +146,7 @@ deactivate element deactivation event (mouse leave)
 ========== ========================================
 
 Data Format
-===========
+---------------------
 
 Regular bubble charts
 ---------------------

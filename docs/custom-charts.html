@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Custom Charts &mdash; ngx-charts docs v2019.12.28 文档</title>
+  <title>自定义图表 &mdash; ngx-charts docs v2019.12.28 文档</title>
   
 
   
@@ -36,8 +36,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
-    <link rel="next" title="examples" href="examples/index.html" />
-    <link rel="prev" title="Installing" href="installing.html" /> 
+    <link rel="next" title="例子" href="examples/index.html" />
+    <link rel="prev" title="安装" href="installing.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -81,23 +81,23 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
+              <p class="caption"><span class="caption-text">内容:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="README.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="motivation.html">Motivation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="features.html">Features</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installing.html">Installing</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Custom Charts</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#custom-chart-index">Custom Chart Index</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#pointers-when-creating-or-adapting-custom-charts">Pointers when creating or adapting Custom Charts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html">介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="motivation.html">动机</a></li>
+<li class="toctree-l1"><a class="reference internal" href="features.html">特征</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installing.html">安装</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">自定义图表</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#custom-chart-index">自定义图表指标</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pointers-when-creating-or-adapting-custom-charts">指针创建或调整时，自定义图表</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="examples/index.html">examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="contributing/index.html">contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
-<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
-<li class="toctree-l1"><a class="reference internal" href="demo.html">demo</a></li>
-<li class="toctree-l1"><a class="reference internal" href="summary.html">Table of contents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/index.html">例子</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing/index.html">贡献</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">更新日志</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">执照</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo.html">演示</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">目录</a></li>
 </ul>
 
             
@@ -143,7 +143,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Custom Charts</li>
+      <li>自定义图表</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -163,50 +163,36 @@
            <div itemprop="articleBody">
             
   <div class="section" id="custom-charts">
-<h1>Custom Charts<a class="headerlink" href="#custom-charts" title="永久链接至标题">¶</a></h1>
-<p>Other than the library of available charts, ngx-charts also exports all
-of the components and helpers used as building blocks for the charts.
-Things like legends, axes, dimension helpers, gradients, shapes, series
-of shapes, can all be directly imported into your application and used
-in your components. This allows you to combine them and build custom
-charts that implement use cases that the pre-made charts do not support.</p>
-<p>You can find an example of how to use these components to build a custom
-chart here:
-<a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/combo-chart">https://github.com/swimlane/ngx-charts/tree/master/demo/combo-chart</a></p>
-<p>The demo of the above combo-chart can be seen here:
-<a class="reference external" href="https://swimlane.github.io/ngx-charts/#/ngx-charts/combo-chart">https://swimlane.github.io/ngx-charts/#/ngx-charts/combo-chart</a></p>
+<h1>自定义图表<a class="headerlink" href="#custom-charts" title="永久链接至标题">¶</a></h1>
+<p>比可用图表，NGX-图表库等还出口都用作添砖加瓦图表组件和佣工。 就像传说，轴，尺寸帮手，渐变，形状的东西，一系列的形状，都可以直接导入到你的应用程序和您的组件使用。这可以让你把它们混合起来并实现用例是，预先制作图表不支持创建自定义的图表。</p>
+<p>你可以找到如何使用这些组件在这里建立一个自定义图表示例: <a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/combo-chart">https://github.com/swimlane/ngx-charts/tree/master/demo/combo-chart</a></p>
+<p>上述组合，图表的演示可以在这里看到: <a class="reference external" href="https://swimlane.github.io/ngx-charts/#/ngx-charts/combo-chart">https://swimlane.github.io/ngx-charts/#/ngx-charts/combo-chart</a></p>
 <p>The charts under the ‘Demos’ group in our demo page are not distributed
 with the library. However, their code is available and can be copied
 directly into your project. We encourage you to submit a pull request
 for your custom charts to be listed in our ‘Demos’ section, because they
 may help other people that have the same use case as you.</p>
 <div class="section" id="custom-chart-index">
-<h2>Custom Chart Index<a class="headerlink" href="#custom-chart-index" title="永久链接至标题">¶</a></h2>
+<h2>自定义图表指标<a class="headerlink" href="#custom-chart-index" title="永久链接至标题">¶</a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/combo-chart">Bar/Line Combo
-Chart</a></p></li>
-<li><p><a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/sparkline">Sparkline</a></p></li>
-<li><p><a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/timeline-filter-bar-chart">Timeline filter bar
-chart</a></p></li>
-<li><p><a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/bubble-chart-interactive-demo">Bubble Chart Interactive
-Drilldown</a></p></li>
+<li><p><a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/combo-chart">酒吧/线组合图</a></p></li>
+<li><p><a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/sparkline">迷你图</a></p></li>
+<li><p><a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/timeline-filter-bar-chart">时间轴滤波器条形图</a></p></li>
+<li><p><a class="reference external" href="https://github.com/swimlane/ngx-charts/tree/master/demo/bubble-chart-interactive-demo">气泡图互动追溯</a></p></li>
 </ul>
-<p><em>If you want to have your custom chart featured above, please submit a
-pull request to</em> <a class="reference external" href="https://github.com/swimlane/ngx-charts/blob/master/docs/intro/custom-charts.md">this
-file</a><em>.</em></p>
+<p><em>如果您希望您的自定义图表上方功能，请提交pull请求</em> <a class="reference external" href="https://github.com/swimlane/ngx-charts/blob/master/docs/intro/custom-charts.md">这个文件</a><em>.</em></p>
 </div>
 <div class="section" id="pointers-when-creating-or-adapting-custom-charts">
-<h2>Pointers when creating or adapting Custom Charts<a class="headerlink" href="#pointers-when-creating-or-adapting-custom-charts" title="永久链接至标题">¶</a></h2>
+<h2>指针创建或调整时，自定义图表<a class="headerlink" href="#pointers-when-creating-or-adapting-custom-charts" title="永久链接至标题">¶</a></h2>
 <ul class="simple">
-<li><p>To develop new charts, start by building the shell in the demo
-project first.</p></li>
+<li><p>为了开发新的图表，首先建立示范项目的shell启动。</p></li>
 <li><p>If you start by copying an existing chart from src (recommended), be
 sure to rename your new component(s) and their selectors, as well as
 the module that contains them (if applicable).</p></li>
 <li><p>If you discover the tooltip does not display correctly, try exporting
 the new chart as a module along with ChartCommonModule and import it
 into the demo’s app.module.ts file.</p></li>
-<li><p>For an example of this, look at most any chart in the src folder</p></li>
+<li><p>对于这样的一个例子，看看大多数任何排行榜中的src文件夹</p></li>
 <li><p>Always a good idea to give back. Use this link to learn how to
 contribute to github repos:
 <a class="reference external" href="http://kbroman.org/github_tutorial/pages/fork.html">http://kbroman.org/github_tutorial/pages/fork.html</a></p></li>
@@ -222,10 +208,10 @@ contribute to github repos:
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="examples/index.html" class="btn btn-neutral float-right" title="examples" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="examples/index.html" class="btn btn-neutral float-right" title="例子" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="installing.html" class="btn btn-neutral float-left" title="Installing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="installing.html" class="btn btn-neutral float-left" title="安装" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

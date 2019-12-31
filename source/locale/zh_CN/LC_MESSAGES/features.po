@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Band Camp
+# This file is distributed under the same license as the ngx-charts docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ngx-charts docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-29 12:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/features.rst:2
+msgid "Features"
+msgstr "特征"
+
+#: ../../source/features.rst:4
+msgid ""
+"Out of the box, we wanted to create a low level robust framework on which"
+" to build charts. Outside of the following chart types:"
+msgstr "开箱即用的，我们要创建在其上构建图表低水平健壮的框架。下面的图表类型外:"
+
+#: ../../source/features.rst:8
+msgid "Chart Types"
+msgstr "图表类型"
+
+#: ../../source/features.rst:10
+msgid "Horizontal & Vertical Bar Charts (Standard, Grouped, Stacked, Normalized)"
+msgstr "水平和垂直条形图（标准，分组堆积，标准化）"
+
+#: ../../source/features.rst:12
+msgid "Line"
+msgstr "线"
+
+#: ../../source/features.rst:13
+msgid "Area (Standard, Stacked, Normalized)"
+msgstr "区（标准，堆积，标准化）"
+
+#: ../../source/features.rst:14
+msgid "Pie (Explodable, Grid, Custom legends)"
+msgstr "馅饼（可展开，网格，自传说）"
+
+#: ../../source/features.rst:15
+msgid "Donut"
+msgstr "甜甜圈"
+
+#: ../../source/features.rst:16
+msgid "Gauge"
+msgstr "规"
+
+#: ../../source/features.rst:17
+msgid "Linear Gauge"
+msgstr "线性仪表"
+
+#: ../../source/features.rst:18
+msgid ""
+"Force Directed Graph (deprecated - please use `ngx-graph "
+"<https://github.com/swimlane/ngx-graph>`__ instead)"
+msgstr "力向图 (已过时 - 请用 `ngx-graph <https://github.com/swimlane/ngx-graph>`__ 代替)"
+
+#: ../../source/features.rst:20
+msgid "Heatmap"
+msgstr "热图"
+
+#: ../../source/features.rst:21
+msgid "Treemap"
+msgstr "树形图"
+
+#: ../../source/features.rst:22
+msgid "Number Cards"
+msgstr "号码牌"
+
+#: ../../source/features.rst:23
+msgid "Bubble/Scatter"
+msgstr "泡泡/散"
+
+#: ../../source/features.rst:26
+msgid "Customization"
+msgstr "定制"
+
+#: ../../source/features.rst:28
+msgid "Autoscaling"
+msgstr "自动缩放"
+
+#: ../../source/features.rst:29
+msgid "Timeline Filtering"
+msgstr "时间轴滤波"
+
+#: ../../source/features.rst:30
+msgid "Line Interpolation"
+msgstr "直线插补"
+
+#: ../../source/features.rst:31
+msgid "Configurable Axis Labels"
+msgstr "配置轴标签"
+
+#: ../../source/features.rst:32
+msgid "Legends (Labels & Gradient)"
+msgstr "传奇（标签和梯度）"
+
+#: ../../source/features.rst:33
+msgid "Advanced Label Positioning"
+msgstr "高级标签定位"
+
+#: ../../source/features.rst:34
+msgid "Real-time data support"
+msgstr "实时数据支持"
+
+#: ../../source/features.rst:35
+msgid "Advanced Tooltips"
+msgstr "先进的工具提示"
+
+#: ../../source/features.rst:36
+msgid "Responsive Layout"
+msgstr "响应式布局"
+
+#: ../../source/features.rst:37
+msgid "Data point Event Handlers"
+msgstr "数据点事件处理程序"
+
+#: ../../source/features.rst:38
+msgid "Works with ngUpgrade"
+msgstr "与升级工程"
+
+#: ../../source/features.rst:39
+msgid "Enabling/Disabling animations"
+msgstr "启用/禁用动画"
+
+#: ../../source/features.rst:41
+msgid ""
+"If you have an idea for a new feature, create a Github issue or even "
+"better a PR ;). Make sure to include the use case, an example image of "
+"the chart (if applicable) and data formats."
+msgstr "如果你有一个新功能的想法，创建一个Github上的问题，甚至更好PR）。 确保包括使用情况下，该图的一个例子的图像（如果适用）和数据格式。"
+
+#: ../../source/features.rst:46
+msgid "Alternatives"
+msgstr "备择方案"
+
+#: ../../source/features.rst:48
+msgid ""
+"Chart frameworks are a dime a dozen nowadays. Not many of them existed a "
+"few years ago when we started this project internally and many of them "
+"still don’t really work well with Angular. Here’s a recent list we "
+"compiled during our effort to open-source this:"
+msgstr "图表框架是一角钱一打今天。没有多少人存在，几年前，当我们在内部开始这个项目，其中许多人还没有真正有角工作。 这是我们的努力过程中编译开源这个最近的列表中，我们:"
+
+#: ../../source/features.rst:53
+msgid ""
+"`ng2-nvd3 <https://github.com/krispo/ng2-nvd3>`__ - Open-source wrapper "
+"for nvd3 using Angular2 Components"
+msgstr "`ng2-nvd3 <https://github.com/krispo/ng2-nvd3>`__ - 使用Angular2组件nvd3开源包装器"
+
+#: ../../source/features.rst:55
+msgid ""
+"`ng2-charts <http://valor-software.com/ng2-charts/>`__ - Open-source "
+"Angular2 wrapper directives for Chart.js"
+msgstr "`ng2-charts <http://valor-software.com/ng2-charts/>`__ - 开源Angular2包装指令的chart.js之"
+
+#: ../../source/features.rst:57
+msgid ""
+"`angular2-highcharts "
+"<https://www.npmjs.com/package/angular2-highcharts>`__ - Open-source "
+"Angular2 wrapper for HighCharts"
+msgstr "`angular2-highcharts <https://www.npmjs.com/package/angular2-highcharts>`__ - 开源Angular2包装器HighCharts"
+
+#: ../../source/features.rst:59
+msgid ""
+"`recharts <http://recharts.org/>`__ - Open-source composable charting "
+"library built on React components"
+msgstr "`recharts <http://recharts.org/>`__ - 开源组合的图表库建立在反应的组分"
+
+#: ../../source/features.rst:61
+msgid "`Vega <http://vega.github.io/>`__ - Open-source Canvas/SVG viz framework"
+msgstr "`Vega <http://vega.github.io/>`__ - 开源的帆布/ SVG即框架"
+
+#: ../../source/features.rst:63
+msgid "`C3 <http://c3js.org/>`__ - Open-source D3-based reusable chart library"
+msgstr "`C3 <http://c3js.org/>`__ - 基于D3开源可重复使用的图表库"
+
+#: ../../source/features.rst:65
+msgid ""
+"`Plotly <https://plot.ly/>`__ - Commercial business intelligence and data"
+" science."
+msgstr "`Plotly <https://plot.ly/>`__ - 商业商业智能和数据科学。"
+
+#: ../../source/features.rst:67
+msgid "`Highcharts <http://www.highcharts.com/>`__ - Commercial chart framework"
+msgstr "`Highcharts <http://www.highcharts.com/>`__ - 商业图表框架"
+
+#: ../../source/features.rst:69
+msgid ""
+"`eCharts <http://echarts.baidu.com/demo.htm>`__ - Open-source JavaScript "
+"chart framework"
+msgstr "`eCharts <http://echarts.baidu.com/demo.htm>`__ - 开源的JavaScript图表框架"
+
+#: ../../source/features.rst:71
+msgid ""
+"`dc.js <http://dc-js.github.io/dc.js>`__ - Open-source JavaScript "
+"charting library"
+msgstr "`dc.js <http://dc-js.github.io/dc.js>`__ - 开源的JavaScript图表库"
+

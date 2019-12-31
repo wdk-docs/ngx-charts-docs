@@ -1,0 +1,1957 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Band Camp
+# This file is distributed under the same license as the ngx-charts docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ngx-charts docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-29 12:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/changelog.rst:2
+msgid "Changelog"
+msgstr "更新日志"
+
+#: ../../source/changelog.rst:5
+msgid "13.0.0"
+msgstr "13.0.0"
+
+#: ../../source/changelog.rst:7
+msgid "Breaking: Upgrade to Angular 9. Add compatibility with Ivy"
+msgstr "Breaking: Upgrade to Angular 9. Add compatibility with Ivy"
+
+#: ../../source/changelog.rst:8
+msgid "Breaking: Remove deprecated force-directed graph chart"
+msgstr "Breaking: Remove deprecated force-directed graph chart"
+
+#: ../../source/changelog.rst:9
+msgid "Breaking: Remove release folder"
+msgstr "Breaking: Remove release folder"
+
+#: ../../source/changelog.rst:10
+msgid "Bug: Sanitize tooltip labels (#1241)"
+msgstr "Bug: Sanitize tooltip labels (#1241)"
+
+#: ../../source/changelog.rst:11
+msgid "Bug: Fix line chart scaling on charts with large domain (#1204)"
+msgstr "Bug: Fix line chart scaling on charts with large domain (#1204)"
+
+#: ../../source/changelog.rst:12
+msgid "Chore: Remove d3 dependency"
+msgstr "Chore: Remove d3 dependency"
+
+#: ../../source/changelog.rst:13
+msgid "Chore: Update all d3 packages to latest versions"
+msgstr "Chore: Update all d3 packages to latest versions"
+
+#: ../../source/changelog.rst:18
+msgid "12.1.0"
+msgstr "12.1.0"
+
+#: ../../source/changelog.rst:20
+msgid "Enhancement: Sanitize tooltip labels (#1241)"
+msgstr "Enhancement: Sanitize tooltip labels (#1241)"
+
+#: ../../source/changelog.rst:21
+msgid "Bug: fix line chart scaling on charts with large domain (#1204)"
+msgstr "Bug: fix line chart scaling on charts with large domain (#1204)"
+
+#: ../../source/changelog.rst:22
+msgid "Bug: add check for undefined xScale in groupTransform (#1273)"
+msgstr "Bug: add check for undefined xScale in groupTransform (#1273)"
+
+#: ../../source/changelog.rst:27
+msgid "12.0.1"
+msgstr "12.0.1"
+
+#: ../../source/changelog.rst:29
+msgid "Bug: Pass the correct number of parameters to fix production build (#1203)"
+msgstr "Bug: Pass the correct number of parameters to fix production build (#1203)"
+
+#: ../../source/changelog.rst:35
+msgid "12.0.0"
+msgstr "12.0.0"
+
+#: ../../source/changelog.rst:37
+msgid "Breaking: Upgrade to angular 8.0.0 (#1201)"
+msgstr "Breaking: Upgrade to angular 8.0.0 (#1201)"
+
+#: ../../source/changelog.rst:38
+msgid "Breaking: Rework mouse events to make the format more consistent (#1185)"
+msgstr "Breaking: Rework mouse events to make the format more consistent (#1185)"
+
+#: ../../source/changelog.rst:40
+msgid ""
+"Feature: Allow passing extra data to the data items and include it in "
+"click and activate events (#1185)"
+msgstr ""
+
+#: ../../source/changelog.rst:46
+msgid "11.2.0"
+msgstr "11.2.0"
+
+#: ../../source/changelog.rst:48
+msgid "Feature: Made margins for pie chart component optional (#759)"
+msgstr "Feature: Made margins for pie chart component optional (#759)"
+
+#: ../../source/changelog.rst:49
+msgid "Feature: Added option to gauge to show or hide inner text (#1175)"
+msgstr "Feature: Added option to gauge to show or hide inner text (#1175)"
+
+#: ../../source/changelog.rst:50
+msgid "Feature: Added ``noBarWhenZero`` input to all bar related (#1086)"
+msgstr "Feature: Added ``noBarWhenZero`` input to all bar related (#1086)"
+
+#: ../../source/changelog.rst:51
+msgid "Bug: Updated Color.Helper.ts to handle null values (#1167)"
+msgstr "Bug: Updated Color.Helper.ts to handle null values (#1167)"
+
+#: ../../source/changelog.rst:52
+msgid "Bug: Added missing export (#1193)"
+msgstr "Bug: Added missing export (#1193)"
+
+#: ../../source/changelog.rst:53
+msgid "Bug: Fixed chart height with large number of yAxisTicks (#1105)"
+msgstr "Bug: Fixed chart height with large number of yAxisTicks (#1105)"
+
+#: ../../source/changelog.rst:54
+msgid "Chore: Bumped extract-text-plugin to version 3.0.2 (#861)"
+msgstr "Chore: Bumped extract-text-plugin to version 3.0.2 (#861)"
+
+#: ../../source/changelog.rst:55
+msgid "Chore: Updated zone.js version to 0.9.1 (#1187)"
+msgstr "Chore: Updated zone.js version to 0.9.1 (#1187)"
+
+#: ../../source/changelog.rst:56
+msgid "Docs: Deprecated force-directed graph chart (#1159)"
+msgstr "Docs: Deprecated force-directed graph chart (#1159)"
+
+#: ../../source/changelog.rst:57
+msgid "Docs: Fixed link typo in motication.md (#1172)"
+msgstr "Docs: Fixed link typo in motication.md (#1172)"
+
+#: ../../source/changelog.rst:58
+msgid "Docs: Added interactive bubble chart to demo (#1174)"
+msgstr "Docs: Added interactive bubble chart to demo (#1174)"
+
+#: ../../source/changelog.rst:63
+msgid "11.1.0"
+msgstr "11.1.0"
+
+#: ../../source/changelog.rst:65
+msgid "Feature: added option to disable x axis tick rotation (#1139)"
+msgstr "Feature: added option to disable x axis tick rotation (#1139)"
+
+#: ../../source/changelog.rst:66
+msgid "Bug: Update peer dependency requirements"
+msgstr "Bug: Update peer dependency requirements"
+
+#: ../../source/changelog.rst:71
+msgid "11.0.1"
+msgstr "11.0.1"
+
+#: ../../source/changelog.rst:73
+msgid "Bug: Fixes displaying of tooltip on IE 11 (#1157)"
+msgstr "Bug: Fixes displaying of tooltip on IE 11 (#1157)"
+
+#: ../../source/changelog.rst:78
+msgid "11.0.0"
+msgstr "11.0.0"
+
+#: ../../source/changelog.rst:80
+msgid "Breaking: Remove Angular location strategy from ChartCommonModule (#915)"
+msgstr "Breaking: Remove Angular location strategy from ChartCommonModule (#915)"
+
+#: ../../source/changelog.rst:83
+msgid ""
+"Any Angular applications, that rely on the pre-configured location "
+"strategy provided by ngx-charts, will need to set it separately"
+msgstr ""
+
+#: ../../source/changelog.rst:86
+msgid "Feature: Allow access to custom properties in tooltip templates (#555)"
+msgstr "Feature: Allow access to custom properties in tooltip templates (#555)"
+
+#: ../../source/changelog.rst:88
+msgid ""
+"Bug: Update tooltip positioning to correctly flip sides when there is not"
+" enough available space (#1136)"
+msgstr ""
+
+#: ../../source/changelog.rst:90
+msgid "Bug: Fixed combo Line and Bar chart not aligning (#1154)"
+msgstr "Bug: Fixed combo Line and Bar chart not aligning (#1154)"
+
+#: ../../source/changelog.rst:91
+msgid "Chore: Removed unnecessary peer dependencies (#1140)"
+msgstr "Chore: Removed unnecessary peer dependencies (#1140)"
+
+#: ../../source/changelog.rst:92
+msgid "Chore: Replaced bitwise operators with math.floor (#1151)"
+msgstr "Chore: Replaced bitwise operators with math.floor (#1151)"
+
+#: ../../source/changelog.rst:93
+msgid "Chore: Changed tree-map label class to avoid conflict (#1117)"
+msgstr "Chore: Changed tree-map label class to avoid conflict (#1117)"
+
+#: ../../source/changelog.rst:94
+msgid "Chore: Remove unused property binding (#1120)"
+msgstr "Chore: Remove unused property binding (#1120)"
+
+#: ../../source/changelog.rst:95
+msgid "Docs: motivation.md Typo fix (#1123)"
+msgstr "Docs: motivation.md Typo fix (#1123)"
+
+#: ../../source/changelog.rst:100
+msgid "10.1.0"
+msgstr "10.1.0"
+
+#: ../../source/changelog.rst:102
+msgid ""
+"Feature: Allow configuration of tick trimming on charts with X and Y axis"
+" (#870)"
+msgstr ""
+
+#: ../../source/changelog.rst:104
+msgid "Bug: Updated packages to remove event-stream vulnerability"
+msgstr "Bug: Updated packages to remove event-stream vulnerability"
+
+#: ../../source/changelog.rst:105
+msgid ""
+"Bug: Fixed issue where advanced pie legend click emits the truncated "
+"(#1106)"
+msgstr ""
+
+#: ../../source/changelog.rst:107
+msgid "Bug: Fixed rotation to respect tick trimming"
+msgstr "Bug: Fixed rotation to respect tick trimming"
+
+#: ../../source/changelog.rst:108
+msgid "Bug: Fixed Pie Chart flicker on Safari (#1068)"
+msgstr "Bug: Fixed Pie Chart flicker on Safari (#1068)"
+
+#: ../../source/changelog.rst:109
+msgid ""
+"Bug: Fixed issue where vertical bar chart is not showing X axis when all "
+"data values are negative (#1044)"
+msgstr ""
+
+#: ../../source/changelog.rst:111
+msgid "Chore: Removed unused param in GridPanelSeriesComponent (#1025)"
+msgstr "Chore: Removed unused param in GridPanelSeriesComponent (#1025)"
+
+#: ../../source/changelog.rst:112
+msgid ""
+"Chore: Added type check instead of truthy value for determining min/max "
+"in getRangeGenerator (#1042)"
+msgstr ""
+
+#: ../../source/changelog.rst:114
+msgid "Docs: Fixed typo (#1056)"
+msgstr "Docs: Fixed typo (#1056)"
+
+#: ../../source/changelog.rst:115
+msgid "Docs: Fixed link in readme (#1053)"
+msgstr "Docs: Fixed link in readme (#1053)"
+
+#: ../../source/changelog.rst:116
+msgid "Docs: Fixed documentation link (#1029)"
+msgstr "Docs: Fixed documentation link (#1029)"
+
+#: ../../source/changelog.rst:121
+msgid "10.0.0"
+msgstr "10.0.0"
+
+#: ../../source/changelog.rst:123
+msgid "Breaking: Upgraded to angular 7"
+msgstr "Breaking: Upgraded to angular 7"
+
+#: ../../source/changelog.rst:124
+msgid "Feature: Implemented legened positioning"
+msgstr "Feature: Implemented legened positioning"
+
+#: ../../source/changelog.rst:125
+msgid "Feature: Added accessibility attributes to bar charts (#977)"
+msgstr "Feature: Added accessibility attributes to bar charts (#977)"
+
+#: ../../source/changelog.rst:126
+msgid "Chore: Migrated to Renderer2 (#1021)"
+msgstr "Chore: Migrated to Renderer2 (#1021)"
+
+#: ../../source/changelog.rst:127
+msgid "Chore: getScaleType performance improvements (#995)"
+msgstr "Chore: getScaleType performance improvements (#995)"
+
+#: ../../source/changelog.rst:128
+msgid "Docs: Fixed value typo (#974)"
+msgstr "Docs: Fixed value typo (#974)"
+
+#: ../../source/changelog.rst:133
+msgid "9.1.1"
+msgstr "9.1.1"
+
+#: ../../source/changelog.rst:135
+msgid "Chore: Move d3 libraries back to dependencies (#1008)"
+msgstr "Chore: Move d3 libraries back to dependencies (#1008)"
+
+#: ../../source/changelog.rst:140
+msgid "9.1.0"
+msgstr "9.1.0"
+
+#: ../../source/changelog.rst:142
+msgid "Feature: Added ES Module Support (#1004)"
+msgstr "Feature: Added ES Module Support (#1004)"
+
+#: ../../source/changelog.rst:147
+msgid "9.0.0"
+msgstr "9.0.0"
+
+#: ../../source/changelog.rst:149
+msgid ""
+"Breaking: Changed the input of valueFormatting for the tree map chart "
+"from an object to number"
+msgstr ""
+
+#: ../../source/changelog.rst:151
+msgid "Feature: Added support for server side rendering (#919, #920, #921 )"
+msgstr "Feature: Added support for server side rendering (#919, #920, #921 )"
+
+#: ../../source/changelog.rst:152
+msgid "Bug: Fixed advanced-legend colors in print (#907)"
+msgstr "Bug: Fixed advanced-legend colors in print (#907)"
+
+#: ../../source/changelog.rst:153
+msgid "Bug: Fix value formatting for advanced legend (#906)"
+msgstr "Bug: Fix value formatting for advanced legend (#906)"
+
+#: ../../source/changelog.rst:154
+msgid ""
+"Enhancement: Added option to set globalRootViewContainer in the "
+"InjectionService (#914)"
+msgstr ""
+
+#: ../../source/changelog.rst:156
+msgid "Chore: Added export for domain.helper (#894)"
+msgstr "Chore: Added export for domain.helper (#894)"
+
+#: ../../source/changelog.rst:157
+msgid "Docs: Fixed Custom Charts Page link in README.md (#886)"
+msgstr "Docs: Fixed Custom Charts Page link in README.md (#886)"
+
+#: ../../source/changelog.rst:162
+msgid "8.1.0"
+msgstr "8.1.0"
+
+#: ../../source/changelog.rst:164
+msgid "Feature: Added configuration for label trimming on polar chart (#858)"
+msgstr "Feature: Added configuration for label trimming on polar chart (#858)"
+
+#: ../../source/changelog.rst:165
+msgid ""
+"Feature: Added ability to set Min and Max values for heatmaps closes "
+"(#875)"
+msgstr ""
+
+#: ../../source/changelog.rst:167
+msgid "Fix: Export axes module (#872)"
+msgstr "Fix: Export axes module (#872)"
+
+#: ../../source/changelog.rst:168
+msgid ""
+"Fix: Use animations for line-highlight depending on line-series "
+"animations (#856)"
+msgstr ""
+
+#: ../../source/changelog.rst:174
+msgid "8.0.2"
+msgstr "8.0.2"
+
+#: ../../source/changelog.rst:176
+msgid "Bug: Fix pie chart label collision detection"
+msgstr "Bug: Fix pie chart label collision detection"
+
+#: ../../source/changelog.rst:181
+msgid "8.0.1"
+msgstr "8.0.1"
+
+#: ../../source/changelog.rst:183
+msgid "Feature: Add dblclick to pie chart"
+msgstr "Feature: Add dblclick to pie chart"
+
+#: ../../source/changelog.rst:188
+msgid "8.0.0"
+msgstr "8.0.0"
+
+#: ../../source/changelog.rst:190
+msgid "Breaking: Upgrade to Angular 6"
+msgstr "Breaking: Upgrade to Angular 6"
+
+#: ../../source/changelog.rst:195
+msgid "7.4.0"
+msgstr "7.4.0"
+
+#: ../../source/changelog.rst:197
+msgid "Feature: Data labels for bar charts (#752)"
+msgstr "Feature: Data labels for bar charts (#752)"
+
+#: ../../source/changelog.rst:198
+msgid "Bug: Fix computation of X axis ticks angle (#820)"
+msgstr "Bug: Fix computation of X axis ticks angle (#820)"
+
+#: ../../source/changelog.rst:203
+msgid "7.3.0"
+msgstr "7.3.0"
+
+#: ../../source/changelog.rst:205
+msgid "Feature: Added support for overriding x and y axis ticks (#723)"
+msgstr "Feature: Added support for overriding x and y axis ticks (#723)"
+
+#: ../../source/changelog.rst:206
+msgid "Feature: Added support for area chart floor value (#684)"
+msgstr "Feature: Added support for area chart floor value (#684)"
+
+#: ../../source/changelog.rst:207
+msgid ""
+"Feature: Implemented min value scales for vertical and horizontal bar "
+"charts"
+msgstr ""
+
+#: ../../source/changelog.rst:209
+msgid "Enhancement: Performance improvements across multiple charts (#765, #758)"
+msgstr "Enhancement: Performance improvements across multiple charts (#765, #758)"
+
+#: ../../source/changelog.rst:211
+msgid ""
+"Enhancement: Added support for overriding the min width of pie grid items"
+" (#762)"
+msgstr ""
+
+#: ../../source/changelog.rst:213
+msgid "Bug: Fixed error being thrown when results is undefined (#217)"
+msgstr "Bug: Fixed error being thrown when results is undefined (#217)"
+
+#: ../../source/changelog.rst:214
+msgid "Bug: Fixed label input in pie-grid (#773)"
+msgstr "Bug: Fixed label input in pie-grid (#773)"
+
+#: ../../source/changelog.rst:219
+msgid "7.2.0"
+msgstr "7.2.0"
+
+#: ../../source/changelog.rst:221
+msgid "Feature: Added bar-vertical yScaleMin (#732)"
+msgstr "Feature: Added bar-vertical yScaleMin (#732)"
+
+#: ../../source/changelog.rst:222
+msgid "Feature: Added support for label input in pie grid chart (#731)"
+msgstr "Feature: Added support for label input in pie grid chart (#731)"
+
+#: ../../source/changelog.rst:223
+msgid "Bug: Avoid invalid paths when rect shape has 0 width or height (#742)"
+msgstr "Bug: Avoid invalid paths when rect shape has 0 width or height (#742)"
+
+#: ../../source/changelog.rst:224
+msgid "Bug: Fix stacked bar chart negative values issue (#605)"
+msgstr "Bug: Fix stacked bar chart negative values issue (#605)"
+
+#: ../../source/changelog.rst:225
+msgid "Chore: Added basic test of area-chart (#737)"
+msgstr "Chore: Added basic test of area-chart (#737)"
+
+#: ../../source/changelog.rst:230
+msgid "7.1.1"
+msgstr "7.1.1"
+
+#: ../../source/changelog.rst:232
+msgid "Bug: Fixed template compile errors with fullTemplateTypeCheck (#730)"
+msgstr "Bug: Fixed template compile errors with fullTemplateTypeCheck (#730)"
+
+#: ../../source/changelog.rst:237
+msgid "7.1.0"
+msgstr "7.1.0"
+
+#: ../../source/changelog.rst:239
+msgid ""
+"Feature: Added support for passing a function to the ``customColors`` "
+"input to all charts. (#676, #713)"
+msgstr ""
+
+#: ../../source/changelog.rst:241
+msgid ""
+"Feature: Added ``trimLabels`` and ``maxLabelLength`` inputs to pie chart "
+"(#716)"
+msgstr ""
+
+#: ../../source/changelog.rst:243
+msgid ""
+"Feature: Added inputs for formatting the name, value, and percentage in "
+"advanced pie chart (#719)"
+msgstr ""
+
+#: ../../source/changelog.rst:245
+msgid "Enhancement: Switched to using lettable rxjs operators (#683)"
+msgstr "Enhancement: Switched to using lettable rxjs operators (#683)"
+
+#: ../../source/changelog.rst:246
+msgid "Enhancement: Allow using the timeline for linear x scales (#624)"
+msgstr "Enhancement: Allow using the timeline for linear x scales (#624)"
+
+#: ../../source/changelog.rst:247
+msgid "Bug: Fixed line/area tooltip positioning in firefox (#671)"
+msgstr "Bug: Fixed line/area tooltip positioning in firefox (#671)"
+
+#: ../../source/changelog.rst:248
+msgid "Bug: Removed duplicate input declaration (#708)"
+msgstr "Bug: Removed duplicate input declaration (#708)"
+
+#: ../../source/changelog.rst:249
+#, python-format
+msgid ""
+"Bug: Fixed duplicate % sign in pie grid charts when animations are "
+"disabled (#685)"
+msgstr ""
+
+#: ../../source/changelog.rst:255
+msgid "7.0.1"
+msgstr "7.0.1"
+
+#: ../../source/changelog.rst:257
+msgid "Fix: Export polyfills to fix AoT build issue with Angular 5 (#644)"
+msgstr "Fix: Export polyfills to fix AoT build issue with Angular 5 (#644)"
+
+#: ../../source/changelog.rst:262
+msgid "7.0.0"
+msgstr "7.0.0"
+
+#: ../../source/changelog.rst:264
+msgid "Breaking: Added support for angular 5 (#633)"
+msgstr "Breaking: Added support for angular 5 (#633)"
+
+#: ../../source/changelog.rst:265
+msgid ""
+"Bug: Fixed ‘ReferenceError: SVGElement is not defined’ exception when "
+"using with angular universal (#587)"
+msgstr ""
+
+#: ../../source/changelog.rst:267
+msgid "Bug: Fixed NaN issue on Advanced Pie Chart (#597)"
+msgstr "Bug: Fixed NaN issue on Advanced Pie Chart (#597)"
+
+#: ../../source/changelog.rst:268
+msgid ""
+"Bug: Changed onDeactivate in the gauge component to emit the correct "
+"value instead of the event value from the global scope (#613)"
+msgstr ""
+
+#: ../../source/changelog.rst:274
+msgid "6.1.0"
+msgstr "6.1.0"
+
+#: ../../source/changelog.rst:276
+msgid ""
+"Feature: Added inputs to control minimum and maximum values on the axes "
+"(#582, #359)"
+msgstr ""
+
+#: ../../source/changelog.rst:278
+msgid "Feature: Added input to enable/disable animations (#565)"
+msgstr "Feature: Added input to enable/disable animations (#565)"
+
+#: ../../source/changelog.rst:279
+msgid "Feature: Added designatedTotal Input for Pie Grid (#554)"
+msgstr "Feature: Added designatedTotal Input for Pie Grid (#554)"
+
+#: ../../source/changelog.rst:280
+msgid ""
+"Enhancement: Don’t transform text to uppercase in legends and labels "
+"(#578)"
+msgstr ""
+
+#: ../../source/changelog.rst:282
+msgid "Enhancement: Changed legends and label colors (#578)"
+msgstr "Enhancement: Changed legends and label colors (#578)"
+
+#: ../../source/changelog.rst:283
+msgid ""
+"Enhancement: Increased font size in advanced legend and number cards "
+"subtext (#578)"
+msgstr ""
+
+#: ../../source/changelog.rst:285
+msgid "Enhancement: Hide legend title when title is missing (#578)"
+msgstr "Enhancement: Hide legend title when title is missing (#578)"
+
+#: ../../source/changelog.rst:286
+msgid ""
+"Enhancement: Added x-axis value to the context of a bubble chart tooltip "
+"(#530)"
+msgstr ""
+
+#: ../../source/changelog.rst:288
+msgid ""
+"Bug: Removed path from SVG refs to fix gradients not working when URL has"
+" queryString (#584)"
+msgstr ""
+
+#: ../../source/changelog.rst:290
+msgid ""
+"Bug: Fixed bug where value arc animation on gauge chart would start from "
+"0 on update (#563)"
+msgstr ""
+
+#: ../../source/changelog.rst:292
+msgid "Bug: Removed date conversion for name-value at series-tooltip (#544)"
+msgstr "Bug: Removed date conversion for name-value at series-tooltip (#544)"
+
+#: ../../source/changelog.rst:293
+msgid "Bug: Added null check for rootComponents in injection service (#574)"
+msgstr "Bug: Added null check for rootComponents in injection service (#574)"
+
+#: ../../source/changelog.rst:294
+msgid ""
+"Bug: Fixed issue where the tooltip would not appear for certain points "
+"(#501)"
+msgstr ""
+
+#: ../../source/changelog.rst:296
+msgid ""
+"Bug: Fixed issue where pie chart colors would not update on color changes"
+" (#551)"
+msgstr ""
+
+#: ../../source/changelog.rst:298
+msgid "Bug: Added polyfill for SVGElement.prototype.contains (#386)"
+msgstr "Bug: Added polyfill for SVGElement.prototype.contains (#386)"
+
+#: ../../source/changelog.rst:299
+msgid ""
+"Bug: Renamed ngOutletContext (deprecated) to ngTemplateOutletContext "
+"(#535)"
+msgstr ""
+
+#: ../../source/changelog.rst:301
+msgid "Docs: Added custom chart page"
+msgstr "Docs: Added custom chart page"
+
+#: ../../source/changelog.rst:306
+msgid "6.0.1"
+msgstr "6.0.1"
+
+#: ../../source/changelog.rst:308
+msgid "Bug: Fixed line chart stroke color"
+msgstr "Bug: Fixed line chart stroke color"
+
+#: ../../source/changelog.rst:309
+msgid "Bug: Fixed timeline width and alignment"
+msgstr "Bug: Fixed timeline width and alignment"
+
+#: ../../source/changelog.rst:310
+msgid "Bug: Fixed truncation of legend text (#487)"
+msgstr "Bug: Fixed truncation of legend text (#487)"
+
+#: ../../source/changelog.rst:311
+msgid "Chore: Removed patch numbers from peerDependencies (#478)"
+msgstr "Chore: Removed patch numbers from peerDependencies (#478)"
+
+#: ../../source/changelog.rst:316
+msgid "6.0.0"
+msgstr "6.0.0"
+
+#: ../../source/changelog.rst:318
+msgid "Breaking: Removed ``showSeriesOnHover`` option of line-chart"
+msgstr "Breaking: Removed ``showSeriesOnHover`` option of line-chart"
+
+#: ../../source/changelog.rst:319
+msgid "Refactor: Improved performance of line and area chart tooltips (#463)"
+msgstr "Refactor: Improved performance of line and area chart tooltips (#463)"
+
+#: ../../source/changelog.rst:320
+msgid "Enhancement: Added ``roundEdges`` input property to bar charts (#408)"
+msgstr "Enhancement: Added ``roundEdges`` input property to bar charts (#408)"
+
+#: ../../source/changelog.rst:321
+msgid ""
+"Enhancement: Tooltip elements are not created if tooltips are disabled "
+"(#415)"
+msgstr ""
+
+#: ../../source/changelog.rst:323
+msgid ""
+"Enhancement: Added the option to define reference lines in line charts "
+"(#422)"
+msgstr ""
+
+#: ../../source/changelog.rst:325
+msgid "Enhancement: Improved animations"
+msgstr "Enhancement: Improved animations"
+
+#: ../../source/changelog.rst:326
+msgid "Bug: Fixed timeline select issue (#425)"
+msgstr "Bug: Fixed timeline select issue (#425)"
+
+#: ../../source/changelog.rst:327
+msgid "Chore: Upgraded angular to 4.2.5"
+msgstr "Chore: Upgraded angular to 4.2.5"
+
+#: ../../source/changelog.rst:328
+msgid "Demo: Added timeline filter bar chart demo"
+msgstr "Demo: Added timeline filter bar chart demo"
+
+#: ../../source/changelog.rst:329
+msgid "Demo: Added Combo chart (bar and line) demo (#432)"
+msgstr "Demo: Added Combo chart (bar and line) demo (#432)"
+
+#: ../../source/changelog.rst:334
+msgid "5.3.1"
+msgstr "5.3.1"
+
+#: ../../source/changelog.rst:336
+msgid ""
+"Bug: Fix bug where the axis component would not emit a dimensionsChanged "
+"event in some cases"
+msgstr ""
+
+#: ../../source/changelog.rst:342
+msgid "5.3.0"
+msgstr "5.3.0"
+
+#: ../../source/changelog.rst:344
+msgid ""
+"Feature: Added option to pass custom ng-templates for tooltips to all "
+"charts"
+msgstr ""
+
+#: ../../source/changelog.rst:346
+msgid "Enhancement: Added ‘label’ input to advanced pie chart component"
+msgstr "Enhancement: Added ‘label’ input to advanced pie chart component"
+
+#: ../../source/changelog.rst:347
+msgid "Enhancement: Exposed xOrient and yOrient properties on axis components"
+msgstr "Enhancement: Exposed xOrient and yOrient properties on axis components"
+
+#: ../../source/changelog.rst:349
+msgid "Enhancement: Set default dimensions if width or height are undefined or 0"
+msgstr "Enhancement: Set default dimensions if width or height are undefined or 0"
+
+#: ../../source/changelog.rst:351
+msgid "Enhancement: Set a default color scheme"
+msgstr "Enhancement: Set a default color scheme"
+
+#: ../../source/changelog.rst:352
+msgid "Bug: Fixed bubble chart overriding the view input"
+msgstr "Bug: Fixed bubble chart overriding the view input"
+
+#: ../../source/changelog.rst:353
+msgid "Bug: Fixed linear color scheme when there are less than 3 colors"
+msgstr "Bug: Fixed linear color scheme when there are less than 3 colors"
+
+#: ../../source/changelog.rst:354
+msgid "Bug: Fixed gradient not applying to straight lines"
+msgstr "Bug: Fixed gradient not applying to straight lines"
+
+#: ../../source/changelog.rst:355
+msgid "Demo: Added sparkline custom demo chart"
+msgstr "Demo: Added sparkline custom demo chart"
+
+#: ../../source/changelog.rst:356
+msgid "Demo: Added interactive treemap demo chart"
+msgstr "Demo: Added interactive treemap demo chart"
+
+#: ../../source/changelog.rst:361
+msgid "5.2.1"
+msgstr "5.2.1"
+
+#: ../../source/changelog.rst:363
+msgid "Bug: Remove RGBColor type from color-util file (#394)"
+msgstr "Bug: Remove RGBColor type from color-util file (#394)"
+
+#: ../../source/changelog.rst:368
+msgid "5.2.0"
+msgstr "5.2.0"
+
+#: ../../source/changelog.rst:370
+msgid "Feature: Added Polar/Radar chart type (#380)"
+msgstr "Feature: Added Polar/Radar chart type (#380)"
+
+#: ../../source/changelog.rst:371
+msgid ""
+"Enhancement: Disable pointer if no click events are attached to number "
+"cards (#378)"
+msgstr ""
+
+#: ../../source/changelog.rst:373
+msgid "Enhancement: Added gradient to tree map chart (#382)"
+msgstr "Enhancement: Added gradient to tree map chart (#382)"
+
+#: ../../source/changelog.rst:374
+msgid ""
+"Enhancement: Added support for inverted colors from rgba values in number"
+" cards (#366)"
+msgstr ""
+
+#: ../../source/changelog.rst:376
+msgid "Enhancement: Added value and label formatting to tree map (#383)"
+msgstr "Enhancement: Added value and label formatting to tree map (#383)"
+
+#: ../../source/changelog.rst:377
+msgid "Refactor: loremess restrictive angular dependency versioning (#358)"
+msgstr "Refactor: loremess restrictive angular dependency versioning (#358)"
+
+#: ../../source/changelog.rst:378
+msgid "Bug: Fixed types in gauge chart (#364)"
+msgstr "Bug: Fixed types in gauge chart (#364)"
+
+#: ../../source/changelog.rst:379
+msgid "Bug: Fixed axis and tooltips on bubble chart (#352)"
+msgstr "Bug: Fixed axis and tooltips on bubble chart (#352)"
+
+#: ../../source/changelog.rst:380
+msgid "Bug: Added styleUrls and changeDetection to bubble chart"
+msgstr "Bug: Added styleUrls and changeDetection to bubble chart"
+
+#: ../../source/changelog.rst:381
+msgid "Bug: Truncate dimension values"
+msgstr "Bug: Truncate dimension values"
+
+#: ../../source/changelog.rst:382
+msgid "Bug: Fixed number card count animation (#387)"
+msgstr "Bug: Fixed number card count animation (#387)"
+
+#: ../../source/changelog.rst:383
+msgid "Bug: Added type to gauge chart valueFormatting parameter (#388)"
+msgstr "Bug: Added type to gauge chart valueFormatting parameter (#388)"
+
+#: ../../source/changelog.rst:388
+msgid "5.1.2"
+msgstr "5.1.2"
+
+#: ../../source/changelog.rst:390
+msgid "Bug: Fix number card scaling in hybrid apps using ngUpgrade (#338)"
+msgstr "Bug: Fix number card scaling in hybrid apps using ngUpgrade (#338)"
+
+#: ../../source/changelog.rst:391
+msgid "Bug: Fix label trimming and clipped SVGs (#340)"
+msgstr "Bug: Fix label trimming and clipped SVGs (#340)"
+
+#: ../../source/changelog.rst:396
+msgid "5.1.1"
+msgstr "5.1.1"
+
+#: ../../source/changelog.rst:398
+msgid "Bug: Add default value for label format (#334)"
+msgstr "Bug: Add default value for label format (#334)"
+
+#: ../../source/changelog.rst:403
+msgid "5.1.0"
+msgstr "5.1.0"
+
+#: ../../source/changelog.rst:405
+msgid "Enhancement: Added valueFormatting input to number card chart (#325)"
+msgstr "Enhancement: Added valueFormatting input to number card chart (#325)"
+
+#: ../../source/changelog.rst:406
+msgid "Enhancement: Added label formatting input to number card chart (#332)"
+msgstr "Enhancement: Added label formatting input to number card chart (#332)"
+
+#: ../../source/changelog.rst:407
+msgid "Enhancement: Added tooltipText to pie charts (#331)"
+msgstr "Enhancement: Added tooltipText to pie charts (#331)"
+
+#: ../../source/changelog.rst:408
+msgid ""
+"Enhancement: Added option in line-chart for disabling series on hover "
+"(#323)"
+msgstr ""
+
+#: ../../source/changelog.rst:410
+msgid "Enhancement: Added an input for custom legend title (#317)"
+msgstr "Enhancement: Added an input for custom legend title (#317)"
+
+#: ../../source/changelog.rst:411
+msgid "Bug: Fixed number card text scaling when values change (#330)"
+msgstr "Bug: Fixed number card text scaling when values change (#330)"
+
+#: ../../source/changelog.rst:412
+msgid "Bug: Inverted y-axis on horizontal bar charts (#328)"
+msgstr "Bug: Inverted y-axis on horizontal bar charts (#328)"
+
+#: ../../source/changelog.rst:413
+msgid "Bug: Fix division by zero in pie label component"
+msgstr "Bug: Fix division by zero in pie label component"
+
+#: ../../source/changelog.rst:418
+msgid "5.0.1"
+msgstr "5.0.1"
+
+#: ../../source/changelog.rst:420
+msgid "Enhancement: ``valueFormatting`` applies to Gauge Arc Labels too"
+msgstr "Enhancement: ``valueFormatting`` applies to Gauge Arc Labels too"
+
+#: ../../source/changelog.rst:425
+msgid "5.0.0"
+msgstr "5.0.0"
+
+#: ../../source/changelog.rst:427
+msgid "Breaking: Upgrade to angular 4"
+msgstr "Breaking: Upgrade to angular 4"
+
+#: ../../source/changelog.rst:432
+msgid "4.4.0"
+msgstr "4.4.0"
+
+#: ../../source/changelog.rst:434
+msgid "Feature: Added ability to set card text color in number card (#284)"
+msgstr "Feature: Added ability to set card text color in number card (#284)"
+
+#: ../../source/changelog.rst:435
+msgid ""
+"Enhancement: Added more heatmap options and support for various inputs "
+"for innerPadding (#297, #301)"
+msgstr ""
+
+#: ../../source/changelog.rst:437
+msgid "Enhancement: Added valueFormatting input to linear gauge chart"
+msgstr "Enhancement: Added valueFormatting input to linear gauge chart"
+
+#: ../../source/changelog.rst:438
+msgid "Enhancement: Added valueFormatting input to gauge chart"
+msgstr "Enhancement: Added valueFormatting input to gauge chart"
+
+#: ../../source/changelog.rst:439
+msgid "Enhancement: Added labelFormatting input to pie chart"
+msgstr "Enhancement: Added labelFormatting input to pie chart"
+
+#: ../../source/changelog.rst:440
+msgid "Enhancement: Updated pie chart label animations (#291)"
+msgstr "Enhancement: Updated pie chart label animations (#291)"
+
+#: ../../source/changelog.rst:441
+msgid "Bug: Fixed pie chart positioning"
+msgstr "Bug: Fixed pie chart positioning"
+
+#: ../../source/changelog.rst:442
+msgid "Bug: Fixed ticks calculation on resize (#295)"
+msgstr "Bug: Fixed ticks calculation on resize (#295)"
+
+#: ../../source/changelog.rst:443
+msgid "Bug: Fixed percentage value in pie grid when the total is 0 (#288)"
+msgstr "Bug: Fixed percentage value in pie grid when the total is 0 (#288)"
+
+#: ../../source/changelog.rst:444
+msgid "Bug: Fixed date formatting in bubble chart tooltips (#285)"
+msgstr "Bug: Fixed date formatting in bubble chart tooltips (#285)"
+
+#: ../../source/changelog.rst:445
+msgid "Bug: Fixed Scale.round error in line chart (#287)"
+msgstr "Bug: Fixed Scale.round error in line chart (#287)"
+
+#: ../../source/changelog.rst:446
+msgid "Chore: AOT error fixes"
+msgstr "Chore: AOT error fixes"
+
+#: ../../source/changelog.rst:451
+msgid "4.3.0"
+msgstr "4.3.0"
+
+#: ../../source/changelog.rst:453
+msgid "Enhancement: Improved pie chart label positioning (#273)"
+msgstr "Enhancement: Improved pie chart label positioning (#273)"
+
+#: ../../source/changelog.rst:454
+msgid "Enhancement: Improved number card design and scaling (#272)"
+msgstr "Enhancement: Improved number card design and scaling (#272)"
+
+#: ../../source/changelog.rst:455
+msgid ""
+"Chore: Refactored charts to use d3 modules directly in library components"
+" (#270)"
+msgstr ""
+
+#: ../../source/changelog.rst:461
+msgid "4.2.1"
+msgstr "4.2.1"
+
+#: ../../source/changelog.rst:463
+msgid "Bug: Fixed customColors mapping"
+msgstr "Bug: Fixed customColors mapping"
+
+#: ../../source/changelog.rst:464
+msgid ""
+"Chore: Various AoT compilation and build improvements (#255, #257, #258, "
+"#259, #256, #263, #260, #266)"
+msgstr ""
+
+#: ../../source/changelog.rst:470
+msgid "4.2.0"
+msgstr "4.2.0"
+
+#: ../../source/changelog.rst:472
+msgid "Chore: AoT compilation compatibility improvements (#253, #252, #251)"
+msgstr "Chore: AoT compilation compatibility improvements (#253, #252, #251)"
+
+#: ../../source/changelog.rst:473
+msgid "Enhancement: Added option to disable tooltips (#223)"
+msgstr "Enhancement: Added option to disable tooltips (#223)"
+
+#: ../../source/changelog.rst:478
+msgid "4.1.3"
+msgstr "4.1.3"
+
+#: ../../source/changelog.rst:480
+msgid "Enhancement: Added option to override the value in gauge chart"
+msgstr "Enhancement: Added option to override the value in gauge chart"
+
+#: ../../source/changelog.rst:481
+msgid "Bug: Fixed padding on bubble charts"
+msgstr "Bug: Fixed padding on bubble charts"
+
+#: ../../source/changelog.rst:482
+msgid "Chore: Compile SCSS into CSS before building"
+msgstr "Chore: Compile SCSS into CSS before building"
+
+#: ../../source/changelog.rst:483
+msgid "Chore: Expor ChartComponent through the main module"
+msgstr "Chore: Expor ChartComponent through the main module"
+
+#: ../../source/changelog.rst:488
+msgid "4.1.2"
+msgstr "4.1.2"
+
+#: ../../source/changelog.rst:490
+msgid "Bug: Fix tooltip when axis labels are not shown in bubble chart"
+msgstr "Bug: Fix tooltip when axis labels are not shown in bubble chart"
+
+#: ../../source/changelog.rst:491
+msgid "Bug: Do not round scales when they are not linear"
+msgstr "Bug: Do not round scales when they are not linear"
+
+#: ../../source/changelog.rst:492
+msgid "Enhancement: Show Axis labels in bubble chart tooltip (#210)"
+msgstr "Enhancement: Show Axis labels in bubble chart tooltip (#210)"
+
+#: ../../source/changelog.rst:497
+msgid "4.1.1"
+msgstr "4.1.1"
+
+#: ../../source/changelog.rst:499
+msgid "Bug: Fix items not always deactivating on bubble chart"
+msgstr "Bug: Fix items not always deactivating on bubble chart"
+
+#: ../../source/changelog.rst:500
+msgid "Bug: Fix bubbles not showing for when y value is 0"
+msgstr "Bug: Fix bubbles not showing for when y value is 0"
+
+#: ../../source/changelog.rst:501
+msgid "Bug: Fix realtime data generator on demo page for line and area charts"
+msgstr "Bug: Fix realtime data generator on demo page for line and area charts"
+
+#: ../../source/changelog.rst:507
+msgid "4.1.0"
+msgstr "4.1.0"
+
+#: ../../source/changelog.rst:509
+msgid "Feature: Added scatter/bubble chart (#197)"
+msgstr "Feature: Added scatter/bubble chart (#197)"
+
+#: ../../source/changelog.rst:510
+msgid "Bug: Made line-area-tooltip anchor visible on light theme"
+msgstr "Bug: Made line-area-tooltip anchor visible on light theme"
+
+#: ../../source/changelog.rst:511
+msgid "Bug: Fixed precision on pie grid percentage values (#202)"
+msgstr "Bug: Fixed precision on pie grid percentage values (#202)"
+
+#: ../../source/changelog.rst:516
+msgid "4.0.3"
+msgstr "4.0.3"
+
+#: ../../source/changelog.rst:518
+msgid "Bug: Update zone.js version"
+msgstr "Bug: Update zone.js version"
+
+#: ../../source/changelog.rst:523
+msgid "4.0.2"
+msgstr "4.0.2"
+
+#: ../../source/changelog.rst:525
+msgid "Bug: Fixed css scope"
+msgstr "Bug: Fixed css scope"
+
+#: ../../source/changelog.rst:526
+msgid "Bug: Fixed vertical alignment issue of advanced pie legend"
+msgstr "Bug: Fixed vertical alignment issue of advanced pie legend"
+
+#: ../../source/changelog.rst:527
+msgid "Bug: Fixed AOT issue where scss files were missing in the release folder"
+msgstr "Bug: Fixed AOT issue where scss files were missing in the release folder"
+
+#: ../../source/changelog.rst:529
+msgid "Chore: Made tooltip injector use Renderer"
+msgstr "Chore: Made tooltip injector use Renderer"
+
+#: ../../source/changelog.rst:530
+msgid "Chore: Updated Angular to 2.4.5"
+msgstr "Chore: Updated Angular to 2.4.5"
+
+#: ../../source/changelog.rst:535
+msgid "4.0.1"
+msgstr "4.0.1"
+
+#: ../../source/changelog.rst:537
+msgid "Bug: Fixed regressions from CSS refactor"
+msgstr "Bug: Fixed regressions from CSS refactor"
+
+#: ../../source/changelog.rst:542
+msgid "4.0.0"
+msgstr "4.0.0"
+
+#: ../../source/changelog.rst:544
+msgid ""
+"Enhancement: Added ``barPadding`` and ``groupPadding`` properties to bar-"
+"charts (#185)"
+msgstr ""
+
+#: ../../source/changelog.rst:546
+msgid ""
+"Enhancement: Added ``innerPadding`` property for heatmap, to control "
+"padding between cells (#165)"
+msgstr ""
+
+#: ../../source/changelog.rst:548
+msgid ""
+"Enhancement: Added ``axisTickformatting`` property to bar, area, line, "
+"gauge and heatmap charts, for custom axis tick formatting (#167)"
+msgstr ""
+
+#: ../../source/changelog.rst:551
+msgid ""
+"Enhancement: Added ``innerRadius`` property to pie charts, Fixes #104 "
+"(#162)"
+msgstr ""
+
+#: ../../source/changelog.rst:553
+msgid ""
+"Enhancement: Added ``roundDomain`` property to all charts with axis, "
+"allowing it to round the domains to nice values (#183)"
+msgstr ""
+
+#: ../../source/changelog.rst:555
+msgid "Enhancement: Added animation to areaTooltip anchors (#183)"
+msgstr "Enhancement: Added animation to areaTooltip anchors (#183)"
+
+#: ../../source/changelog.rst:556
+msgid "Bug: Charts not rendering if container is hidden by default (#170)"
+msgstr "Bug: Charts not rendering if container is hidden by default (#170)"
+
+#: ../../source/changelog.rst:557
+msgid "Bug: Use old parent dimensions if new dimensions are undefined or 0"
+msgstr "Bug: Use old parent dimensions if new dimensions are undefined or 0"
+
+#: ../../source/changelog.rst:558
+msgid "Bug: Fixed axis number formatting (#171)"
+msgstr "Bug: Fixed axis number formatting (#171)"
+
+#: ../../source/changelog.rst:559
+msgid "Chore: Updated dependencies"
+msgstr "Chore: Updated dependencies"
+
+#: ../../source/changelog.rst:560
+msgid ""
+"Chore: Replaced moment with d3 timeFormat. Moment.js is no longer a "
+"dependency (#173)"
+msgstr ""
+
+#: ../../source/changelog.rst:562
+msgid "Chore: Only include used Rxjs operators to decrease file size (#169)"
+msgstr "Chore: Only include used Rxjs operators to decrease file size (#169)"
+
+#: ../../source/changelog.rst:563
+msgid ""
+"Chore: Refactored CSS and embedded it into the chart components. No need "
+"to import the css file separately any longer. [Breaking change]"
+msgstr ""
+
+#: ../../source/changelog.rst:569
+msgid "3.1.2"
+msgstr "3.1.2"
+
+#: ../../source/changelog.rst:571
+msgid ""
+"Enhancement: Add ``ngx-charts-outer`` class to ``ngx-charts`` inner "
+"element"
+msgstr ""
+
+#: ../../source/changelog.rst:573
+msgid "Chore: Update dependencies"
+msgstr "Chore: Update dependencies"
+
+#: ../../source/changelog.rst:578
+msgid "3.1.1"
+msgstr "3.1.1"
+
+#: ../../source/changelog.rst:580
+msgid ""
+"Fixed bug where activated lines and areas would not deactivate when mouse"
+" leaves the circle"
+msgstr ""
+
+#: ../../source/changelog.rst:582
+msgid "Added fade in animation to active circle line"
+msgstr "Added fade in animation to active circle line"
+
+#: ../../source/changelog.rst:587
+msgid "3.1.0"
+msgstr "3.1.0"
+
+#: ../../source/changelog.rst:589
+msgid "Added min and max ranges option to line charts (#160)"
+msgstr "Added min and max ranges option to line charts (#160)"
+
+#: ../../source/changelog.rst:590
+msgid "Added margin support for Gauge charts (#159)"
+msgstr "Added margin support for Gauge charts (#159)"
+
+#: ../../source/changelog.rst:591
+msgid "Added animation to pie chart label"
+msgstr "Added animation to pie chart label"
+
+#: ../../source/changelog.rst:592
+msgid "Replaced window.location with angular’s Location provider"
+msgstr "Replaced window.location with angular’s Location provider"
+
+#: ../../source/changelog.rst:593
+msgid "Fixed axis tick overlap in gauge chart when the angle span is 360"
+msgstr "Fixed axis tick overlap in gauge chart when the angle span is 360"
+
+#: ../../source/changelog.rst:594
+msgid ""
+"Replaced .children with .getElementsByTagName in area tooltip to fix "
+"error in IE11 (#157)"
+msgstr ""
+
+#: ../../source/changelog.rst:600
+msgid "3.0.7"
+msgstr "3.0.7"
+
+#: ../../source/changelog.rst:602
+msgid "Changed arc colors on gauge charts to be based on name, not value"
+msgstr "Changed arc colors on gauge charts to be based on name, not value"
+
+#: ../../source/changelog.rst:607
+msgid "3.0.6"
+msgstr "3.0.6"
+
+#: ../../source/changelog.rst:609
+msgid "Fixed typo in circle series (#149)"
+msgstr "Fixed typo in circle series (#149)"
+
+#: ../../source/changelog.rst:610
+msgid "Fixed gradient bug in heatmap"
+msgstr "Fixed gradient bug in heatmap"
+
+#: ../../source/changelog.rst:611
+msgid "Updated Axis components to allow tick count to be an input"
+msgstr "Updated Axis components to allow tick count to be an input"
+
+#: ../../source/changelog.rst:612
+msgid "Changed scaleText methods on gauge charts to not be recoursive"
+msgstr "Changed scaleText methods on gauge charts to not be recoursive"
+
+#: ../../source/changelog.rst:617
+msgid "3.0.5"
+msgstr "3.0.5"
+
+#: ../../source/changelog.rst:619
+msgid "Added the group name in grouped bar tooltips"
+msgstr "Added the group name in grouped bar tooltips"
+
+#: ../../source/changelog.rst:620
+msgid "Added legend to gauge chart"
+msgstr "Added legend to gauge chart"
+
+#: ../../source/changelog.rst:621
+msgid "Added tooltips to gauge chart"
+msgstr "Added tooltips to gauge chart"
+
+#: ../../source/changelog.rst:626
+msgid "3.0.4"
+msgstr "3.0.4"
+
+#: ../../source/changelog.rst:628
+msgid "Fixed broken count animation in number card"
+msgstr "Fixed broken count animation in number card"
+
+#: ../../source/changelog.rst:629
+msgid "Fixed tooltip for hybrid apps"
+msgstr "Fixed tooltip for hybrid apps"
+
+#: ../../source/changelog.rst:630
+msgid "Cody lint updates"
+msgstr "Cody lint updates"
+
+#: ../../source/changelog.rst:635
+msgid "3.0.3"
+msgstr "3.0.3"
+
+#: ../../source/changelog.rst:637
+msgid "Namespaced the project to swimlane organization"
+msgstr "Namespaced the project to swimlane organization"
+
+#: ../../source/changelog.rst:642
+msgid "3.0.2"
+msgstr "3.0.2"
+
+#: ../../source/changelog.rst:644
+msgid "Exported ColorHelper class"
+msgstr "Exported ColorHelper class"
+
+#: ../../source/changelog.rst:649
+msgid "3.0.1"
+msgstr "3.0.1"
+
+#: ../../source/changelog.rst:651
+msgid "Updated tooltips to latest version from ngx-ui"
+msgstr "Updated tooltips to latest version from ngx-ui"
+
+#: ../../source/changelog.rst:656
+msgid "3.0.0"
+msgstr "3.0.0"
+
+#: ../../source/changelog.rst:658
+msgid "Renamed project to ngx-charts"
+msgstr "Renamed project to ngx-charts"
+
+#: ../../source/changelog.rst:659
+msgid "Prefixed component selectors with ngx-charts-"
+msgstr "Prefixed component selectors with ngx-charts-"
+
+#: ../../source/changelog.rst:660
+msgid "Upgraded angular to 2.4.1"
+msgstr "Upgraded angular to 2.4.1"
+
+#: ../../source/changelog.rst:661
+msgid ""
+"Implemented BaseChartComponent as an angular component and set up proper "
+"component inheritance"
+msgstr ""
+
+#: ../../source/changelog.rst:663
+msgid "Converted color helper to a class"
+msgstr "Converted color helper to a class"
+
+#: ../../source/changelog.rst:664
+msgid ""
+"Implemented linear color schemes for bar, line and area charts and added "
+"schemeType input"
+msgstr ""
+
+#: ../../source/changelog.rst:666
+msgid "Added support for multiple values in gague chart"
+msgstr "Added support for multiple values in gague chart"
+
+#: ../../source/changelog.rst:667
+msgid "Implemented linear gauge chart"
+msgstr "Implemented linear gauge chart"
+
+#: ../../source/changelog.rst:668
+msgid ""
+"Implemented triggering legend item activation when chart items are being "
+"hovered"
+msgstr ""
+
+#: ../../source/changelog.rst:674
+msgid "2.0.0"
+msgstr "2.0.0"
+
+#: ../../source/changelog.rst:676
+msgid "BREAKING: Renamed ``clickHandler`` to ``select`` (#120)"
+msgstr "BREAKING: Renamed ``clickHandler`` to ``select`` (#120)"
+
+#: ../../source/changelog.rst:677
+msgid "Bug: Tooltips show up in top left corner sometimes"
+msgstr "Bug: Tooltips show up in top left corner sometimes"
+
+#: ../../source/changelog.rst:678
+msgid "Polish: Tooltips have animation entry now"
+msgstr "Polish: Tooltips have animation entry now"
+
+#: ../../source/changelog.rst:679
+msgid "Polish: Add highlight gradient and column when hovering a circle"
+msgstr "Polish: Add highlight gradient and column when hovering a circle"
+
+#: ../../source/changelog.rst:680
+msgid "Polish: Remove outline on focus (#106)"
+msgstr "Polish: Remove outline on focus (#106)"
+
+#: ../../source/changelog.rst:681
+msgid "Polish: Make pie grid less ugly (#90)"
+msgstr "Polish: Make pie grid less ugly (#90)"
+
+#: ../../source/changelog.rst:682
+msgid "Polish: Highlighting a line/area chart in legend, defocuses others"
+msgstr "Polish: Highlighting a line/area chart in legend, defocuses others"
+
+#: ../../source/changelog.rst:683
+msgid "Polish: Radial gradients on pie charts vs linear"
+msgstr "Polish: Radial gradients on pie charts vs linear"
+
+#: ../../source/changelog.rst:684
+msgid "Polish: Better sizing for heatmap legends"
+msgstr "Polish: Better sizing for heatmap legends"
+
+#: ../../source/changelog.rst:685
+msgid "Chore: Refactor Advanced Legend (#125)"
+msgstr "Chore: Refactor Advanced Legend (#125)"
+
+#: ../../source/changelog.rst:686
+msgid "Chore: Webpack html templates for Google Analytics"
+msgstr "Chore: Webpack html templates for Google Analytics"
+
+#: ../../source/changelog.rst:691
+msgid "1.9.0"
+msgstr "1.9.0"
+
+#: ../../source/changelog.rst:693
+msgid "Enhancement: Hover of legend doesn’t highlight bar (#73)"
+msgstr "Enhancement: Hover of legend doesn’t highlight bar (#73)"
+
+#: ../../source/changelog.rst:694
+msgid "API: Added ``activate`` and ``deactivate`` events to chart for hovers"
+msgstr "API: Added ``activate`` and ``deactivate`` events to chart for hovers"
+
+#: ../../source/changelog.rst:695
+msgid "Bug: Fix number card positioning due to count up"
+msgstr "Bug: Fix number card positioning due to count up"
+
+#: ../../source/changelog.rst:696
+msgid "Bug: Fix decimal places on advanced pie legend"
+msgstr "Bug: Fix decimal places on advanced pie legend"
+
+#: ../../source/changelog.rst:697
+msgid "Chore: Fix rx mapping (#123)"
+msgstr "Chore: Fix rx mapping (#123)"
+
+#: ../../source/changelog.rst:698
+msgid "Polish: Tweak label color bg"
+msgstr "Polish: Tweak label color bg"
+
+#: ../../source/changelog.rst:699
+msgid "Polish: Tweak circle / heat map tooltip titles"
+msgstr "Polish: Tweak circle / heat map tooltip titles"
+
+#: ../../source/changelog.rst:700
+msgid "Perf: Improve perf of circles using ngIf"
+msgstr "Perf: Improve perf of circles using ngIf"
+
+#: ../../source/changelog.rst:705
+msgid "1.8.2"
+msgstr "1.8.2"
+
+#: ../../source/changelog.rst:707
+msgid "Bug: Fix for number cards not updating to last value"
+msgstr "Bug: Fix for number cards not updating to last value"
+
+#: ../../source/changelog.rst:708
+msgid "Bug: Revert RxJS Import Optimized (#62) due to (#119)"
+msgstr "Bug: Revert RxJS Import Optimized (#62) due to (#119)"
+
+#: ../../source/changelog.rst:709
+msgid "Polish: Added animation on treemap"
+msgstr "Polish: Added animation on treemap"
+
+#: ../../source/changelog.rst:710
+msgid "Polish: Better formatting for treemap values"
+msgstr "Polish: Better formatting for treemap values"
+
+#: ../../source/changelog.rst:711
+msgid "Polish: Added animation on advanced pie"
+msgstr "Polish: Added animation on advanced pie"
+
+#: ../../source/changelog.rst:712
+msgid "Polish: Added animation on pie grid"
+msgstr "Polish: Added animation on pie grid"
+
+#: ../../source/changelog.rst:717
+msgid "1.8.1"
+msgstr "1.8.1"
+
+#: ../../source/changelog.rst:719
+msgid "Polish: Treemap/Number card label color improvements"
+msgstr "Polish: Treemap/Number card label color improvements"
+
+#: ../../source/changelog.rst:720
+msgid "Polish: Tooltip formatting improvements"
+msgstr "Polish: Tooltip formatting improvements"
+
+#: ../../source/changelog.rst:721
+msgid "Backlog: RxJS Import Optimized (#62)"
+msgstr "Backlog: RxJS Import Optimized (#62)"
+
+#: ../../source/changelog.rst:722
+msgid "Backlog: AoT fixes"
+msgstr "Backlog: AoT fixes"
+
+#: ../../source/changelog.rst:727
+msgid "1.8.0"
+msgstr "1.8.0"
+
+#: ../../source/changelog.rst:729
+msgid ""
+"Renamed CommonModule to ChartCommonModule to fix name conflicts with "
+"other frameworks #109"
+msgstr ""
+
+#: ../../source/changelog.rst:731
+msgid "Converted date objects to formatted strings in some charts"
+msgstr "Converted date objects to formatted strings in some charts"
+
+#: ../../source/changelog.rst:732
+msgid "Removed rounded corners on thin bars"
+msgstr "Removed rounded corners on thin bars"
+
+#: ../../source/changelog.rst:733
+msgid "Improved on destroy hooks in tooltips"
+msgstr "Improved on destroy hooks in tooltips"
+
+#: ../../source/changelog.rst:734
+msgid "Merged ``legendLabelClick`` output into ``select`` output"
+msgstr "Merged ``legendLabelClick`` output into ``select`` output"
+
+#: ../../source/changelog.rst:735
+msgid "Fixed legend click data format"
+msgstr "Fixed legend click data format"
+
+#: ../../source/changelog.rst:740
+msgid "1.7.3"
+msgstr "1.7.3"
+
+#: ../../source/changelog.rst:742
+msgid "Fixed pie chart labels going out of bounds"
+msgstr "Fixed pie chart labels going out of bounds"
+
+#: ../../source/changelog.rst:743
+msgid "Updated area tooltip formatting and legend colors for dates"
+msgstr "Updated area tooltip formatting and legend colors for dates"
+
+#: ../../source/changelog.rst:744
+msgid "Updated numbercard height scale max size"
+msgstr "Updated numbercard height scale max size"
+
+#: ../../source/changelog.rst:749
+msgid "1.7.2"
+msgstr "1.7.2"
+
+#: ../../source/changelog.rst:751
+msgid "Bug: Fix number card text scaling"
+msgstr "Bug: Fix number card text scaling"
+
+#: ../../source/changelog.rst:752
+msgid "Added custom timeline background element"
+msgstr "Added custom timeline background element"
+
+#: ../../source/changelog.rst:753
+msgid "Wrapped timeline updates in zone.run"
+msgstr "Wrapped timeline updates in zone.run"
+
+#: ../../source/changelog.rst:754
+msgid "Style updates"
+msgstr "Style updates"
+
+#: ../../source/changelog.rst:759
+msgid "1.7.1"
+msgstr "1.7.1"
+
+#: ../../source/changelog.rst:761
+msgid "Bug: Advanced Pie Legend not clickable"
+msgstr "Bug: Advanced Pie Legend not clickable"
+
+#: ../../source/changelog.rst:762
+msgid "Bug: Date equality not scaling properly"
+msgstr "Bug: Date equality not scaling properly"
+
+#: ../../source/changelog.rst:767
+msgid "1.7.0"
+msgstr "1.7.0"
+
+#: ../../source/changelog.rst:769
+msgid "Enhancement: Added ``legendLabelClick`` event"
+msgstr "Enhancement: Added ``legendLabelClick`` event"
+
+#: ../../source/changelog.rst:770
+msgid ""
+"Enhancement: Properly format labels and numbers in axis, tooltips, and "
+"legends"
+msgstr ""
+
+#: ../../source/changelog.rst:772
+msgid "Bug: Fix typo in legend eye class"
+msgstr "Bug: Fix typo in legend eye class"
+
+#: ../../source/changelog.rst:773
+msgid "Style: Hover styling for legend entries"
+msgstr "Style: Hover styling for legend entries"
+
+#: ../../source/changelog.rst:774
+msgid "Chore: Upgrade to Angular 2.2.2"
+msgstr "Chore: Upgrade to Angular 2.2.2"
+
+#: ../../source/changelog.rst:775
+msgid "Chore: Better Webpack Config"
+msgstr "Chore: Better Webpack Config"
+
+#: ../../source/changelog.rst:776
+msgid "Chore: Normalized exports"
+msgstr "Chore: Normalized exports"
+
+#: ../../source/changelog.rst:781
+msgid "1.6.3"
+msgstr "1.6.3"
+
+#: ../../source/changelog.rst:783
+msgid "Bug: Wrap all updates in zone.run to fix issue in hybrid apps"
+msgstr "Bug: Wrap all updates in zone.run to fix issue in hybrid apps"
+
+#: ../../source/changelog.rst:784
+msgid "Perf: Add starting value to reduce calls"
+msgstr "Perf: Add starting value to reduce calls"
+
+#: ../../source/changelog.rst:785
+msgid "Bug: Fix sorting in line and area charts"
+msgstr "Bug: Fix sorting in line and area charts"
+
+#: ../../source/changelog.rst:786
+msgid "Bug: Fix change detection in hybrid Angular applications"
+msgstr "Bug: Fix change detection in hybrid Angular applications"
+
+#: ../../source/changelog.rst:787
+msgid "Style: Better tooltip styling"
+msgstr "Style: Better tooltip styling"
+
+#: ../../source/changelog.rst:792
+msgid "1.6.2"
+msgstr "1.6.2"
+
+#: ../../source/changelog.rst:794
+msgid "Chore: Export BaseCharts"
+msgstr "Chore: Export BaseCharts"
+
+#: ../../source/changelog.rst:795
+msgid "Perf: Switch change detection strategy to OnPush"
+msgstr "Perf: Switch change detection strategy to OnPush"
+
+#: ../../source/changelog.rst:800
+msgid "1.6.1"
+msgstr "1.6.1"
+
+#: ../../source/changelog.rst:802
+msgid "Bug: Don’t do rounded edges on bars smaller than their radius"
+msgstr "Bug: Don’t do rounded edges on bars smaller than their radius"
+
+#: ../../source/changelog.rst:803
+msgid "Bug: Scale number cards by height"
+msgstr "Bug: Scale number cards by height"
+
+#: ../../source/changelog.rst:804
+msgid "Bug: Set text inside number cards to prevent overflow (#89)"
+msgstr "Bug: Set text inside number cards to prevent overflow (#89)"
+
+#: ../../source/changelog.rst:805
+msgid "Bug: Format numbers and dates according to locale"
+msgstr "Bug: Format numbers and dates according to locale"
+
+#: ../../source/changelog.rst:806
+msgid "Bug: Fix timeline width when no legend is present"
+msgstr "Bug: Fix timeline width when no legend is present"
+
+#: ../../source/changelog.rst:807
+msgid "Bug: Embed charts into timeline; Restyle timeline"
+msgstr "Bug: Embed charts into timeline; Restyle timeline"
+
+#: ../../source/changelog.rst:808
+msgid "Bug: Show percentages in tooltips for normalized bar charts (#79)"
+msgstr "Bug: Show percentages in tooltips for normalized bar charts (#79)"
+
+#: ../../source/changelog.rst:809
+msgid "Chore: Change legend class name to prevent style conflicts (#98)"
+msgstr "Chore: Change legend class name to prevent style conflicts (#98)"
+
+#: ../../source/changelog.rst:810
+msgid "Chore: Upgrade to Angular 2.2.1"
+msgstr "Chore: Upgrade to Angular 2.2.1"
+
+#: ../../source/changelog.rst:811
+msgid "Chore: Fix tooltips in hybrid apps"
+msgstr "Chore: Fix tooltips in hybrid apps"
+
+#: ../../source/changelog.rst:816
+msgid "1.6.0"
+msgstr "1.6.0"
+
+#: ../../source/changelog.rst:818
+msgid "Added gauge chart"
+msgstr "Added gauge chart"
+
+#: ../../source/changelog.rst:819
+msgid "Fixed source map file name"
+msgstr "Fixed source map file name"
+
+#: ../../source/changelog.rst:820
+msgid ""
+"Fixed bug where grid panels in grouped bar chart would have the wrong "
+"size and position"
+msgstr ""
+
+#: ../../source/changelog.rst:826
+msgid "1.5.2"
+msgstr "1.5.2"
+
+#: ../../source/changelog.rst:828
+msgid "Added fade in animation to charts"
+msgstr "Added fade in animation to charts"
+
+#: ../../source/changelog.rst:829
+msgid "Excluded d3 from the release bundle"
+msgstr "Excluded d3 from the release bundle"
+
+#: ../../source/changelog.rst:830
+msgid "Decreased the pie grid doughnut width"
+msgstr "Decreased the pie grid doughnut width"
+
+#: ../../source/changelog.rst:835
+msgid "1.5.1"
+msgstr "1.5.1"
+
+#: ../../source/changelog.rst:837
+msgid ""
+"Fixed bug where view dimension feedback would enter into a loop due to "
+"float decimals"
+msgstr ""
+
+#: ../../source/changelog.rst:839
+msgid "Fixed bug where tree map would not call update on the base chart"
+msgstr "Fixed bug where tree map would not call update on the base chart"
+
+#: ../../source/changelog.rst:840
+msgid "Switched legend label truncation to css ellipsis"
+msgstr "Switched legend label truncation to css ellipsis"
+
+#: ../../source/changelog.rst:841
+msgid "Added maximum height to legend, and scrollbars on overflow"
+msgstr "Added maximum height to legend, and scrollbars on overflow"
+
+#: ../../source/changelog.rst:842
+msgid "Added a count up animation to number cards"
+msgstr "Added a count up animation to number cards"
+
+#: ../../source/changelog.rst:843
+msgid "Fixed advanced pie layout"
+msgstr "Fixed advanced pie layout"
+
+#: ../../source/changelog.rst:844
+msgid "Updated pie grid layout and padding"
+msgstr "Updated pie grid layout and padding"
+
+#: ../../source/changelog.rst:845
+msgid "Refactored pie grid to use the pie arc component"
+msgstr "Refactored pie grid to use the pie arc component"
+
+#: ../../source/changelog.rst:846
+msgid "Updated testing framework"
+msgstr "Updated testing framework"
+
+#: ../../source/changelog.rst:851
+msgid "1.5.0"
+msgstr "1.5.0"
+
+#: ../../source/changelog.rst:853
+msgid "Added force directed graph chart (#64)"
+msgstr "Added force directed graph chart (#64)"
+
+#: ../../source/changelog.rst:854
+msgid ""
+"Fixed bug where tooltip would not work when library is used in an angular"
+" 1 application using ngUpgrade"
+msgstr ""
+
+#: ../../source/changelog.rst:856
+msgid "Fixed tooltip positioning"
+msgstr "Fixed tooltip positioning"
+
+#: ../../source/changelog.rst:857
+msgid "Added line interpolation option for line and area charts (#52)"
+msgstr "Added line interpolation option for line and area charts (#52)"
+
+#: ../../source/changelog.rst:858
+msgid ""
+"Updated view dimension calculation to properly take into account the "
+"width and height of the axis tick labels."
+msgstr ""
+
+#: ../../source/changelog.rst:860
+msgid "Various bug fixes and code style fixes"
+msgstr "Various bug fixes and code style fixes"
+
+#: ../../source/changelog.rst:865
+msgid "1.4.0"
+msgstr "1.4.0"
+
+#: ../../source/changelog.rst:867
+msgid "Chore: Upgrade Webpack 2.25"
+msgstr "Chore: Upgrade Webpack 2.25"
+
+#: ../../source/changelog.rst:868
+msgid "Chore: Remove rollup in favor of webpack builds"
+msgstr "Chore: Remove rollup in favor of webpack builds"
+
+#: ../../source/changelog.rst:873
+msgid "1.3.0"
+msgstr "1.3.0"
+
+#: ../../source/changelog.rst:875
+msgid ""
+"Added option to resize charts to fit containers if ``view`` property is "
+"not set (#44)"
+msgstr ""
+
+#: ../../source/changelog.rst:877
+msgid "Fixed legend size and positioning (#47)"
+msgstr "Fixed legend size and positioning (#47)"
+
+#: ../../source/changelog.rst:878
+msgid "Added scale legend to heat map chart"
+msgstr "Added scale legend to heat map chart"
+
+#: ../../source/changelog.rst:879
+msgid "Added option to show/hide the grid lines on the chart (#53)"
+msgstr "Added option to show/hide the grid lines on the chart (#53)"
+
+#: ../../source/changelog.rst:880
+msgid "Added support for negative values in bar charts (#17)"
+msgstr "Added support for negative values in bar charts (#17)"
+
+#: ../../source/changelog.rst:881
+msgid "Fixed bug with reduce call (#56)"
+msgstr "Fixed bug with reduce call (#56)"
+
+#: ../../source/changelog.rst:882
+msgid ""
+"Changed the tooltip to be hidden initially in order to avoid overflow and"
+" scrollbars. (#57)"
+msgstr ""
+
+#: ../../source/changelog.rst:884
+msgid "Fixed AOT bugs (#46)"
+msgstr "Fixed AOT bugs (#46)"
+
+#: ../../source/changelog.rst:889
+msgid "1.2.2"
+msgstr "1.2.2"
+
+#: ../../source/changelog.rst:891
+msgid "Added AOT compilation support"
+msgstr "Added AOT compilation support"
+
+#: ../../source/changelog.rst:892
+msgid "Fixed bug where BrowserModule was imported multiple times"
+msgstr "Fixed bug where BrowserModule was imported multiple times"
+
+#: ../../source/changelog.rst:897
+msgid "1.2.1"
+msgstr "1.2.1"
+
+#: ../../source/changelog.rst:899
+msgid "Added transition animation to TreeMap chart"
+msgstr "Added transition animation to TreeMap chart"
+
+#: ../../source/changelog.rst:900
+msgid "Added tooltips to TreeMap, Line, Area, and Pie Grid charts"
+msgstr "Added tooltips to TreeMap, Line, Area, and Pie Grid charts"
+
+#: ../../source/changelog.rst:901
+msgid "Fixed TreeMap click event"
+msgstr "Fixed TreeMap click event"
+
+#: ../../source/changelog.rst:902
+msgid "Updated TreeMap label positioning and style"
+msgstr "Updated TreeMap label positioning and style"
+
+#: ../../source/changelog.rst:903
+msgid "Changed the starting opacity of bars in bar chart"
+msgstr "Changed the starting opacity of bars in bar chart"
+
+#: ../../source/changelog.rst:904
+msgid "Updated the circles behavior on Line and Area charts"
+msgstr "Updated the circles behavior on Line and Area charts"
+
+#: ../../source/changelog.rst:909
+msgid "1.2.0"
+msgstr "1.2.0"
+
+#: ../../source/changelog.rst:911
+msgid "Added Tooltips to charts"
+msgstr "Added Tooltips to charts"
+
+#: ../../source/changelog.rst:912
+msgid "Added TreeMap chart"
+msgstr "Added TreeMap chart"
+
+#: ../../source/changelog.rst:917
+msgid "1.1.0"
+msgstr "1.1.0"
+
+#: ../../source/changelog.rst:919
+msgid "Upgraded to Angular 2.0.0"
+msgstr "Upgraded to Angular 2.0.0"
+
+#: ../../source/changelog.rst:920
+msgid "Upgraded to TypeScript 2.0.2"
+msgstr "Upgraded to TypeScript 2.0.2"
+
+#: ../../source/changelog.rst:921
+msgid "Added timeline line and area charts"
+msgstr "Added timeline line and area charts"
+
+#: ../../source/changelog.rst:922
+msgid "Removed margin from inputs"
+msgstr "Removed margin from inputs"
+
+#: ../../source/changelog.rst:923
+msgid "Prevented charts from double rendering on init"
+msgstr "Prevented charts from double rendering on init"
+
+#: ../../source/changelog.rst:924
+msgid ""
+"Added transition animations to pie, line and area charts, and updated "
+"transitions on bar charts"
+msgstr ""
+
+#: ../../source/changelog.rst:930
+msgid "1.0.1"
+msgstr "1.0.1"
+
+#: ../../source/changelog.rst:932
+msgid "Implemented smart axis labels (#32)"
+msgstr "Implemented smart axis labels (#32)"
+
+#: ../../source/changelog.rst:933
+msgid "Upgraded D3 to 4.0 (#6)"
+msgstr "Upgraded D3 to 4.0 (#6)"
+
+#: ../../source/changelog.rst:938
+msgid "1.0.0"
+msgstr "1.0.0"
+
+#: ../../source/changelog.rst:940
+msgid "Initial release"
+msgstr "Initial release"
+

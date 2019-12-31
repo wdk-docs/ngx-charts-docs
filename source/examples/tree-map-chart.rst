@@ -15,65 +15,65 @@ ngx-charts","icon":{"type":"icon","url":"https://c.staticblitz.com/assets/icon-6
 Inputs
 ------
 
-+-----+-------+----+--------------------------------------------------+
-| Pro | Type  | De | Description                                      |
-| per |       | fa |                                                  |
-| ty  |       | ul |                                                  |
-|     |       | t  |                                                  |
-|     |       | Va |                                                  |
-|     |       | lu |                                                  |
-|     |       | e  |                                                  |
-+=====+=======+====+==================================================+
-| vie | numbe |    | the dimensions of the chart [width, height]. If  |
-| w   | r[]   |    | left undefined, the chart will fit to the parent |
-|     |       |    | container size                                   |
-+-----+-------+----+--------------------------------------------------+
-| res | objec |    | the chart data                                   |
-| ult | t[]   |    |                                                  |
-| s   |       |    |                                                  |
-+-----+-------+----+--------------------------------------------------+
-| sch | objec |    | the color scheme of the chart                    |
-| eme | t     |    |                                                  |
-+-----+-------+----+--------------------------------------------------+
-| cus | funct |    | custom colors for the chart. Used to override a  |
-| tom | ion   |    | color for a specific value                       |
-| Col | or    |    |                                                  |
-| ors | objec |    |                                                  |
-|     | t     |    |                                                  |
-+-----+-------+----+--------------------------------------------------+
-| ani | boole | tr | enable animations                                |
-| mat | an    | ue |                                                  |
-| ion |       |    |                                                  |
-| s   |       |    |                                                  |
-+-----+-------+----+--------------------------------------------------+
-| too | boole | fa | show or hide the tooltip                         |
-| lti | an    | ls |                                                  |
-| pDi |       | e  |                                                  |
-| sab |       |    |                                                  |
-| led |       |    |                                                  |
-+-----+-------+----+--------------------------------------------------+
-| val | funct |    | function that formats the cell value             |
-| ueF | ion   |    |                                                  |
-| orm |       |    |                                                  |
-| att |       |    |                                                  |
-| ing |       |    |                                                  |
-+-----+-------+----+--------------------------------------------------+
-| lab | funct |    | function that formats the cell label             |
-| elF | ion   |    |                                                  |
-| orm |       |    |                                                  |
-| att |       |    |                                                  |
-| ing |       |    |                                                  |
-+-----+-------+----+--------------------------------------------------+
-| gra | boole | fa | fill elements with a gradient instead of a solid |
-| die | an    | ls | color                                            |
-| nt  |       | e  |                                                  |
-+-----+-------+----+--------------------------------------------------+
-| too | Templ |    | a custom ng-template to be displayed inside the  |
-| lti | ateRe |    | tooltip                                          |
-| pTe | f     |    |                                                  |
-| mpl |       |    |                                                  |
-| ate |       |    |                                                  |
-+-----+-------+----+--------------------------------------------------+
++----------+-------+-----+--------------------------------------------------+
+| Property | Type  | De  |                   Description                    |
+|          |       | fa  |                                                  |
+|          |       | ul  |                                                  |
+|          |       |  t  |                                                  |
+|          |       | Va  |                                                  |
+|          |       | lu  |                                                  |
+|          |       |  e  |                                                  |
++==========+=======+=====+==================================================+
+| vie      | numbe |     | the dimensions of the chart [width, height]. If  |
+| w        | r[]   |     | left undefined, the chart will fit to the parent |
+|          |       |     | container size                                   |
++----------+-------+-----+--------------------------------------------------+
+| res      | objec |     | the chart data                                   |
+| ult      | t[]   |     |                                                  |
+| s        |       |     |                                                  |
++----------+-------+-----+--------------------------------------------------+
+| sch      | objec |     | the color scheme of the chart                    |
+| eme      | t     |     |                                                  |
++----------+-------+-----+--------------------------------------------------+
+| cus      | funct |     | custom colors for the chart. Used to override a  |
+| tom      | ion   |     | color for a specific value                       |
+| Col      | or    |     |                                                  |
+| ors      | objec |     |                                                  |
+|          | t     |     |                                                  |
++----------+-------+-----+--------------------------------------------------+
+| ani      | boole | tr  | enable animations                                |
+| mat      | an    | ue  |                                                  |
+| ion      |       |     |                                                  |
+| s        |       |     |                                                  |
++----------+-------+-----+--------------------------------------------------+
+| too      | boole | fa  | show or hide the tooltip                         |
+| lti      | an    | ls  |                                                  |
+| pDi      |       | e   |                                                  |
+| sab      |       |     |                                                  |
+| led      |       |     |                                                  |
++----------+-------+-----+--------------------------------------------------+
+| val      | funct |     | function that formats the cell value             |
+| ueF      | ion   |     |                                                  |
+| orm      |       |     |                                                  |
+| att      |       |     |                                                  |
+| ing      |       |     |                                                  |
++----------+-------+-----+--------------------------------------------------+
+| lab      | funct |     | function that formats the cell label             |
+| elF      | ion   |     |                                                  |
+| orm      |       |     |                                                  |
+| att      |       |     |                                                  |
+| ing      |       |     |                                                  |
++----------+-------+-----+--------------------------------------------------+
+| gra      | boole | fa  | fill elements with a gradient instead of a solid |
+| die      | an    | ls  | color                                            |
+| nt       |       | e   |                                                  |
++----------+-------+-----+--------------------------------------------------+
+| too      | Templ |     | a custom ng-template to be displayed inside the  |
+| lti      | ateRe |     | tooltip                                          |
+| pTe      | f     |     |                                                  |
+| mpl      |       |     |                                                  |
+| ate      |       |     |                                                  |
++----------+-------+-----+--------------------------------------------------+
 
 Outputs
 -------

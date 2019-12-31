@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Band Camp
+# This file is distributed under the same license as the ngx-charts docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ngx-charts docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-29 12:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/custom-charts.rst:2
+msgid "Custom Charts"
+msgstr "自定义图表"
+
+#: ../../source/custom-charts.rst:4
+msgid ""
+"Other than the library of available charts, ngx-charts also exports all "
+"of the components and helpers used as building blocks for the charts. "
+"Things like legends, axes, dimension helpers, gradients, shapes, series "
+"of shapes, can all be directly imported into your application and used in"
+" your components. This allows you to combine them and build custom charts"
+" that implement use cases that the pre-made charts do not support."
+msgstr "比可用图表，NGX-图表库等还出口都用作添砖加瓦图表组件和佣工。 就像传说，轴，尺寸帮手，渐变，形状的东西，一系列的形状，都可以直接导入到你的应用程序和您的组件使用。这可以让你把它们混合起来并实现用例是，预先制作图表不支持创建自定义的图表。"
+
+#: ../../source/custom-charts.rst:11
+msgid ""
+"You can find an example of how to use these components to build a custom "
+"chart here: https://github.com/swimlane/ngx-charts/tree/master/demo"
+"/combo-chart"
+msgstr "你可以找到如何使用这些组件在这里建立一个自定义图表示例: https://github.com/swimlane/ngx-charts/tree/master/demo/combo-chart"
+
+#: ../../source/custom-charts.rst:15
+msgid ""
+"The demo of the above combo-chart can be seen here: "
+"https://swimlane.github.io/ngx-charts/#/ngx-charts/combo-chart"
+msgstr "上述组合，图表的演示可以在这里看到: https://swimlane.github.io/ngx-charts/#/ngx-charts/combo-chart"
+
+#: ../../source/custom-charts.rst:18
+msgid ""
+"The charts under the ‘Demos’ group in our demo page are not distributed "
+"with the library. However, their code is available and can be copied "
+"directly into your project. We encourage you to submit a pull request for"
+" your custom charts to be listed in our ‘Demos’ section, because they may"
+" help other people that have the same use case as you."
+msgstr ""
+
+#: ../../source/custom-charts.rst:25
+msgid "Custom Chart Index"
+msgstr "自定义图表指标"
+
+#: ../../source/custom-charts.rst:27
+msgid ""
+"`Bar/Line Combo Chart <https://github.com/swimlane/ngx-"
+"charts/tree/master/demo/combo-chart>`__"
+msgstr "`酒吧/线组合图 <https://github.com/swimlane/ngx-charts/tree/master/demo/combo-chart>`__"
+
+#: ../../source/custom-charts.rst:29
+msgid ""
+"`Sparkline <https://github.com/swimlane/ngx-"
+"charts/tree/master/demo/sparkline>`__"
+msgstr "`迷你图 <https://github.com/swimlane/ngx-charts/tree/master/demo/sparkline>`__"
+
+#: ../../source/custom-charts.rst:30
+msgid ""
+"`Timeline filter bar chart <https://github.com/swimlane/ngx-"
+"charts/tree/master/demo/timeline-filter-bar-chart>`__"
+msgstr "`时间轴滤波器条形图 <https://github.com/swimlane/ngx-charts/tree/master/demo/timeline-filter-bar-chart>`__"
+
+#: ../../source/custom-charts.rst:32
+msgid ""
+"`Bubble Chart Interactive Drilldown <https://github.com/swimlane/ngx-"
+"charts/tree/master/demo/bubble-chart-interactive-demo>`__"
+msgstr "`气泡图互动追溯 <https://github.com/swimlane/ngx-charts/tree/master/demo/bubble-chart-interactive-demo>`__"
+
+#: ../../source/custom-charts.rst:35
+msgid ""
+"*If you want to have your custom chart featured above, please submit a "
+"pull request to* `this file <https://github.com/swimlane/ngx-"
+"charts/blob/master/docs/intro/custom-charts.md>`__\\ *.*"
+msgstr "*如果您希望您的自定义图表上方功能，请提交pull请求* `这个文件 <https://github.com/swimlane/ngx-charts/blob/master/docs/intro/custom-charts.md>`__\\ *.*"
+
+#: ../../source/custom-charts.rst:40
+msgid "Pointers when creating or adapting Custom Charts"
+msgstr "指针创建或调整时，自定义图表"
+
+#: ../../source/custom-charts.rst:42
+msgid ""
+"To develop new charts, start by building the shell in the demo project "
+"first."
+msgstr "为了开发新的图表，首先建立示范项目的shell启动。"
+
+#: ../../source/custom-charts.rst:44
+msgid ""
+"If you start by copying an existing chart from src (recommended), be sure"
+" to rename your new component(s) and their selectors, as well as the "
+"module that contains them (if applicable)."
+msgstr ""
+
+#: ../../source/custom-charts.rst:47
+msgid ""
+"If you discover the tooltip does not display correctly, try exporting the"
+" new chart as a module along with ChartCommonModule and import it into "
+"the demo’s app.module.ts file."
+msgstr ""
+
+#: ../../source/custom-charts.rst:50
+msgid "For an example of this, look at most any chart in the src folder"
+msgstr "对于这样的一个例子，看看大多数任何排行榜中的src文件夹"
+
+#: ../../source/custom-charts.rst:51
+msgid ""
+"Always a good idea to give back. Use this link to learn how to contribute"
+" to github repos: http://kbroman.org/github_tutorial/pages/fork.html"
+msgstr ""
+

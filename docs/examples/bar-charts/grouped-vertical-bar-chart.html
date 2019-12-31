@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Grouped Vertical Bar Chart &mdash; ngx-charts docs v2019.12.28 文档</title>
+  <title>分组垂直条形图 &mdash; ngx-charts docs v2019.12.28 文档</title>
   
 
   
@@ -36,8 +36,8 @@
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="index" title="索引" href="../../genindex.html" />
     <link rel="search" title="搜索" href="../../search.html" />
-    <link rel="next" title="Horizontal Bar Chart" href="horizontal-bar-chart.html" />
-    <link rel="prev" title="Grouped Horizontal Bar Chart" href="grouped-horizontal-bar-chart.html" /> 
+    <link rel="next" title="水平条形图" href="horizontal-bar-chart.html" />
+    <link rel="prev" title="分组水平条形图" href="grouped-horizontal-bar-chart.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -81,50 +81,47 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
+              <p class="caption"><span class="caption-text">内容:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../README.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../motivation.html">Motivation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../features.html">Features</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../installing.html">Installing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../custom-charts.html">Custom Charts</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">examples</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../line-area-charts/index.html">line-area-charts</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">bar-charts</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="grouped-horizontal-bar-chart.html">Grouped Horizontal Bar Chart</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Grouped Vertical Bar Chart</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#grouped-vertical-bar-chart-1">Grouped Vertical Bar Chart</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#inputs">Inputs</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#outputs">Outputs</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#data-format">Data Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../README.html">介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../motivation.html">动机</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features.html">特征</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../installing.html">安装</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../custom-charts.html">自定义图表</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">例子</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../line-area-charts/index.html">行区域图</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">条形图</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="grouped-horizontal-bar-chart.html">分组水平条形图</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">分组垂直条形图</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#grouped-vertical-bar-chart-1">分组垂直条形图</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#inputs">输入</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#outputs">输出</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#data-format">数据格式</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="horizontal-bar-chart.html">Horizontal Bar Chart</a></li>
-<li class="toctree-l3"><a class="reference internal" href="normalized-horizontal-bar-chart.html">Normalized Horizontal Bar Chart</a></li>
-<li class="toctree-l3"><a class="reference internal" href="normalized-vertical-bar-chart.html">Normalized Vertical Bar Chart</a></li>
-<li class="toctree-l3"><a class="reference internal" href="stacked-horizontal-bar-chart.html">Stacked Horizontal Bar Chart</a></li>
-<li class="toctree-l3"><a class="reference internal" href="stacked-vertical-bar-chart.html">Stacked Vertical Bar Chart</a></li>
-<li class="toctree-l3"><a class="reference internal" href="vertical-bar-chart.html">Vertical Bar Chart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="horizontal-bar-chart.html">水平条形图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="normalized-horizontal-bar-chart.html">标准化水平条形图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="normalized-vertical-bar-chart.html">标准化垂直条形图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="stacked-horizontal-bar-chart.html">堆积水平条形图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="stacked-vertical-bar-chart.html">堆积垂直条形图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vertical-bar-chart.html">垂直条形图</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../heat-map-chart.html">Heat Map Chart</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../pie-charts/index.html">pie-charts</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../gauge-chart.html">Gauge Chart</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../polar-radar-chart.html">Polar/radar Chart</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../linear-gauge-chart.html">Linear Gauge Chart</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../number-card-chart.html">Number Card Chart</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../tree-map-chart.html">Tree Map Chart</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../bubble-chart.html">Bubble Chart</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../bubble-chart.html#inputs">Inputs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../bubble-chart.html#outputs">Outputs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../bubble-chart.html#data-format">Data Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../heat-map-chart.html">热图图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pie-charts/index.html">饼状图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gauge-chart.html">计图表</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../polar-radar-chart.html">极地/雷达图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linear-gauge-chart.html">线性仪表图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../number-card-chart.html">号卡图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tree-map-chart.html">树状图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bubble-chart.html">气泡图</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../contributing/index.html">contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../license.html">License</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../demo.html">demo</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../summary.html">Table of contents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing/index.html">贡献</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">更新日志</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../license.html">执照</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demo.html">演示</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../summary.html">目录</a></li>
 </ul>
 
             
@@ -170,11 +167,11 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">examples</a> &raquo;</li>
+          <li><a href="../index.html">例子</a> &raquo;</li>
         
-          <li><a href="index.html">bar-charts</a> &raquo;</li>
+          <li><a href="index.html">条形图</a> &raquo;</li>
         
-      <li>Grouped Vertical Bar Chart</li>
+      <li>分组垂直条形图</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -194,9 +191,9 @@
            <div itemprop="articleBody">
             
   <div class="section" id="grouped-vertical-bar-chart">
-<h1>Grouped Vertical Bar Chart<a class="headerlink" href="#grouped-vertical-bar-chart" title="永久链接至标题">¶</a></h1>
+<h1>分组垂直条形图<a class="headerlink" href="#grouped-vertical-bar-chart" title="永久链接至标题">¶</a></h1>
 <div class="section" id="grouped-vertical-bar-chart-1">
-<span id="id1"></span><h2>Grouped Vertical Bar Chart<a class="headerlink" href="#grouped-vertical-bar-chart-1" title="永久链接至标题">¶</a></h2>
+<span id="id1"></span><h2>分组垂直条形图<a class="headerlink" href="#grouped-vertical-bar-chart-1" title="永久链接至标题">¶</a></h2>
 <p>{% embed
 data=“{“url”:”<a class="reference external" href="https://stackblitz.com/edit/swimlane-grouped-vertical-bar-chart?embed=1&amp;file=app/app.component.ts">https://stackblitz.com/edit/swimlane-grouped-vertical-bar-chart?embed=1&amp;file=app/app.component.ts</a>”,”type”:”link”,”title”:”grouped-vertical-bar-chart
 - StackBlitz”,”description”:”Grouped Vertical Bar Chart demo for
@@ -204,53 +201,42 @@ ngx-charts”,”icon”:{“type”:”icon”,”url”:”<a class="reference
 %}</p>
 </div>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="永久链接至标题">¶</a></h2>
+<h2>输入<a class="headerlink" href="#inputs" title="永久链接至标题">¶</a></h2>
 <table class="docutils align-default">
 <colgroup>
-<col style="width: 11%" />
-<col style="width: 9%" />
-<col style="width: 6%" />
-<col style="width: 74%" />
+<col style="width: 13%" />
+<col style="width: 8%" />
+<col style="width: 19%" />
+<col style="width: 61%" />
 </colgroup>
 <thead>
-<tr class="row-odd"><th class="head"><p>Prope
-rty</p></th>
-<th class="head"><p>Type</p></th>
-<th class="head"><p>De
-fa
-ul
-t
-Va
-lu
-e</p></th>
-<th class="head"><p>Description</p></th>
+<tr class="row-odd"><th class="head"><p>属性</p></th>
+<th class="head"><p>类型</p></th>
+<th class="head"><p>默认值</p></th>
+<th class="head"><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="row-even"><td><p>view</p></td>
-<td><p>numb
-er[]</p></td>
+<td><p>number[]</p></td>
 <td></td>
-<td><p>the dimensions of the chart [width, height].
-If left undefined, the chart will fit to the
-parent container size</p></td>
+<td><p>图表[宽度，高度]的尺寸。如果未定义，图表将适合于父容器的大小</p></td>
 </tr>
 <tr class="row-odd"><td><p>resul
 ts</p></td>
 <td><p>obje
 ct[]</p></td>
 <td></td>
-<td><p>the chart data</p></td>
+<td><p>图表数据</p></td>
 </tr>
 <tr class="row-even"><td><p>schem
 e</p></td>
 <td><p>obje
 ct</p></td>
 <td></td>
-<td><p>the color scheme of the chart</p></td>
+<td><p>图表的颜色方案</p></td>
 </tr>
-<tr class="row-odd"><td><p>schem
-eType</p></td>
+<tr class="row-odd"><td><p>计划类型</p></td>
 <td><p>stri
 ng</p></td>
 <td><p>‘o
@@ -258,8 +244,7 @@ rd
 in
 al
 ’</p></td>
-<td><p>the color scale type. Can be either ‘ordinal’
-or ‘linear’</p></td>
+<td><p>色阶类型。可以是 ‘ordinal’ 或 ‘linear’</p></td>
 </tr>
 <tr class="row-even"><td><p>custo
 mColo
@@ -270,8 +255,7 @@ or
 obje
 ct</p></td>
 <td></td>
-<td><p>custom colors for the chart. Used to override
-a color for a specific value</p></td>
+<td><p>自定义颜色图表。用于覆盖颜色的特定值</p></td>
 </tr>
 <tr class="row-odd"><td><p>anima
 tions</p></td>
@@ -279,7 +263,7 @@ tions</p></td>
 ean</p></td>
 <td><p>tr
 ue</p></td>
-<td><p>enable animations</p></td>
+<td><p>使动画</p></td>
 </tr>
 <tr class="row-even"><td><p>legen
 d</p></td>
@@ -288,18 +272,16 @@ ean</p></td>
 <td><p>fa
 ls
 e</p></td>
-<td><p>show or hide the legend</p></td>
+<td><p>显示或隐藏图例</p></td>
 </tr>
-<tr class="row-odd"><td><p>legen
-dTitl
-e</p></td>
+<tr class="row-odd"><td><p>legendTitle</p></td>
 <td><p>stri
 ng</p></td>
 <td><p>‘L
 eg
 en
 d’</p></td>
-<td><p>the legend title</p></td>
+<td><p>图例标题</p></td>
 </tr>
 <tr class="row-even"><td><p>legen
 dPosi
@@ -310,7 +292,7 @@ ng</p></td>
 ig
 ht
 ’</p></td>
-<td><p>the legend position [‘right’, ‘below’]</p></td>
+<td><p>图例位置 [‘right’, ‘below’]</p></td>
 </tr>
 <tr class="row-odd"><td><p>xAxis</p></td>
 <td><p>bool
@@ -318,7 +300,7 @@ ean</p></td>
 <td><p>fa
 ls
 e</p></td>
-<td><p>show or hide the x axis</p></td>
+<td><p>显示或隐藏x轴</p></td>
 </tr>
 <tr class="row-even"><td><p>yAxis</p></td>
 <td><p>bool
@@ -326,7 +308,7 @@ ean</p></td>
 <td><p>fa
 ls
 e</p></td>
-<td><p>show or hide the y axis</p></td>
+<td><p>显示或隐藏y轴</p></td>
 </tr>
 <tr class="row-odd"><td><p>showG
 ridLi
@@ -335,7 +317,7 @@ nes</p></td>
 ean</p></td>
 <td><p>tr
 ue</p></td>
-<td><p>show or hide the grid lines</p></td>
+<td><p>显示或隐藏网格线</p></td>
 </tr>
 <tr class="row-even"><td><p>round
 Domai
@@ -345,7 +327,7 @@ ean</p></td>
 <td><p>fa
 ls
 e</p></td>
-<td><p>round domains for aligned gridlines</p></td>
+<td><p>对于对齐网格线圆域</p></td>
 </tr>
 <tr class="row-odd"><td><p>showX
 AxisL
@@ -355,7 +337,7 @@ ean</p></td>
 <td><p>fa
 ls
 e</p></td>
-<td><p>show or hide the x axis label</p></td>
+<td><p>显示或隐藏x轴标签</p></td>
 </tr>
 <tr class="row-even"><td><p>showY
 AxisL
@@ -365,21 +347,21 @@ ean</p></td>
 <td><p>fa
 ls
 e</p></td>
-<td><p>show or hide the y axis label</p></td>
+<td><p>显示或隐藏y轴标签</p></td>
 </tr>
 <tr class="row-odd"><td><p>xAxis
 Label</p></td>
 <td><p>stri
 ng</p></td>
 <td></td>
-<td><p>the x axis label text</p></td>
+<td><p>X轴标签文本</p></td>
 </tr>
 <tr class="row-even"><td><p>yAxis
 Label</p></td>
 <td><p>stri
 ng</p></td>
 <td></td>
-<td><p>the y axis label text</p></td>
+<td><p>y轴标签文本</p></td>
 </tr>
 <tr class="row-odd"><td><p>trimX
 AxisT
@@ -388,7 +370,7 @@ icks</p></td>
 ean</p></td>
 <td><p>tr
 ue</p></td>
-<td><p>trim or not ticks on the x axis</p></td>
+<td><p>修剪或不在x轴上蜱</p></td>
 </tr>
 <tr class="row-even"><td><p>trimY
 AxisT
@@ -397,7 +379,7 @@ icks</p></td>
 ean</p></td>
 <td><p>tr
 ue</p></td>
-<td><p>trim or not ticks on the Y axis</p></td>
+<td><p>修剪或不蜱在Y轴上</p></td>
 </tr>
 <tr class="row-odd"><td><p>maxXA
 xisTi
@@ -406,9 +388,7 @@ gth</p></td>
 <td><p>numb
 er</p></td>
 <td><p>16</p></td>
-<td><p>max length of the ticks. If <code class="docutils literal notranslate"><span class="pre">trimXAxisTicks</span></code>
-is <code class="docutils literal notranslate"><span class="pre">true</span></code>, ticks over this length will be
-trimmed</p></td>
+<td><p>蜱的最大长度。如果 <code class="docutils literal notranslate"><span class="pre">trimXAxisTicks</span></code> 是 <code class="docutils literal notranslate"><span class="pre">True</span></code> ，那么蜱超过这个长度会被剪掉</p></td>
 </tr>
 <tr class="row-even"><td><p>maxYA
 xisTi
@@ -417,9 +397,7 @@ gth</p></td>
 <td><p>numb
 er</p></td>
 <td><p>16</p></td>
-<td><p>max length of the ticks. If <code class="docutils literal notranslate"><span class="pre">trimYAxisTicks</span></code>
-is <code class="docutils literal notranslate"><span class="pre">true</span></code>, ticks over this length will be
-trimmed</p></td>
+<td><p>蜱的最大长度。如果 <code class="docutils literal notranslate"><span class="pre">trimYAxisTicks</span></code> 是 <code class="docutils literal notranslate"><span class="pre">True</span></code> ，那么蜱超过这个长度会被剪掉</p></td>
 </tr>
 <tr class="row-odd"><td><p>xAxis
 TickF
@@ -428,7 +406,7 @@ ting</p></td>
 <td><p>func
 tion</p></td>
 <td></td>
-<td><p>the x axis tick formatting</p></td>
+<td><p>x轴刻度格式</p></td>
 </tr>
 <tr class="row-even"><td><p>yAxis
 TickF
@@ -437,21 +415,21 @@ ting</p></td>
 <td><p>func
 tion</p></td>
 <td></td>
-<td><p>the y axis tick formatting</p></td>
+<td><p>y轴刻度格式</p></td>
 </tr>
 <tr class="row-odd"><td><p>xAxis
 Ticks</p></td>
 <td><p>any[
 ]</p></td>
 <td></td>
-<td><p>predefined list of x axis tick values</p></td>
+<td><p>x轴刻度值的预定义的列表</p></td>
 </tr>
 <tr class="row-even"><td><p>yAxis
 Ticks</p></td>
 <td><p>any[
 ]</p></td>
 <td></td>
-<td><p>predefined list of y axis tick values</p></td>
+<td><p>Y的预定义列表轴的刻度值</p></td>
 </tr>
 <tr class="row-odd"><td><p>showD
 ataLa
@@ -461,7 +439,7 @@ ean</p></td>
 <td><p>fa
 ls
 e</p></td>
-<td><p>displays the value number next to the bar</p></td>
+<td><p>显示值旁边的数字杆</p></td>
 </tr>
 <tr class="row-even"><td><p>noBar
 WhenZ
@@ -470,7 +448,7 @@ ero</p></td>
 ean</p></td>
 <td><p>tr
 ue</p></td>
-<td><p>hide bar if value is 0 and setting is true</p></td>
+<td><p>隐藏栏，如果值是0，设置为true</p></td>
 </tr>
 <tr class="row-odd"><td><p>gradi
 ent</p></td>
@@ -479,8 +457,7 @@ ean</p></td>
 <td><p>fa
 ls
 e</p></td>
-<td><p>fill elements with a gradient instead of a
-solid color</p></td>
+<td><p>具有梯度，而不是纯色填充元件</p></td>
 </tr>
 <tr class="row-even"><td><p>activ
 eEntr
@@ -488,14 +465,14 @@ ies</p></td>
 <td><p>obje
 ct[]</p></td>
 <td><p>[]</p></td>
-<td><p>elements to highlight</p></td>
+<td><p>元素亮点</p></td>
 </tr>
 <tr class="row-odd"><td><p>barPa
 dding</p></td>
 <td><p>numb
 er</p></td>
 <td><p>8</p></td>
-<td><p>padding between bars in px</p></td>
+<td><p>在PX条之间填充</p></td>
 </tr>
 <tr class="row-even"><td><p>group
 Paddi
@@ -503,7 +480,7 @@ ng</p></td>
 <td><p>numb
 er</p></td>
 <td><p>16</p></td>
-<td><p>padding between groups in px</p></td>
+<td><p>在像素组之间的填充</p></td>
 </tr>
 <tr class="row-odd"><td><p>toolt
 ipDis
@@ -513,7 +490,7 @@ ean</p></td>
 <td><p>fa
 ls
 e</p></td>
-<td><p>show or hide the tooltip</p></td>
+<td><p>显示或隐藏工具提示</p></td>
 </tr>
 <tr class="row-even"><td><p>toolt
 ipTem
@@ -522,8 +499,7 @@ plate</p></td>
 late
 Ref</p></td>
 <td></td>
-<td><p>a custom ng-template to be displayed inside
-the tooltip</p></td>
+<td><p>工具提示中要显示的自定义 ng-template</p></td>
 </tr>
 <tr class="row-odd"><td><p>yScal
 eMax</p></td>
@@ -537,33 +513,33 @@ chart data contains a higher value)</p></td>
 </table>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="永久链接至标题">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="永久链接至标题">¶</a></h2>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 80%" />
 </colgroup>
 <thead>
-<tr class="row-odd"><th class="head"><p>Property</p></th>
-<th class="head"><p>Description</p></th>
+<tr class="row-odd"><th class="head"><p>属性</p></th>
+<th class="head"><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="row-even"><td><p>select</p></td>
-<td><p>click event</p></td>
+<td><p>单击事件</p></td>
 </tr>
 <tr class="row-odd"><td><p>activate</p></td>
-<td><p>element activation event (mouse enter)</p></td>
+<td><p>元件激活事件（鼠标输入）</p></td>
 </tr>
 <tr class="row-even"><td><p>deactivate</p></td>
-<td><p>element deactivation event (mouse leave)</p></td>
+<td><p>元件去激活事件（鼠标离开）</p></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="data-format">
-<h2>Data Format<a class="headerlink" href="#data-format" title="永久链接至标题">¶</a></h2>
-<p>The data format is multi series:</p>
+<h2>数据格式<a class="headerlink" href="#data-format" title="永久链接至标题">¶</a></h2>
+<p>数据格式是多系列:</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>[
   {
     &quot;name&quot;: &quot;Germany&quot;,
@@ -606,10 +582,10 @@ chart data contains a higher value)</p></td>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="horizontal-bar-chart.html" class="btn btn-neutral float-right" title="Horizontal Bar Chart" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="horizontal-bar-chart.html" class="btn btn-neutral float-right" title="水平条形图" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="grouped-horizontal-bar-chart.html" class="btn btn-neutral float-left" title="Grouped Horizontal Bar Chart" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="grouped-horizontal-bar-chart.html" class="btn btn-neutral float-left" title="分组水平条形图" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

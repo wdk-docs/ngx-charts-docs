@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Motivation &mdash; ngx-charts docs v2019.12.28 文档</title>
+  <title>动机 &mdash; ngx-charts docs v2019.12.28 文档</title>
   
 
   
@@ -36,8 +36,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
-    <link rel="next" title="Features" href="features.html" />
-    <link rel="prev" title="Introduction" href="README.html" /> 
+    <link rel="next" title="特征" href="features.html" />
+    <link rel="prev" title="介绍" href="README.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -81,19 +81,19 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
+              <p class="caption"><span class="caption-text">内容:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="README.html">Introduction</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Motivation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="features.html">Features</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installing.html">Installing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="custom-charts.html">Custom Charts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="examples/index.html">examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="contributing/index.html">contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
-<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
-<li class="toctree-l1"><a class="reference internal" href="demo.html">demo</a></li>
-<li class="toctree-l1"><a class="reference internal" href="summary.html">Table of contents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html">介绍</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">动机</a></li>
+<li class="toctree-l1"><a class="reference internal" href="features.html">特征</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installing.html">安装</a></li>
+<li class="toctree-l1"><a class="reference internal" href="custom-charts.html">自定义图表</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/index.html">例子</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing/index.html">贡献</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">更新日志</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">执照</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo.html">演示</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">目录</a></li>
 </ul>
 
             
@@ -139,7 +139,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Motivation</li>
+      <li>动机</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -159,22 +159,11 @@
            <div itemprop="articleBody">
             
   <div class="section" id="motivation">
-<h1>Motivation<a class="headerlink" href="#motivation" title="永久链接至标题">¶</a></h1>
-<p>D3 is a great library and works really well, so why go through all the
-effort to use Angular to draw the SVGs vs. just creating a wrapper?</p>
-<p>When we first started this project internally some two years ago, we did
-exactly that (yes, the core features of this library have been used in a
-production app for over two years now). It was very difficult to create
-highly reusable charts and the code was not clear.</p>
-<p>Additionally, if we created a wrapper we would violate a core principle
-of frameworks like Angular or React, where there should only be one
-framework touching the DOM. If you have multiple libraries touching the
-DOM, things can get out of sync and create unpredictable results.</p>
-<p>By creating charts using Angular components, it lets you create very
-composable charts with high reuse of common elements like axis, bars,
-circles, etc. It makes it even easier to extend to add capabilities or
-<a class="reference external" href="custom-charts.md">compose advanced charts using a combination of
-components</a>.</p>
+<h1>动机<a class="headerlink" href="#motivation" title="永久链接至标题">¶</a></h1>
+<p>D3是一个伟大的图书馆和作品真的很好，那为什么要经历所有的努力，利用角绘制SVGs主场迎战刚刚创建的包装？</p>
+<p>当我们第一次在内部大约两年前开始这个项目，我们确实做到了（是的，这个库的核心功能已经在生产应用中使用了两年多了）。这是非常困难的创建高度可重用的图表和代码不清晰。</p>
+<p>此外，如果我们创建了一个包装，我们将违反框架像角的核心原则或反应，那里应该只有一个框架触摸DOM。 如果您有多个库触摸DOM，事情可能会变得不同步，造成不可预期的结果。</p>
+<p>通过采用了棱角分明的组件创建图表，它可以让你创建喜欢轴，条，圆等常见元素的高重用很组合的图表 这使得它更容易延伸到添加使用组件的组合能力或 <a class="reference external" href="custom-charts.md">撰写高级图表</a> 。</p>
 </div>
 
 
@@ -185,10 +174,10 @@ components</a>.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="features.html" class="btn btn-neutral float-right" title="Features" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="features.html" class="btn btn-neutral float-right" title="特征" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="README.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="README.html" class="btn btn-neutral float-left" title="介绍" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

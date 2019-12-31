@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Band Camp
+# This file is distributed under the same license as the ngx-charts docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ngx-charts docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-29 12:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/installing.rst:2
+msgid "Installing"
+msgstr "安装"
+
+#: ../../source/installing.rst:4
+msgid ""
+"You can grab the latest release from the `Releases Page "
+"<https://github.com/swimlane/ngx-charts/releases>`__ in Github or via "
+"NPM."
+msgstr "您可以从 `发布页面 <https://github.com/swimlane/ngx-charts/releases>`_ 获取最新版本在Github上或通过NPM。"
+
+#: ../../source/installing.rst:8
+msgid "``npm install @swimlane/ngx-charts --save``"
+msgstr "``npm install @swimlane/ngx-charts --save``"
+
+#: ../../source/installing.rst:10
+msgid ""
+"Also, the release code is checked in and resides `here "
+"<https://github.com/swimlane/ngx-charts/tree/master/release>`__."
+msgstr "此外，发行代码签入和居住在 `这里 <https://github.com/swimlane/ngx-charts/tree/master/release>`__."
+
+#: ../../source/installing.rst:13
+msgid ""
+"Check the ``package.json`` file for the versions of angular ngx-charts is"
+" compatible with."
+msgstr "检查 ``package.json`` 文件角NGX-图表的版本是兼容的。"
+
+#: ../../source/installing.rst:17
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: ../../source/installing.rst:19
+msgid "``release/index.js`` - UMD Version"
+msgstr "``release/index.js`` - UMD版"
+
+#: ../../source/installing.rst:20
+msgid "``release/index.min.js`` - UMD Version Minified"
+msgstr "``release/index.min.js`` - UMD版精缩"
+
+#: ../../source/installing.rst:23
+msgid "Developing"
+msgstr "发展"
+
+#: ../../source/installing.rst:25
+msgid "If you want to run the demos locally, just do:"
+msgstr "如果你想在本地运行演示，只是做:"
+
+#: ../../source/installing.rst:27
+msgid "``npm i``"
+msgstr "``npm i``"
+
+#: ../../source/installing.rst:28
+msgid "``npm start``"
+msgstr "``npm start``"
+
+#: ../../source/installing.rst:29
+msgid "Browse to http://localhost:9999"
+msgstr "浏览 http://localhost:9999"
+

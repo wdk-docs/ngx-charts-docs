@@ -5,7 +5,7 @@ Out of the box, we wanted to create a low level robust framework on
 which to build charts. Outside of the following chart types:
 
 Chart Types
-~~~~~~~~~~~
+--------------
 
 -  Horizontal & Vertical Bar Charts (Standard, Grouped, Stacked,
    Normalized)
@@ -23,7 +23,7 @@ Chart Types
 -  Bubble/Scatter
 
 Customization
-~~~~~~~~~~~~~
+--------------------
 
 -  Autoscaling
 -  Timeline Filtering

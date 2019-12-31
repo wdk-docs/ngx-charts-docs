@@ -41,21 +41,37 @@ In the news
 AngularAir Esp 91
 ~~~~~~~~~~~~~~~~~
 
-{% embed
-data=“{"url":"https://www.youtube.com/watch?v=FlpxvsJsIpk","type":"video","title":"","icon":{"type":"icon","url":"https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png","width":144,"height":144,"aspectRatio":1},"thumbnail":{"type":"thumbnail","url":"https://i.ytimg.com/vi/FlpxvsJsIpk/maxresdefault.jpg","width":1280,"height":720,"aspectRatio":0.5625},"embed":{"type":"player","url":"https://www.youtube.com/embed/FlpxvsJsIpk?rel=0&showinfo=0","html":"<div
-style=\\”left: 0; width: 100%; height: 0; position: relative;
-padding-bottom: 56.2493%;\\“><iframe
-src=\\”https://www.youtube.com/embed/FlpxvsJsIpk?rel=0&showinfo=0\"
-style=\\“border: 0; top: 0; left: 0; width: 100%; height: 100%;
-position: absolute;\\” allowfullscreen scrolling=\\“no\\”>
+.. code::
 
-.. raw:: html
+   {% embed
+      data=“{
+         "url":"https://www.youtube.com/watch?v=FlpxvsJsIpk",
+         "type":"video",
+         "title":"",
+         "icon":{
+            "type":"icon",
+            "url":"https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png",
+            "width":144,
+            "height":144,
+            "aspectRatio":1
+         },
+         "thumbnail":{
+            "type":"thumbnail",
+            "url":"https://i.ytimg.com/vi/FlpxvsJsIpk/maxresdefault.jpg",
+            "width":1280,
+            "height":720,
+            "aspectRatio":0.5625
+         },
+         "embed":{
+            "type":"player",
+            "url":"https://www.youtube.com/embed/FlpxvsJsIpk?rel=0&showinfo=0",
+            "html":"<div style=\\”left: 0; width: 100%; height: 0; position: relative;padding-bottom: 56.2493%;\\“><iframe src=\\”https://www.youtube.com/embed/FlpxvsJsIpk?rel=0&showinfo=0\" style=\\“border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\” allowfullscreen scrolling=\\“no\\”></div>",
+            "aspectRatio":1.7778
+         }
+      }"
+   %}
 
-   </div>
-
-","aspectRatio":1.7778}}" %}
-
-The project was featured on `AngularAir <https://angularair.com/>`__
-where [@amcdnl](https://github.com/amcdnl) and
-[@marjan-georgiev](https://github.com/marjan-georgiev) spoke about the
+The project was featured on `AngularAir <https://angularair.com/>`_
+where `@amcdnl <https://github.com/amcdnl>`_ and
+`@marjan-georgiev <https://github.com/marjan-georgiev>`_ spoke about the
 project, challenges and whats to come.

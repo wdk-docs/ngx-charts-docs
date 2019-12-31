@@ -14,7 +14,7 @@ Check the ``package.json`` file for the versions of angular ngx-charts
 is compatible with.
 
 JavaScript
-~~~~~~~~~~
+------------
 
 -  ``release/index.js`` - UMD Version
 -  ``release/index.min.js`` - UMD Version Minified

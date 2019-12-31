@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Band Camp
+# This file is distributed under the same license as the ngx-charts docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ngx-charts docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-29 12:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/contributing/building.rst:2
+msgid "Building"
+msgstr "建造"
+
+#: ../../source/contributing/building.rst:4
+msgid ""
+"This project uses `npm tasks <https://www.keithcirkel.co.uk/how-to-use-"
+"npm-as-a-build-tool/>`__ for builds."
+msgstr ""
+
+#: ../../source/contributing/building.rst:8
+msgid "``npm start``: Starts the demo chart builder page"
+msgstr "``npm start``: 启动演示图表生成页面"
+
+#: ../../source/contributing/building.rst:9
+msgid "``npm run build``: Compiles the code"
+msgstr "``npm run build``: 编译代码"
+
+#: ../../source/contributing/building.rst:10
+msgid "``npm run test``: Runs Tests"
+msgstr "``npm run test``: 运行测试"
+
+#: ../../source/contributing/building.rst:11
+msgid "``npm run package``: Compiles and bundles the package"
+msgstr "``npm run package``: 编译并捆绑包"
+
+#: ../../source/contributing/building.rst:12
+msgid "``npm run release``: Compiles the demo chart builder page"
+msgstr "``npm run release``: 编译演示图表生成页面"
+
+#: ../../source/contributing/community.rst:2
+msgid "Community"
+msgstr "社区"
+
+#: ../../source/contributing/community.rst:4
+msgid "Below is a list of community blog posts or projects that use ngx-charts:"
+msgstr "下面是使用NGX-图表社区博客文章或项目清单:"
+
+#: ../../source/contributing/community.rst:7
+msgid "Blogs:"
+msgstr "博客:"
+
+#: ../../source/contributing/community.rst:9
+msgid ""
+"`Building charts with SVGs in Angular2+ <https://medium.com/@amcdnl"
+"/charts-with-svgs-in-angular2-1d08a0e635ea#.65r6tud0c>`__"
+msgstr ""
+
+#: ../../source/contributing/community.rst:11
+msgid ""
+"`Charts with Angular: ngx-charts <http://www.beyondjava.net/blog/charts-"
+"with-angular-ngx-charts-formerly-ng2d3/#more-6133>`__"
+msgstr ""
+
+#: ../../source/contributing/community.rst:15
+msgid "Projects:"
+msgstr "项目:"
+
+#: ../../source/contributing/community.rst:17
+msgid ""
+"`Angular-CLI-NG2D3-Demo <https://github.com/marjan-georgiev/Angular-CLI-"
+"NG2D3-Demo>`__"
+msgstr ""
+
+#: ../../source/contributing/community.rst:18
+msgid ""
+"`NGX-Charts with AngularCLI "
+"<https://github.com/stephanrauh/ExploringAngular/tree/master/charts/minimalLineChart>`__"
+msgstr ""
+
+#: ../../source/contributing/community.rst:22
+msgid "Companies Using ngx-charts:"
+msgstr "公司使用NGX图表:"
+
+#: ../../source/contributing/community.rst:24
+msgid "`Swimlane <http://swimlane.com>`__"
+msgstr "`Swimlane <http://swimlane.com>`__"
+
+#: ../../source/contributing/community.rst:25
+msgid "`Teradata <https://twitter.com/kyleledbetter/status/826136067203928064>`__"
+msgstr "`Teradata <https://twitter.com/kyleledbetter/status/826136067203928064>`__"
+
+#: ../../source/contributing/community.rst:27
+msgid ""
+"If you have a project using the charts and would love to share with the "
+"community, please reach out on github issues and we would love to add it "
+"to the growing list!"
+msgstr ""
+
+#: ../../source/contributing/credits.rst:2
+msgid "Credits"
+msgstr "积分"
+
+#: ../../source/contributing/credits.rst:4
+msgid ""
+"``ngx-charts`` is a `Swimlane <http://swimlane.com>`__ open-source "
+"project; we believe in giving back to the open-source community by "
+"sharing some of the projects we build for our application. Swimlane is an"
+" automated cyber security operations and incident response platform that "
+"enables cyber security teams to leverage threat intelligence, speed up "
+"incident response and automate security operations."
+msgstr ""
+
+#: ../../source/contributing/credits.rst:12
+msgid "Contributors"
+msgstr "贡献者"
+
+#: ../../source/contributing/guidelines.rst:2
+msgid "Guidelines"
+msgstr "方针"
+
+#: ../../source/contributing/guidelines.rst:4
+msgid ""
+"We would love for you to contribute to our project and help make it ever "
+"better! As a contributor, here are the guidelines we would like you to "
+"follow."
+msgstr ""
+
+#: ../../source/contributing/guidelines.rst:9
+msgid "Found an Issue?"
+msgstr "发现一个问题？"
+
+#: ../../source/contributing/guidelines.rst:11
+msgid ""
+"If you find a bug in the source code or a mistake in the documentation, "
+"you can help us by submitting an issue to our GitHub Repository. "
+"Including an issue reproduction (via CodePen, JsBin, Plunkr, etc.) is the"
+" absolute best way to help the team quickly diagnose the problem. "
+"Screenshots are also helpful."
+msgstr ""
+
+#: ../../source/contributing/guidelines.rst:17
+msgid "You can help the team even more and submit a Pull Request with a fix."
+msgstr "你可以帮助球队更多，并提交了修正pull请求。"
+
+#: ../../source/contributing/guidelines.rst:20
+msgid "Want a Feature?"
+msgstr "要功能？"
+
+#: ../../source/contributing/guidelines.rst:22
+msgid ""
+"You can request a new feature by submitting an issue to our GitHub "
+"Repository. If you would like to implement a new feature, please submit "
+"an issue with a proposal for your work first, to be sure that we can use "
+"it. Please consider what kind of change it is:"
+msgstr ""
+
+#: ../../source/contributing/guidelines.rst:27
+msgid ""
+"For a Major Feature, first open an issue and outline your proposal so "
+"that it can be discussed. This will also allow us to better coordinate "
+"our efforts, prevent duplication of work, and help you to craft the "
+"change so that it is successfully accepted into the project."
+msgstr ""
+
+#: ../../source/contributing/guidelines.rst:32
+msgid "Small Features can be crafted and directly submitted as a Pull Request."
+msgstr "Small Features can be crafted and directly submitted as a Pull Request."
+
+#: ../../source/contributing/guidelines.rst:36
+msgid "Issue Etiquette"
+msgstr "发出礼仪"
+
+#: ../../source/contributing/guidelines.rst:38
+msgid ""
+"Before you submit an issue, search the archive, maybe your question was "
+"already answered."
+msgstr ""
+
+#: ../../source/contributing/guidelines.rst:41
+msgid ""
+"If your issue appears to be a bug, and hasn’t been reported, open a new "
+"issue. Help us to maximize the effort we can spend fixing issues and "
+"adding new features by not reporting duplicate issues. Providing the "
+"following information will increase the chances of your issue being dealt"
+" with quickly:"
+msgstr ""
+
+#: ../../source/contributing/guidelines.rst:47
+msgid ""
+"Overview of the Issue - if an error is being thrown a non-minified stack "
+"trace helps"
+msgstr ""
+
+#: ../../source/contributing/guidelines.rst:49
+msgid ""
+"Angular and ngx-charts Versions - which versions of Angular and ngx-"
+"charts are affected"
+msgstr ""
+
+#: ../../source/contributing/guidelines.rst:51
+msgid ""
+"Motivation for or Use Case - explain what are you trying to do and why "
+"the current behavior is a bug for you"
+msgstr ""
+
+#: ../../source/contributing/guidelines.rst:53
+msgid "Browsers and Operating System - is this a problem with all browsers?"
+msgstr "浏览器和操作系统 - 这是所有的浏览器有问题吗？"
+
+#: ../../source/contributing/guidelines.rst:54
+msgid ""
+"Reproduce the Error - provide a live example (using CodePen, JsBin, "
+"Plunker, etc.) or a unambiguous set of steps"
+msgstr ""
+
+#: ../../source/contributing/guidelines.rst:56
+msgid ""
+"Screenshots - Due to the visual nature of ngx-charts, screenshots can "
+"help the team triage issues far more quickly than a text description."
+msgstr ""
+
+#: ../../source/contributing/guidelines.rst:58
+msgid "Related Issues - has a similar issue been reported before?"
+msgstr "相关问题 - 之前已经被报道了类似的问题？"
+
+#: ../../source/contributing/guidelines.rst:59
+msgid ""
+"Suggest a Fix - if you can’t fix the bug yourself, perhaps you can point "
+"to what might be causing the problem (line of code or commit)"
+msgstr ""
+
+#: ../../source/contributing/index.rst:2
+msgid "contributing"
+msgstr "贡献"
+
+#: ../../source/contributing/troubleshooting.rst:2
+msgid "Troubleshooting"
+msgstr "故障排除"
+
+#: ../../source/contributing/troubleshooting.rst:5
+msgid "Browser Support"
+msgstr "浏览器支持"
+
+#: ../../source/contributing/troubleshooting.rst:7
+msgid ""
+"ngx-charts is built on top of Angular2+, as such we only support the "
+"browsers it supports. `Check here "
+"<https://angular.io/docs/ts/latest/guide/browser-support.html>`__ for the"
+" official supported browsers by Angular."
+msgstr ""
+
